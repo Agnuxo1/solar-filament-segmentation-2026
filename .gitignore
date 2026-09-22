@@ -1,0 +1,15 @@
+data/
+artifacts/
+.venv/
+.pytest_cache/
+.pytest_tmp*/
+__pycache__/
+*.py[cod]
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.onnx
+.env*
+kaggle.json

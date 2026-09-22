@@ -1,0 +1,2 @@
+experiment_id,hypothesis,commit,config_sha256,seed,cv_score,public_score,elapsed_seconds,gpu,jev_model,backend,billing_mode,input_tokens,output_tokens,jev_decision,decision_reason
+baseline-empty,No predictions; evaluator and submission audit smoke test,uncommitted,not-applicable,0,0.0,,27.8,NVIDIA GeForce RTX 3090,none,local,none,0,0,not-requested,Preparation baseline only; never submitted

@@ -1,0 +1,7 @@
+numpy>=2.2,<3
+opencv-python-headless>=4.10
+scipy>=1.14
+pycocotools>=2.0.10
+torch>=2.8
+torchvision>=0.23
+segmentation-models-pytorch==0.5.0

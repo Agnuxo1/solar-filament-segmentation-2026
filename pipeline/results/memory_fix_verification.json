@@ -1,0 +1,63 @@
+{
+  "kind": "real_annotation_metric_equivalence_and_buffer_ownership",
+  "data_sha256": "5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1",
+  "selected_record_rule": "First three distinct physical images in official annotation order, before score inspection",
+  "records": [
+    {
+      "record_id": "040301-20140609195854Bh",
+      "polygons": 12,
+      "retained_parent_bytes_before": 50331648,
+      "owned_crop_bytes_after": 72351
+    },
+    {
+      "record_id": "050103-20111116063134Lh",
+      "polygons": 11,
+      "retained_parent_bytes_before": 46137344,
+      "owned_crop_bytes_after": 277909
+    },
+    {
+      "record_id": "030101-20130725122934Ch",
+      "polygons": 16,
+      "retained_parent_bytes_before": 67108864,
+      "owned_crop_bytes_after": 93910
+    }
+  ],
+  "metrics_before": {
+    "r1024": {
+      "PQ": 0.5085413784955555,
+      "SQ": 0.6397778632686021,
+      "RQ": 0.7948717948717948,
+      "TP": 31,
+      "FP": 8,
+      "FN": 8
+    },
+    "native": {
+      "PQ": 0.4698559134374343,
+      "SQ": 0.6318751939331013,
+      "RQ": 0.7435897435897436,
+      "TP": 29,
+      "FP": 10,
+      "FN": 10
+    }
+  },
+  "metrics_after": {
+    "r1024": {
+      "PQ": 0.5085413784955555,
+      "SQ": 0.6397778632686021,
+      "RQ": 0.7948717948717948,
+      "TP": 31,
+      "FP": 8,
+      "FN": 8
+    },
+    "native": {
+      "PQ": 0.4698559134374343,
+      "SQ": 0.6318751939331013,
+      "RQ": 0.7435897435897436,
+      "TP": 29,
+      "FP": 10,
+      "FN": 10
+    }
+  },
+  "exact_equal": true,
+  "scope": "Controlled masks derived from real public polygons; technical equivalence, not model performance or measured process RSS"
+}

@@ -1,0 +1,127 @@
+{
+ "args": {
+  "cache": "/kaggle/working/cache1024",
+  "manifest": "configs/fold0_temporal.json",
+  "all_train": false,
+  "arch": "unet",
+  "encoder": "resnet34",
+  "weights": "imagenet",
+  "iters": 8000,
+  "batch": 8,
+  "crop": 512,
+  "lr": 0.0005,
+  "pos_frac": 0.5,
+  "target": "record",
+  "eval_every": 1000,
+  "seed": 0,
+  "workers": 2,
+  "tta": false,
+  "save_probs": true,
+  "out": "/kaggle/working/runs/unet_r34_s0"
+ },
+ "log": [
+  {
+   "it": 1000,
+   "loss": 0.5345,
+   "cal_PQ1024": 0.3622,
+   "cfg": {
+    "thr": 0.4,
+    "min_area": 120,
+    "close": 0,
+    "link": 3
+   },
+   "elapsed_s": 384.9
+  },
+  {
+   "it": 2000,
+   "loss": 0.3732,
+   "cal_PQ1024": 0.3917,
+   "cfg": {
+    "thr": 0.5,
+    "min_area": 120,
+    "close": 0,
+    "link": 3
+   },
+   "elapsed_s": 738.5
+  },
+  {
+   "it": 3000,
+   "loss": 0.4255,
+   "cal_PQ1024": 0.3808,
+   "cfg": {
+    "thr": 0.5,
+    "min_area": 120,
+    "close": 0,
+    "link": 3
+   },
+   "elapsed_s": 1090.0
+  },
+  {
+   "it": 4000,
+   "loss": 0.371,
+   "cal_PQ1024": 0.3977,
+   "cfg": {
+    "thr": 0.6,
+    "min_area": 120,
+    "close": 0,
+    "link": 3
+   },
+   "elapsed_s": 1444.6
+  },
+  {
+   "it": 5000,
+   "loss": 0.2801,
+   "cal_PQ1024": 0.4062,
+   "cfg": {
+    "thr": 0.4,
+    "min_area": 120,
+    "close": 0,
+    "link": 3
+   },
+   "elapsed_s": 1797.5
+  },
+  {
+   "it": 6000,
+   "loss": 0.2465,
+   "cal_PQ1024": 0.4177,
+   "cfg": {
+    "thr": 0.4,
+    "min_area": 120,
+    "close": 0,
+    "link": 3
+   },
+   "elapsed_s": 2149.3
+  },
+  {
+   "it": 7000,
+   "loss": 0.3046,
+   "cal_PQ1024": 0.4147,
+   "cfg": {
+    "thr": 0.4,
+    "min_area": 120,
+    "close": 0,
+    "link": 3
+   },
+   "elapsed_s": 2501.6
+  },
+  {
+   "it": 8000,
+   "loss": 0.3191,
+   "cal_PQ1024": 0.4146,
+   "cfg": {
+    "thr": 0.6,
+    "min_area": 120,
+    "close": 0,
+    "link": 3
+   },
+   "elapsed_s": 2853.7
+  }
+ ],
+ "started": "2026-10-28T09:13:46",
+ "groups": {
+  "train": 724,
+  "calibration": 183,
+  "test": 247
+ },
+ "params": 24436369
+}

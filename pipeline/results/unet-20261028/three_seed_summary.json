@@ -1,0 +1,35 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "calibration_pq1024": 0.41539721133075913,
+      "test_pq1024": 0.3999212922798491,
+      "test_native_pq": 0.38712857864197864,
+      "hardware": "NVIDIA GeForce RTX 3090",
+      "precision": "float16"
+    },
+    {
+      "seed": 1,
+      "calibration_pq1024": 0.4192513073163241,
+      "test_pq1024": 0.4031237496248864,
+      "test_native_pq": 0.38694254109845655,
+      "hardware": "Kaggle T4",
+      "precision": "float16"
+    },
+    {
+      "seed": 2,
+      "calibration_pq1024": 0.4211403040554778,
+      "test_pq1024": 0.3989863970477851,
+      "test_native_pq": 0.38274144425736073,
+      "hardware": "Kaggle T4",
+      "precision": "float16"
+    }
+  ],
+  "mean_test_pq1024": 0.4006771463175069,
+  "sample_sd_test_pq1024": 0.0021697714353116366,
+  "delta_vs_reported_control_test": -0.0008228536824931298,
+  "reported_control_test": 0.4015,
+  "all_three_test_runs_beat_control": false,
+  "promotion": false,
+  "limitations": "Three fixed seeds share one temporal split; seed0 evaluation recovered on RTX3090 at original float16, others on T4. Published control .4015 is rounded. No paired per-record uncertainty or official gain is inferred."
+}

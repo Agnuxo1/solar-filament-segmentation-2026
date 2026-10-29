@@ -16,13 +16,15 @@ test 0.4015), rather than the older ridge baseline below.
 
 | U-Net ResNet34, ImageNet initialisation | Calibration PQ1024 | Test PQ1024 | Test native PQ |
 |---|---:|---:|---:|
-| Seed 0 | Best logged 0.4177 | Evaluation interrupted | Unknown |
+| Seed 0, recovered checkpoint | 0.415397 | 0.399921 | 0.387129 |
 | Seed 1 | 0.419251 | **0.403124** | 0.386943 |
 | Seed 2 | 0.421140 | 0.398986 | 0.382741 |
 
 Calibration improves for all three trained seeds. Seed1 also improves the
 held-out control by +0.001624; seed2 regresses by -0.002514. Both outcomes
-are preserved. The three-seed promotion gate is incomplete; no new leaderboard
+are preserved. The completed three-seed mean is **0.400677 ±0.002170**
+(sample SD), compared with the reported control0.4015; the mean delta is
+-0.000823. This does not pass the replacement gate; no new leaderboard
 submission is claimed. The official API still returns five entries with best
 public PQ **0.35**. [Actual run records](pipeline/results/unet-20261028).
 
@@ -39,8 +41,14 @@ The original seed0 log ends in `Killed` after8000training steps; that log does
 not prove the operating system's reason. A recovery command evaluates its
 already-saved best checkpoint without retraining and preserves the original
 incomplete record. It explicitly matches the original T4 float16 inference
-precision when run on the managed RTX3090. Final three-seed and official
-comparisons remain necessary before promotion.
+precision when run on the managed RTX3090. That recovery has now succeeded,
+without retraining; the [checkpoint hash, complete evaluation and three-seed
+summary](pipeline/results/unet-20261028) are published. Seeds1/2 were evaluated
+on T4 and seed0 on RTX3090, so matched precision is not a claim of identical
+hardware. All three seeds improve calibration over the reported control0.4052,
+while only seed1 improves the held-out test. These gains and regressions are
+retained together. The published control is rounded and the three seeds share
+one split; no confidence interval across independent test datasets is inferred.
 
 ## Repository contents
 

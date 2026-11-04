@@ -1,6 +1,7 @@
 # Solar Filament Segmentation Challenge 2026
 
-![Solar Filament Segmentation Challenge 2026: Instance masks for H-alpha imagery. Illustrative cover, not data.](docs/science-figures/header.gif)
+![Solar filament segmentation research cover.](docs/figures/cover.gif)
+
 
 **Project citation:** [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) · [CITATION.cff](CITATION.cff) · [Software metadata](codemeta.json).
 
@@ -17,9 +18,11 @@ An open-source preparation and evaluation pipeline for the [Solar Filament Segme
 
 ## 28 October: real training results and an applied memory fix
 
-![Read calibration, test and memory separately: Calibration PQ — All seeds improved here; Held-out PQ — One seed beat control; Memory fix — Metric outputs unchanged; Decision — Keep earlier control](docs/science-figures/01.gif)
+![Held-out Panoptic Quality at 1024 px: NeuroPixel control: 0.4015; U-Net seed 0: 0.399921; U-Net seed 1: 0.403124; U-Net seed 2: 0.398986](docs/figures/fig-01.gif)
 
-*Figure 1. Read calibration, test and memory separately.*
+*Held-out Panoptic Quality at 1024 px.* [Static figure](docs/figures/fig-01.png).
+
+
 
 The executable NeuroPixel-compatible pipeline is now published under
 [`pipeline/`](pipeline), including the temporal split, training, native and
@@ -65,9 +68,11 @@ one split; no confidence interval across independent test datasets is inferred.
 
 ## Repository contents
 
-![From design to a submission contract: Design — Document assumptions; Data rules — Verify permitted inputs; Scripts — Inspect and validate; Tests — Exercise file contracts](docs/science-figures/02.gif)
+![From design to a submission contract. Design: Document assumptions; Data rules: Verify permitted inputs; Scripts: Inspect and validate; Tests: Exercise file contracts](docs/figures/fig-02.gif)
 
-*Figure 2. From design to a submission contract.*
+*From design to a submission contract.* [Static figure](docs/figures/fig-02.png).
+
+
 
 - `PIPELINE_DESIGN.md` — reproducible design and assumptions.
 - `RULES.md` — competition constraints and final-deliverable checklist.
@@ -79,9 +84,11 @@ one split; no confidence interval across independent test datasets is inferred.
 
 ## Recommended workflow
 
-![Measure split and merge errors: Held-out groups — Freeze assignments; Fit baseline — Keep inputs outside Git; Tune separation — Use Panoptic Quality; Validate format — Record runtime](docs/science-figures/03.gif)
+![Measure split and merge errors. Held-out groups: Freeze assignments; Fit baseline: Keep inputs outside Git; Tune separation: Use Panoptic Quality; Validate format: Record runtime](docs/figures/fig-03.gif)
 
-*Figure 3. Measure split and merge errors.*
+*Measure split and merge errors.* [Static figure](docs/figures/fig-03.png).
+
+
 
 1. Download official data from Kaggle into an external ignored data directory.
 2. Establish a deterministic train/validation split and preserve provenance.
@@ -93,31 +100,37 @@ one split; no confidence interval across independent test datasets is inferred.
 
 ## Scientific limits
 
-![Separate observed evidence from diagrams: Illustration — Explanatory only; Local tests — Checks file contracts; Scientific evidence — Needs real observations](docs/science-figures/04.gif)
+![Separate observed evidence from diagrams. Illustration: Explanatory only; Local tests: Checks file contracts; Scientific evidence: Needs real observations](docs/figures/fig-04.gif)
 
-*Figure 4. Separate observed evidence from diagrams.*
+*Separate observed evidence from diagrams.* [Static figure](docs/figures/fig-04.png).
+
+
 
 This is a competition engineering scaffold, not a solar-physics validation study. Generated figures are explanatory artwork, not observations. No competition images or labels are redistributed here.
 
 ## License
 
-![Reuse and citation: Original code — MIT notice applies; Observatory data — Keep source terms; Cite the work — Use CITATION.cff](docs/science-figures/05.gif)
+![Reuse and citation. Original code: MIT notice applies; Observatory data: Keep source terms; Cite the work: Use CITATION.cff](docs/figures/fig-05.gif)
 
-*Figure 5. Reuse and citation.*
+*Reuse and citation.* [Static figure](docs/figures/fig-05.png).
+
+
 
 MIT for the original code. See [LICENSE](LICENSE). Dataset and observatory material remain under their source terms.
 
 ## Bibliography and research directions
 
-![How the references inform follow-up: Primary sources — Resolve DOI or arXiv ID; Study design — Predefine comparisons; Evidence to report — Separate hypotheses and results](docs/science-figures/06.gif)
+![How the references inform follow-up. Primary sources: Resolve DOI or arXiv ID; Study design: Predefine comparisons; Evidence to report: Separate hypotheses and results](docs/figures/fig-06.gif)
 
-*Figure 6. How the references inform follow-up.*
+*How the references inform follow-up.* [Static figure](docs/figures/fig-06.png).
+
+
 
 The following primary sources inform proposed checks. Their text, code, figures, and data are not included in this documentation update.
 
 - [Kirillov et al. (2019), Panoptic Segmentation](https://arxiv.org/abs/1801.00868). Report segmentation and recognition components alongside Panoptic Quality to diagnose merging and fragmentation.
 - [Ronneberger et al. (2015), U-Net](https://arxiv.org/abs/1505.04597). Use a fixed encoder–decoder baseline before attributing gains to instance-aware post-processing.
 
-**Attribution and reuse.** Please credit [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) in academic and software reuse and do not present this work as your own. When distributing copies or substantial portions of the original MIT software, preserve the copyright and permission notice. Upstream material keeps its own terms. [License](LICENSE) · [Figure provenance](docs/science-figures/PROVENANCE.md).
+**Attribution and reuse.** Please credit [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) in academic and software reuse and do not present this work as your own. When distributing copies or substantial portions of the original MIT software, preserve the copyright and permission notice. Upstream material keeps its own terms. [License](LICENSE) · [Figure methods and provenance](docs/figures/README.md).
 
 <!-- research-provenance: project=solar-filament-segmentation-2026; date=2026-11-04; author=Francisco Angulo de Lafuente; orcid=https://orcid.org/0009-0001-1634-7063; original-software-license=MIT -->

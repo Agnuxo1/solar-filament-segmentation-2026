@@ -1,0 +1,255 @@
+{
+  "title": "Solar filament segmentation",
+  "subtitle": "Instance masks for H-alpha imagery",
+  "figures": [
+    {
+      "kind": "bars",
+      "basis": "Recorded local evidence",
+      "title": "Held-out Panoptic Quality at 1024 px",
+      "subtitle": "Three U-Net runs share one split; the control value is rounded",
+      "source": "Source: pipeline/results/unet-20261028; figures reported in README",
+      "labels": [
+        "NeuroPixel control",
+        "U-Net seed 0",
+        "U-Net seed 1",
+        "U-Net seed 2"
+      ],
+      "values": [
+        0.4015,
+        0.399921,
+        0.403124,
+        0.398986
+      ],
+      "lim": [
+        0,
+        0.48
+      ],
+      "xlabel": "Panoptic Quality (dimensionless)",
+      "alt": "Held-out Panoptic Quality at 1024 px: NeuroPixel control: 0.4015; U-Net seed 0: 0.399921; U-Net seed 1: 0.403124; U-Net seed 2: 0.398986",
+      "ticks": [
+        0,
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "formats": [
+        "0.4015",
+        "0.399921",
+        "0.403124",
+        "0.398986"
+      ],
+      "id": "fig-01"
+    },
+    {
+      "kind": "flow",
+      "id": "fig-02",
+      "basis": "Technical schematic",
+      "title": "From design to a submission contract",
+      "subtitle": "Document assumptions   /   Verify permitted inputs   /   Inspect and validate   /   Exercise file contracts",
+      "source": "Source: README.md · conceptual relations, no measured values",
+      "nodes": [
+        [
+          0.115,
+          0.52,
+          "Design"
+        ],
+        [
+          0.38,
+          0.52,
+          "Data rules"
+        ],
+        [
+          0.62,
+          0.52,
+          "Scripts"
+        ],
+        [
+          0.885,
+          0.52,
+          "Tests"
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          ""
+        ],
+        [
+          1,
+          2,
+          ""
+        ],
+        [
+          2,
+          3,
+          ""
+        ]
+      ],
+      "alt": "From design to a submission contract. Design: Document assumptions; Data rules: Verify permitted inputs; Scripts: Inspect and validate; Tests: Exercise file contracts"
+    },
+    {
+      "kind": "flow",
+      "id": "fig-03",
+      "basis": "Technical schematic",
+      "title": "Measure split and merge errors",
+      "subtitle": "Freeze assignments   /   Keep inputs outside Git   /   Use Panoptic Quality   /   Record runtime",
+      "source": "Source: README.md · conceptual relations, no measured values",
+      "nodes": [
+        [
+          0.115,
+          0.52,
+          "Held-out groups"
+        ],
+        [
+          0.38,
+          0.52,
+          "Fit baseline"
+        ],
+        [
+          0.62,
+          0.52,
+          "Tune separation"
+        ],
+        [
+          0.885,
+          0.52,
+          "Validate format"
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          ""
+        ],
+        [
+          1,
+          2,
+          ""
+        ],
+        [
+          2,
+          3,
+          ""
+        ]
+      ],
+      "alt": "Measure split and merge errors. Held-out groups: Freeze assignments; Fit baseline: Keep inputs outside Git; Tune separation: Use Panoptic Quality; Validate format: Record runtime"
+    },
+    {
+      "kind": "flow",
+      "id": "fig-04",
+      "basis": "Technical schematic",
+      "title": "Separate observed evidence from diagrams",
+      "subtitle": "Explanatory only   /   Checks file contracts   /   Needs real observations",
+      "source": "Source: README.md · conceptual relations, no measured values",
+      "nodes": [
+        [
+          0.16,
+          0.52,
+          "Illustration"
+        ],
+        [
+          0.5,
+          0.52,
+          "Local tests"
+        ],
+        [
+          0.84,
+          0.52,
+          "Scientific evidence"
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          ""
+        ],
+        [
+          1,
+          2,
+          ""
+        ]
+      ],
+      "alt": "Separate observed evidence from diagrams. Illustration: Explanatory only; Local tests: Checks file contracts; Scientific evidence: Needs real observations"
+    },
+    {
+      "kind": "flow",
+      "id": "fig-05",
+      "basis": "Technical schematic",
+      "title": "Reuse and citation",
+      "subtitle": "MIT notice applies   /   Keep source terms   /   Use CITATION.cff",
+      "source": "Source: README.md · conceptual relations, no measured values",
+      "nodes": [
+        [
+          0.16,
+          0.52,
+          "Original code"
+        ],
+        [
+          0.5,
+          0.52,
+          "Observatory data"
+        ],
+        [
+          0.84,
+          0.52,
+          "Cite the work"
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          ""
+        ],
+        [
+          1,
+          2,
+          ""
+        ]
+      ],
+      "alt": "Reuse and citation. Original code: MIT notice applies; Observatory data: Keep source terms; Cite the work: Use CITATION.cff"
+    },
+    {
+      "kind": "flow",
+      "id": "fig-06",
+      "basis": "Technical schematic",
+      "title": "How the references inform follow-up",
+      "subtitle": "Resolve DOI or arXiv ID   /   Predefine comparisons   /   Separate hypotheses and results",
+      "source": "Source: README.md · conceptual relations, no measured values",
+      "nodes": [
+        [
+          0.16,
+          0.52,
+          "Primary sources"
+        ],
+        [
+          0.5,
+          0.52,
+          "Study design"
+        ],
+        [
+          0.84,
+          0.52,
+          "Evidence to report"
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          ""
+        ],
+        [
+          1,
+          2,
+          ""
+        ]
+      ],
+      "alt": "How the references inform follow-up. Primary sources: Resolve DOI or arXiv ID; Study design: Predefine comparisons; Evidence to report: Separate hypotheses and results"
+    }
+  ]
+}

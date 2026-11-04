@@ -1,5 +1,10 @@
 # Solar Filament Segmentation Challenge 2026
 
+![Solar Filament Segmentation Challenge 2026: Instance masks for H-alpha imagery. Illustrative cover, not data.](docs/science-figures/header.gif)
+
+**Project citation:** [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) · [CITATION.cff](CITATION.cff) · [Software metadata](codemeta.json).
+
+
 ![Conceptual three-stage solar filament workflow](assets/filament-workflow-concept.gif)
 
 *Conceptual, animated workflow illustration only: synthetic curves show observation → candidate mask → separated instances. This is **not** a telescope image, model output, measured metric or leaderboard result. [Static PNG alternative](assets/filament-workflow-concept.png) · [Generation script](scripts/generate_readme_animation.py).*
@@ -11,6 +16,10 @@ An open-source preparation and evaluation pipeline for the [Solar Filament Segme
 ![Segmentation pipeline](assets/segmentation-pipeline.png)
 
 ## 28 October: real training results and an applied memory fix
+
+![Read calibration, test and memory separately: Calibration PQ — All seeds improved here; Held-out PQ — One seed beat control; Memory fix — Metric outputs unchanged; Decision — Keep earlier control](docs/science-figures/01.gif)
+
+*Figure 1. Read calibration, test and memory separately.*
 
 The executable NeuroPixel-compatible pipeline is now published under
 [`pipeline/`](pipeline), including the temporal split, training, native and
@@ -56,6 +65,10 @@ one split; no confidence interval across independent test datasets is inferred.
 
 ## Repository contents
 
+![From design to a submission contract: Design — Document assumptions; Data rules — Verify permitted inputs; Scripts — Inspect and validate; Tests — Exercise file contracts](docs/science-figures/02.gif)
+
+*Figure 2. From design to a submission contract.*
+
 - `PIPELINE_DESIGN.md` — reproducible design and assumptions.
 - `RULES.md` — competition constraints and final-deliverable checklist.
 - `scripts/` — inspection, validation, and submission helpers.
@@ -65,6 +78,10 @@ one split; no confidence interval across independent test datasets is inferred.
 ![Instance quality](assets/instance-quality.png)
 
 ## Recommended workflow
+
+![Measure split and merge errors: Held-out groups — Freeze assignments; Fit baseline — Keep inputs outside Git; Tune separation — Use Panoptic Quality; Validate format — Record runtime](docs/science-figures/03.gif)
+
+*Figure 3. Measure split and merge errors.*
 
 1. Download official data from Kaggle into an external ignored data directory.
 2. Establish a deterministic train/validation split and preserve provenance.
@@ -76,8 +93,31 @@ one split; no confidence interval across independent test datasets is inferred.
 
 ## Scientific limits
 
+![Separate observed evidence from diagrams: Illustration — Explanatory only; Local tests — Checks file contracts; Scientific evidence — Needs real observations](docs/science-figures/04.gif)
+
+*Figure 4. Separate observed evidence from diagrams.*
+
 This is a competition engineering scaffold, not a solar-physics validation study. Generated figures are explanatory artwork, not observations. No competition images or labels are redistributed here.
 
 ## License
 
+![Reuse and citation: Original code — MIT notice applies; Observatory data — Keep source terms; Cite the work — Use CITATION.cff](docs/science-figures/05.gif)
+
+*Figure 5. Reuse and citation.*
+
 MIT for the original code. See [LICENSE](LICENSE). Dataset and observatory material remain under their source terms.
+
+## Bibliography and research directions
+
+![How the references inform follow-up: Primary sources — Resolve DOI or arXiv ID; Study design — Predefine comparisons; Evidence to report — Separate hypotheses and results](docs/science-figures/06.gif)
+
+*Figure 6. How the references inform follow-up.*
+
+The following primary sources inform proposed checks. Their text, code, figures, and data are not included in this documentation update.
+
+- [Kirillov et al. (2019), Panoptic Segmentation](https://arxiv.org/abs/1801.00868). Report segmentation and recognition components alongside Panoptic Quality to diagnose merging and fragmentation.
+- [Ronneberger et al. (2015), U-Net](https://arxiv.org/abs/1505.04597). Use a fixed encoder–decoder baseline before attributing gains to instance-aware post-processing.
+
+**Attribution and reuse.** Please credit [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) in academic and software reuse and do not present this work as your own. When distributing copies or substantial portions of the original MIT software, preserve the copyright and permission notice. Upstream material keeps its own terms. [License](LICENSE) · [Figure provenance](docs/science-figures/PROVENANCE.md).
+
+<!-- research-provenance: project=solar-filament-segmentation-2026; date=2026-11-04; author=Francisco Angulo de Lafuente; orcid=https://orcid.org/0009-0001-1634-7063; original-software-license=MIT -->

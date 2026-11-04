@@ -1,0 +1,99 @@
+{
+  "title": "Solar filament segmentation",
+  "sub": "Instance masks for H-alpha imagery",
+  "issue": "Research engineering scaffold",
+  "sections": [
+    [
+      "28 October",
+      "Read calibration, test and memory separately",
+      [
+        "Calibration PQ",
+        "Held-out PQ",
+        "Memory fix",
+        "Decision"
+      ],
+      [
+        "All seeds improved here",
+        "One seed beat control",
+        "Metric outputs unchanged",
+        "Keep earlier control"
+      ]
+    ],
+    [
+      "Repository contents",
+      "From design to a submission contract",
+      [
+        "Design",
+        "Data rules",
+        "Scripts",
+        "Tests"
+      ],
+      [
+        "Document assumptions",
+        "Verify permitted inputs",
+        "Inspect and validate",
+        "Exercise file contracts"
+      ]
+    ],
+    [
+      "Recommended workflow",
+      "Measure split and merge errors",
+      [
+        "Held-out groups",
+        "Fit baseline",
+        "Tune separation",
+        "Validate format"
+      ],
+      [
+        "Freeze assignments",
+        "Keep inputs outside Git",
+        "Use Panoptic Quality",
+        "Record runtime"
+      ]
+    ],
+    [
+      "Scientific limits",
+      "Separate observed evidence from diagrams",
+      [
+        "Illustration",
+        "Local tests",
+        "Scientific evidence"
+      ],
+      [
+        "Explanatory only",
+        "Checks file contracts",
+        "Needs real observations"
+      ]
+    ],
+    [
+      "License",
+      "Reuse and citation",
+      [
+        "Original code",
+        "Observatory data",
+        "Cite the work"
+      ],
+      [
+        "MIT notice applies",
+        "Keep source terms",
+        "Use CITATION.cff"
+      ]
+    ],
+    [
+      "Bibliography and research directions",
+      "How the references inform follow-up",
+      [
+        "Primary sources",
+        "Study design",
+        "Evidence to report"
+      ],
+      [
+        "Resolve DOI or arXiv ID",
+        "Predefine comparisons",
+        "Separate hypotheses and results"
+      ]
+    ]
+  ],
+  "header_source": "assets/header.png",
+  "repository": "solar-filament-segmentation-2026"
+}

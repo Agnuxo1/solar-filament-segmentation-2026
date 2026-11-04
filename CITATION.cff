@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+type: software
+title: "Solar Filament Segmentation Challenge 2026"
+authors:
+  - family-names: "Angulo de Lafuente"
+    given-names: "Francisco"
+    orcid: "https://orcid.org/0009-0001-1634-7063"
+repository-code: "https://github.com/Agnuxo1/solar-filament-segmentation-2026"
+license: MIT

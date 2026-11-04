@@ -1,0 +1,17 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Solar Filament Segmentation Challenge 2026",
+  "dateModified": "2026-11-04",
+  "codeRepository": "https://github.com/Agnuxo1/solar-filament-segmentation-2026",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0001-1634-7063",
+      "name": "Francisco Angulo de Lafuente",
+      "givenName": "Francisco",
+      "familyName": "Angulo de Lafuente"
+    }
+  ],
+  "license": "https://spdx.org/licenses/MIT.html"
+}

@@ -16,6 +16,10 @@ An open-source preparation and evaluation pipeline for the [Solar Filament Segme
 
 ![Segmentation pipeline](assets/segmentation-pipeline.png)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> The repository reports an evaluator fix reducing retained polygon buffers from 156 MiB to 0.424 MiB on three real annotation records while preserving PQ, TP, FP and FN exactly. This avoids retaining full image arrays for small crops and supports more memory-conscious evaluation. The <a href="pipeline/results/memory_fix_verification.json">recorded comparison</a> concerns array buffers, not whole-process memory, energy consumption or improved model accuracy.</sub>
+<!-- impact-note:end -->
+
 ## 28 October: real training results and an applied memory fix
 
 ![Held-out Panoptic Quality at 1024 px: NeuroPixel control: 0.4015; U-Net seed 0: 0.399921; U-Net seed 1: 0.403124; U-Net seed 2: 0.398986](docs/figures/fig-01.gif)

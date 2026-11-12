@@ -169,3 +169,12 @@ No additional Kaggle submission has been justified. These local metrics
 must not be confused with the accepted leaderboard PQ 0.39 (ID 58112557).
 The [four-page report](docs/submission/TECHNICAL_REPORT_4P_20261112.pdf) is
 available, but final Google Form submission **is not yet confirmed**.
+
+
+### Original FP32 Mask R-CNN restoration (P85, 12 November 2026)
+
+The repository now contains **eight SHA-256-verified shards of the four original FP32 detector checkpoints**. Unlike the earlier FP16 export, these shards restore the original training checkpoints **bit-for-bit**, without Git LFS or a proprietary model host. The Python standard-library assembler rejects modified shards, unsafe paths and unexpected outputs.
+
+Run `python scripts/reassemble_maskrcnn_fp32.py --check-only` and then `python scripts/reassemble_maskrcnn_fp32.py --output-dir /path/to/large/HDD/weights`. The validation includes four passing synthetic safety tests and a real F1 original-model restore matching SHA-256 `399b4bd790c5acf88f32da926dd00a9ac4b704040241b8b0899117c687756820`. See [P85 full scientific release audit](docs/submission/P85_FP32_CHECKPOINT_RELEASE_20261112.md).
+
+**Limit:** Original detector checkpoint reproducibility is not the same as byte-exact reproduction of the 1,241-row accepted H9b CSV. The full notebook and mandatory final Google Form still need independent completion and confirmation.

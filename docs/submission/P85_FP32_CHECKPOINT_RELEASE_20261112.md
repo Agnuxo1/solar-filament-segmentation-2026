@@ -3,7 +3,7 @@
 **Date:** 12 November 2026 (UTC)
 **Purpose:** Remove a proven source of numerical divergence in the public H9b reconstruction without introducing any new training, any new ground-truth access or a Kaggle submission.
 
-## Precommitted scientific rationale
+## Documented scientific rationale
 
 The previously released FP16 Mask R-CNN weights are useful for efficient inference, but are not byte-identical to the original FP32 checkpoints used by the accepted H9b workflow. The P82 full-domain GPU reconstruction consequently had only 3 exact proposal-mask pairs across the four 180-image sets, whereas the original CPU FP32 reconstruction P69 achieved 180/180 byte-identical two-view images in each of F1-F4.
 

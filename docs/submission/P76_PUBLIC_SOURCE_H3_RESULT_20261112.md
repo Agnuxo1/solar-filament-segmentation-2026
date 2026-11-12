@@ -24,4 +24,3 @@ Thus public-source inference **loads and generates a valid native probability ma
 Private parity receipt `paired-small-20261112/p76_public_release_smoke/h3_parity_receipt.json` includes all three input map file hashes and pairwise error counts. The public [parity audit script](../../scripts/audit_h3_map_parity.py) accepts explicit paths and writes an immutable JSON receipt.
 
 **Decision: PASS the narrow public-source smoke-test gate; HOLD all stronger final-CSV and scoring claims.** The user-facing final report must distinguish these levels of evidence and must not claim that the required Google Form was submitted unless the form receipt is independently verified.
-

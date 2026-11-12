@@ -30,4 +30,3 @@ The append-only provenance is on the HDD in `p75_batched_gpu/P75_PARTIAL_RESULT_
 The latest authenticated Kaggle CLI check on 12 November 2026 confirms **submission 58112557**, complete, **public PQ 0.39**, dated 8 November 2026. No submission was made in this study. Fold F2NAF4 evaluation is still proceeding sequentially under the existing systemd supervisor; their PQ values must not be guessed or claimed early. A reproducible, independently run original-image-to-final-CSV notebook and the [organizers' Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfyrM4dhc8QzxR90PtF6fb018KPf0S0Cbf5hPqMuUognmzQsA/viewform) response confirmation remain essential outstanding delivery gates. The published four-page PDF and released weights are not equivalent to a verified final Google Form response.
 
 No claim is made about power savings, CO2, water use, or full pipeline parity without direct measurements.
-

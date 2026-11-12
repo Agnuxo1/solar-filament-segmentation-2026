@@ -151,3 +151,19 @@ The verified best official submission is **58112557**, which scored **public Pan
 - [H9b frozen-intermediate audit notebook](notebooks/h9b_stage2_intermediate_replay.ipynb) is published and its code cells passed syntax validation. It replays **frozen model predictions to an intermediate CSV only**. The intermediate SHA-256 (`67f02e4d...`) is **different** from the actual accepted Kaggle upload SHA-256 (`24b3ea1c...`); additional staged assets are required and a public clean-checkout execution has **not** yet been verified.
 - The full release still requires a self-contained end-to-end notebook with all legally distributable weights and a clean-checkout verification. Do not claim exact byte-identical reproduction of the accepted artifact from intermediate files.
 
+
+## Scientific reproducibility update (12 November 2026)
+
+The public release now provides the exact original [native U-Net source](release/source/native_model.py),
+a [replay CLI](scripts/replay_h3_from_original_images.py) and a
+[raw-image-to-H3-map notebook](notebooks/h3_public_raw_image_replay.ipynb).
+An independently executed [one-image smoke test](docs/submission/P76_PUBLIC_SOURCE_H3_RESULT_20261112.md)
+demonstrates native map reconstruction from original unlabeled Kaggle test pixels.
+The complete accepted-CSV reproduction remains **unverified**.
+
+The [F1 held-out PQ audit](docs/submission/F1_HELDOUT_P75_NEGATIVE_20261112.md)
+documents a negative result for the experimental small-filament sampler.
+No additional Kaggle submission has been justified. These local metrics
+must not be confused with the accepted leaderboard PQ 0.39 (ID 58112557).
+The [four-page report](docs/submission/TECHNICAL_REPORT_4P_20261112.pdf) is
+available, but final Google Form submission **is not yet confirmed**.

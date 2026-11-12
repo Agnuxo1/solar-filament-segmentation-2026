@@ -45,3 +45,29 @@ python scripts/verify_release_assets.py --json-out release-integrity-receipt.jso
 ```
 
 The preflight **does not execute model inference or either notebook**, and the notebooks themselves start from intermediate cached predictions. It therefore does **not** establish source-image-to-final-CSV reproducibility or byte identity with the Kaggle-accepted submission. A complete, independently executed raw-image replay remains an open final-delivery requirement.
+
+
+## Public source-to-H3 reproducibility test (12 November 2026)
+
+The exact original, **one-channel native ResNet34 U-Net** model definition is
+published at [release/source/native_model.py](source/native_model.py), alongside
+the original [F1-F4 weights](models/) and their SHA-256 manifest.
+The public [stage-one reconstruction CLI](../scripts/replay_h3_from_original_images.py)
+and [notebook](../notebooks/h3_public_raw_image_replay.ipynb) use the
+original 180 unlabeled competition test pixels to regenerate native-resolution
+probability maps. For a complete run, set \`SOLARFIL_TEST_IMAGES\` and
+\`SOLARFIL_H3_OUTPUT_DIR\` to a valid Kaggle image folder and a large output HDD.
+
+The [P76 protocol](../docs/submission/P76_PUBLIC_SOURCE_H3_SMOKETEST_PREREG_20261112.md)
+and [executed smoke-test report](../docs/submission/P76_PUBLIC_SOURCE_H3_RESULT_20261112.md)
+document the first-image public-source F1 replay. That PNG differs from its historical
+reference by 32 pixels (of 4,194,304), no difference exceeding one quantized
+intensity level. **This is a one-image validation, not a claim of full
+reproducibility or improved PQ**. A separate [held-out negative F1 result
+report](../docs/submission/F1_HELDOUT_P75_NEGATIVE_20261112.md) records that
+the small-object sampler did not surpass its paired control on withheld groups.
+The accepted H9b submission remains at public PQ 0.39 (ID 58112557).
+
+The full detector, H6, crop-refinement and final accepted-CSV pipeline still
+requires an independently executed end-to-end reproduction. The official
+Google Form must be submitted and its receipt verified separately.

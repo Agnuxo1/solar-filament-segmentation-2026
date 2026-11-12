@@ -3,7 +3,7 @@
 
 This is an integrity preflight, not an end-to-end inference test. It checks
 that independently downloaded public weights match the published SHA-256
-manifest, that the released Python source parses, and that both audit
+manifest, that the released Python source parses, and that all three audit
 notebooks contain syntactically valid Python cells.
 
 The script never loads competition labels or images and never downloads,
@@ -27,6 +27,7 @@ SOURCE_DIR = Path("release/source")
 NOTEBOOKS = (
     Path("notebooks/h9b_stage2_intermediate_replay.ipynb"),
     Path("release/notebooks/h9b_stage2_exact_replay.ipynb"),
+    Path("notebooks/h3_public_raw_image_replay.ipynb"),
 )
 EXPECTED_WEIGHTS = {
     "F1_resnet34_s0_fp16.pt",

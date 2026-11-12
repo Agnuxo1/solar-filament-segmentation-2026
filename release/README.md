@@ -4,6 +4,8 @@ Author: Francisco Angulo de Lafuente ([ORCID 0009-0001-1634-7063](https://orcid.
 
 [Four-page technical report](../docs/TECHNICAL_REPORT_4P_20261112.pdf) · [Official final submission form](https://docs.google.com/forms/d/e/1FAIpQLSfyrM4dhc8QzxR90PtF6fb018KPf0S0Cbf5hPqMuUognmzQsA/viewform?usp=dialog)
 
+**New audit (12 November 2026):** [SFPAIR: 7,200-step small-filament sampler continuation and independent seed replications](../docs/SFPAIR-EXT-REPL-20261112.md). This training is unvalidated for PQ and has not been promoted or submitted. Its research ID is distinct from the existing P59–P62 studies.
+
 ## What has been independently checked
 
 The submitted H9b no-site pipeline consists of four independently trained ResNet34 U-Nets, four Mask R-CNN proposal models, a calibrated instance selection rule, and two crop refiners. Inference uses only the supplied H-alpha test image, without temporal neighbours or externally annotated labels.

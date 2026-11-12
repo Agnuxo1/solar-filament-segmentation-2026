@@ -1,0 +1,123 @@
+{
+  "experiment": "P83_F1_INDEPENDENT_SEED_REPLICATION_EVALUATION",
+  "audit_utc": "2026-11-12T20:03:40.486860+00:00",
+  "status": "PARTIAL_NO_PROMOTION",
+  "seeds_completed": 2,
+  "seeds_expected": 3,
+  "missing_seeds": [
+    20261115
+  ],
+  "calibration_count": 117,
+  "heldout_train_derived_test_count": 139,
+  "frozen_selected_policy": {
+    "thr": 0.25,
+    "min_area": 200,
+    "peak": 0.95,
+    "mean": 0.7
+  },
+  "replications": [
+    {
+      "seed": 20261113,
+      "source_sha256": "ef2e21b3ba4316c78f07de84ca373bf8a3f0c714b21a8f6bc4cb0e1b3d5051f4",
+      "completed_utc": "2026-11-12T19:36:28.926766+00:00",
+      "pq": {
+        "3600_control": 0.39603599723831034,
+        "3600_treatment": 0.39252052154452155,
+        "7200_control": 0.3989747502748188,
+        "7200_treatment": 0.3952533325923923
+      },
+      "effects": {
+        "3600_treatment": {
+          "delta_vs_3600_control": -0.0035154756937887943,
+          "ci95": [
+            -0.010292682647403071,
+            0.0031221680729615247
+          ],
+          "ci_excludes_zero": false,
+          "direction": "inconclusive"
+        },
+        "7200_control": {
+          "delta_vs_3600_control": 0.002938753036508479,
+          "ci95": [
+            -0.0031800505317326074,
+            0.008572008029008012
+          ],
+          "ci_excludes_zero": false,
+          "direction": "inconclusive"
+        },
+        "7200_treatment": {
+          "delta_vs_3600_control": -0.0007826646459180298,
+          "ci95": [
+            -0.007036847474863125,
+            0.005392556532092066
+          ],
+          "ci_excludes_zero": false,
+          "direction": "inconclusive"
+        }
+      },
+      "matched_step_treatment_minus_control": -0.003721417682426509,
+      "policy": {
+        "mean": 0.7,
+        "min_area": 200,
+        "peak": 0.95,
+        "thr": 0.25
+      },
+      "policy_file_sha256": "14433802fbd4f9c844f83d6a3ae08a2002ac9166cf303f0b1b7acfce8dfdb270"
+    },
+    {
+      "seed": 20261114,
+      "source_sha256": "585a367f62460ec4a6c34b25dbe98a6a689953c927388ac8bfee2905c7c68860",
+      "completed_utc": "2026-11-12T19:55:20.953010+00:00",
+      "pq": {
+        "3600_control": 0.40452992262606624,
+        "3600_treatment": 0.3912192860838323,
+        "7200_control": 0.3981629731630216,
+        "7200_treatment": 0.3879868116947616
+      },
+      "effects": {
+        "3600_treatment": {
+          "delta_vs_3600_control": -0.013310636542233967,
+          "ci95": [
+            -0.019726387812275543,
+            -0.006518038937465626
+          ],
+          "ci_excludes_zero": true,
+          "direction": "negative"
+        },
+        "7200_control": {
+          "delta_vs_3600_control": -0.006366949463044613,
+          "ci95": [
+            -0.012698332063485142,
+            -9.915249911583859e-05
+          ],
+          "ci_excludes_zero": true,
+          "direction": "negative"
+        },
+        "7200_treatment": {
+          "delta_vs_3600_control": -0.016543110931304617,
+          "ci95": [
+            -0.02279663578080697,
+            -0.009699704582698022
+          ],
+          "ci_excludes_zero": true,
+          "direction": "negative"
+        }
+      },
+      "matched_step_treatment_minus_control": -0.010176161468260003,
+      "policy": {
+        "mean": 0.7,
+        "min_area": 200,
+        "peak": 0.95,
+        "thr": 0.25
+      },
+      "policy_file_sha256": "71377ef8ef60cc6d3e278f558edbc4c9711b99f727aa76112033498ada7f7561"
+    }
+  ],
+  "descriptive_mean_pq": {
+    "3600_control": 0.4002829599321883,
+    "3600_treatment": 0.3918699038141769,
+    "7200_control": 0.39856886171892025,
+    "7200_treatment": 0.39162007214357697
+  },
+  "scientific_caution": "F1 test has already been examined in P59. This is exploratory replication, not new independent blind validation. The native TRAIN-derived test PQ is not an official Kaggle score. No automatic promotion or Kaggle submission is authorized."
+}

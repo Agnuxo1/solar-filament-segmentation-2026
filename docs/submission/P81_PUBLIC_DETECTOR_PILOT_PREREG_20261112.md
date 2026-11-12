@@ -1,0 +1,11 @@
+# P81 — Public FP16 Mask R-CNN source-to-proposal pilot (preregistered)
+
+Registered UTC: 2026-11-12, before any P81 inference. Objective: independently exercise the four publicly released Mask R-CNN checkpoints on the unlabelled original Kaggle TEST pixels and compare descriptive output structure with the separately archived P69 FP32 CPU proposals. This addresses the remaining public source-to-final-instance reproduction gap, not a candidate leaderboard improvement.
+
+Frozen pilot: four folds F1–F4 in order, first lexicographically sorted original JPEG only, two horizontal views per model at 1024 px, with public `filseg.train_maskrcnn.build_model` and `predict_files`, original preprocessing and no autocast/TF32. The public FP16 weight values are loaded into FP32 model parameters; quantitative differences to original FP32 states are expected and must be disclosed. If the pilot passes, a separate preregistration is required before expanding to all 180 images.
+
+Prerequisite: verify public SHA-256 manifest, exactly 180 unique input filenames, source syntax, and standalone reflection self-test. Work only on UUID GPU-b2046dc8-91f7-fd8a-b237-96bb9e293d14, hold the existing supervisor.lock during the entire CUDA run, inspect nvidia-smi for competing CUDA tasks first, and leave GPU1 untouched. One model in VRAM at once, max 8 GiB VRAM target; maximum 900 s wall time. CPU PQ systemd stages may continue, but do not preempt them.
+
+Primary acceptance: 4/4 strict checkpoint loads, eight complete view collections, geometrically valid proposal crops, append-only SHA256-bound output receipts and GPU0 identity. Secondary descriptive diagnostic: compare per-view proposal counts and exact bounding-box identities with preserved P69 FP32 CPU arrays; no threshold tuning, fitting, use of annotations, Kaggle submissions or PQ claims. Any mismatch is a negative/limitation, not grounds for selecting examples or changing hyperparameters.
+
+Use the NAS HDD for artefacts; never send large writes to `/mnt/datos`. Preserve historical files and resume only incomplete outputs after interruption. The submission 58112557 (0.39 public PQ) remains frozen. The final Google Form and genuine raw-image-to-final-CSV notebook remain outstanding independently of this pilot.

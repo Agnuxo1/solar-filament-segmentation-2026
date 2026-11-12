@@ -148,5 +148,6 @@ The verified best official submission is **58112557**, which scored **public Pan
 
 - [Four-page technical report (PDF)](docs/submission/TECHNICAL_REPORT_4P_20261112.pdf) — an evidence-based scientific report, not proof that the final organizer form was submitted.
 - [H9b GPU reproducibility and true uploaded CSV parity audit](docs/2026-11-12-h9b-replay-precision-and-submission-parity.md) — distinguishes the accepted Kaggle upload from intermediate stage-two artifacts, and quantifies small numerical differences.
+- [H9b frozen-intermediate audit notebook](notebooks/h9b_stage2_intermediate_replay.ipynb) is published and its code cells passed syntax validation. It replays **frozen model predictions to an intermediate CSV only**. The intermediate SHA-256 (`67f02e4d...`) is **different** from the actual accepted Kaggle upload SHA-256 (`24b3ea1c...`); additional staged assets are required and a public clean-checkout execution has **not** yet been verified.
 - The full release still requires a self-contained end-to-end notebook with all legally distributable weights and a clean-checkout verification. Do not claim exact byte-identical reproduction of the accepted artifact from intermediate files.
 

@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-11-12T12:24:41.962025+00:00",
+  "excluded_inference_features": [
+    "site",
+    "date",
+    "temporal_neighbors"
+  ],
+  "format": "h9b-nosite-selector-v1",
+  "no_competition_test_annotations": true,
+  "numpy": "2.5.4",
+  "sites": [
+    "B",
+    "C",
+    "L",
+    "M",
+    "T",
+    "U"
+  ],
+  "sklearn": "1.9.1",
+  "t": 0.35,
+  "train_feature_cache_sha256": "9fa9938b6a7308f376d6eaa71364dc20ca49a8ab248bdf9496a1f55d2bf915aa",
+  "train_feature_columns": [
+    "log_area",
+    "mean_p",
+    "peak_p",
+    "mean_u",
+    "peak_u",
+    "mean_m",
+    "peak_m",
+    "share_m",
+    "extent",
+    "aspect",
+    "major",
+    "minor",
+    "radius",
+    "n_comps",
+    "peak_rank"
+  ],
+  "train_feature_rows": 11449,
+  "w": 0.7,
+  "weight_sha256": "5db6a9a9787a7cbdef6f35a115c9515364b0e2bc31e63fccf546ff0a7ca98a2c"
+}

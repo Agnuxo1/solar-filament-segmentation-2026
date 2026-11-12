@@ -6,6 +6,9 @@
 **Project citation:** [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) · [CITATION.cff](CITATION.cff) · [Software metadata](codemeta.json).
 
 
+**Verified competition status (12 November 2026):** the highest accepted public Kaggle score is **0.39 Panoptic Quality**, submission [58112557](https://www.kaggle.com/competitions/filament-segmentation-2026/leaderboard), using the pixel-only H9b pipeline (8 November 2026). The earlier 0.35 figure in the historical 28 October results below is not the current best. A new 3,600-step single-GPU small-filament sampling ablation completed with **+0.0110 local PQ** versus its matched semantic-model control (95% CI +0.0048 to +0.0168), but **−0.0915 local PQ** versus the stronger H9b baseline and therefore **did not pass the promotion gate**. [Full negative-result and evidence report](docs/2026-11-12-paired-small-instance-sampling.md). No higher official score is claimed.
+
+
 ![Conceptual three-stage solar filament workflow](assets/filament-workflow-concept.gif)
 
 *Conceptual, animated workflow illustration only: synthetic curves show observation → candidate mask → separated instances. This is **not** a telescope image, model output, measured metric or leaderboard result. [Static PNG alternative](assets/filament-workflow-concept.png) · [Generation script](scripts/generate_readme_animation.py).*

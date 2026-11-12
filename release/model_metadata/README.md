@@ -6,8 +6,8 @@ Updated: 2026-11-12 UTC. This directory contains the published inference-related
 
 - `model_metadata/h9b_nosite_selector.pkl`: serialized, fitted HistGradientBoostingRegressor generated from competition TRAIN annotations only. SHA-256: `5db6a9a9787a7cbdef6f35a115c9515364b0e2bc31e63fccf546ff0a7ca98a2c`.
 - `model_metadata/h9b_nosite_selector.json`: source feature names, frozen preprocessing parameters, provenance and hash.
-- `model_metadata/WEIGHTS_SHA256SUMS.txt`: identifiers and digests of ten **locally staged** segmentation and refinement checkpoints. A digest list does not provide access to the weights. **The checkpoints have not been published here.**
-- `source/`: archived Python research modules for H6/H9 selection, instance construction, evaluation, and selector freezing. The modules pass Python syntax compilation, but depend on additional upstream raw-image inference, local cache paths and nonpublished trained model files.
+- `model_metadata/WEIGHTS_SHA256SUMS.txt`: identifiers and SHA-256 digests for ten **publicly hosted** FP16 U-Net, Mask R-CNN and crop-refiner checkpoints in [`../models/`](../models/). All ten staged sources passed SHA-256 verification before upload. These are numerical FP16 exports, not evidence of byte-identical original FP32 inference. The original Kaggle-uploaded CSV is preserved separately.
+- `source/`: archived Python research modules for H6/H9 selection, instance construction, evaluation, and selector freezing. The modules pass Python syntax compilation, but the full H9b reconstruction still depends on additional upstream raw-image inference, historic model-output caches, and nonpublished original FP32 numerical state.
 
 ## Audit boundary and limitations
 
@@ -27,6 +27,6 @@ No upload of a new Kaggle candidate is warranted until the frozen policy has bee
 
 ## Completion gates
 
-To make a fully reproducible release, the original inference checkpoints must be hosted under their own licenses with verifiable checksums; the raw-image preprocessing, U-Net and Mask R-CNN inference, instance selector, refiners and final CSV writer must be executed in a pinned environment; exact or tolerance-qualified parity and the official submission format must be checked. The separate competition final-form receipt must also be independently verified.
+All ten staged FP16 checkpoint files are now publicly available with verifiable checksums. To achieve an independently reproducible *accepted* Kaggle submission, the raw-image preprocessing, U-Net and Mask R-CNN inference, instance selector, refiners and final CSV writer must still be executed as one pinned pipeline; the known FP16 numerical differences must be resolved or quantified, and exact or tolerance-qualified CSV parity must be checked. The separate competition final-form receipt must also be independently verified.
 
 Do not redistribute Kaggle images, annotator masks, credentials, or private datasets. See [the main technical report](../../docs/TECHNICAL_REPORT_4P_20261112.pdf), [the release README](../README.md), and the repository LICENSE.

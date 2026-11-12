@@ -1,0 +1,73 @@
+{
+  "format": "solar-filament-maskrcnn-shards-v1",
+  "models": {
+    "F1": {
+      "original_bytes": 183895165,
+      "original_sha256": "399b4bd790c5acf88f32da926dd00a9ac4b704040241b8b0899117c687756820",
+      "parts": [
+        {
+          "bytes": 95000000,
+          "file": "maskrcnn_F1_fp32.pt.part00",
+          "sha256": "dd2023a97096772111d921e1a57dabedd3ba0ed10a3948afd5b25abe56c18fb7"
+        },
+        {
+          "bytes": 88895165,
+          "file": "maskrcnn_F1_fp32.pt.part01",
+          "sha256": "12e7da8b3a36e03e28ec862c898ad98f6db6b751dcd54998a444dfbe252ef770"
+        }
+      ]
+    },
+    "F2": {
+      "original_bytes": 183895165,
+      "original_sha256": "9a50cc6d23d1689f8d9a69ac90d25c086d128d98682c77669366ce59caca1115",
+      "parts": [
+        {
+          "bytes": 95000000,
+          "file": "maskrcnn_F2_fp32.pt.part00",
+          "sha256": "8e3ee9f5be93bdad895b966cbe796cdd16594c2a6fd885b64a220c6a97534059"
+        },
+        {
+          "bytes": 88895165,
+          "file": "maskrcnn_F2_fp32.pt.part01",
+          "sha256": "86e10ce9e59afd6be3bc66da9b53319b9dd49c033013abf31916112b3b51c1ac"
+        }
+      ]
+    },
+    "F3": {
+      "original_bytes": 183895165,
+      "original_sha256": "e7f9ed980842c2a04ee5ff21fe3018d00eef0ed742aace9f9bb0e08af77f8952",
+      "parts": [
+        {
+          "bytes": 95000000,
+          "file": "maskrcnn_F3_fp32.pt.part00",
+          "sha256": "052454654ca1dd53de2c0607ce4c16d389f791352b79b8de974ad13ec21a6837"
+        },
+        {
+          "bytes": 88895165,
+          "file": "maskrcnn_F3_fp32.pt.part01",
+          "sha256": "69e80a0e7126c69ed11f98ba8edb0fc7460f8731179c89dedce051fdc040efa7"
+        }
+      ]
+    },
+    "F4": {
+      "original_bytes": 183895165,
+      "original_sha256": "59e942afc969318681c7de5c748ed58bd29b79448243389e34db93a8fe54827f",
+      "parts": [
+        {
+          "bytes": 95000000,
+          "file": "maskrcnn_F4_fp32.pt.part00",
+          "sha256": "73ee4cd3263162da9d6c89ccabe67060ccfb93c8cb3d719bb72566da7135ba97"
+        },
+        {
+          "bytes": 88895165,
+          "file": "maskrcnn_F4_fp32.pt.part01",
+          "sha256": "1ed443a1be164d010122e1abe31935effb0cc4e33d7b0d6cc5bb3e5f55e641f3"
+        }
+      ]
+    }
+  },
+  "seconds": 6.57,
+  "shard_max_bytes": 95000000,
+  "source_data_unchanged": true,
+  "utc": "2026-11-12T11:20:15.977314+00:00"
+}

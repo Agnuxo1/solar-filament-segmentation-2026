@@ -2,7 +2,7 @@
 
 Author: Francisco Angulo de Lafuente ([ORCID 0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063)). The best accepted [Kaggle submission 58112557](https://www.kaggle.com/competitions/filament-segmentation-2026/leaderboard), dated 8 November 2026, received **public PQ 0.39**.
 
-[Four-page technical report](../docs/TECHNICAL_REPORT_4P_20261112.pdf) · [Official final submission form](https://docs.google.com/forms/d/e/1FAIpQLSfyrM4dhc8QzxR90PtF6fb018KPf0S0Cbf5hPqMuUognmzQsA/viewform?usp=dialog)
+[Four-page technical report](../docs/submission/TECHNICAL_REPORT_4P_20261112.pdf) · [Official final submission form](https://docs.google.com/forms/d/e/1FAIpQLSfyrM4dhc8QzxR90PtF6fb018KPf0S0Cbf5hPqMuUognmzQsA/viewform?usp=dialog)
 
 **New audit (12 November 2026):** [SFPAIR: 7,200-step small-filament sampler continuation and independent seed replications](../docs/SFPAIR-EXT-REPL-20261112.md). This training is unvalidated for PQ and has not been promoted or submitted. Its research ID is distinct from the existing P59–P62 studies.
 

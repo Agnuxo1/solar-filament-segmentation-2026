@@ -71,3 +71,5 @@ The accepted H9b submission remains at public PQ 0.39 (ID 58112557).
 The full detector, H6, crop-refinement and final accepted-CSV pipeline still
 requires an independently executed end-to-end reproduction. The official
 Google Form must be submitted and its receipt verified separately.
+
+**Full-domain public H3 source audit (12 Nov 2026):** [P77/P78 F1 180-image replay and byte-parity report](../docs/submission/P77_P78_FULL_F1_H3_REPRO_AUDIT_20261112.md). This is source-to-semantic-map reproducibility; final H9b CSV parity remains unverified.

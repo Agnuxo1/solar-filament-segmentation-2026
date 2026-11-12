@@ -1,4 +1,6 @@
 # Solar Filament Segmentation Challenge 2026
+**Public reproducibility update (12 November 2026):** [P79/P80 complete fourfold H3 replay and 720-map parity audit](docs/submission/P79_P80_FOURFOLD_H3_REPRO_AUDIT_20261112.md) regenerates all U-Net probability maps from unlabelled source images and checks their quantized pixel agreement. Final H9b CSV byte-parity remains unresolved; no new Kaggle score is claimed.
+
 
 ![Solar filament segmentation research cover.](docs/figures/cover.gif)
 

@@ -1,0 +1,11 @@
+# P79 - full fourfold public H3 inference coverage (F2-F4 continuation)
+
+Registered 12 November 2026 UTC before running F2, F3 or F4 through the published model source. P77 previously completed F1 on 180 images; the frozen P79 goal is to reproduce **all remaining three U-Net models x all 180 unlabelled test JPEGs = 540 additional stage-one maps** with the same public source and original published FP16 weights. This completes 720 public-source U-Net probability maps in total, without claiming the H9b final instance CSV.
+
+The exact predetermined folds are F2, F3, F4, in this order, no selection on a model's score. Validate SHA256 public weights and all original 180 filenames, use native model source, frozen preprocessing and fixed eight-view D4 transforms without changing thresholds. Each 2048 x 2048 probability PNG is written on the HDD; each of the three manifests must cover all 180 images and their input/output hashes. Do not access test labels, calibration labels, leaderboard features or cloud services.
+
+One process at a time and only GPU0 UUID GPU-b2046dc8-91f7-fd8a-b237-96bb9e293d14. Hold the same existing supervisor.lock for the entire three-fold replay; the GPU0 fold evaluator cannot overlap. Leave GPU1 untouched, reserve <8 GiB host RAM, <75 percent of GPU0 VRAM and cap CPU use at 200 percent, with 2100 seconds per fold. The HPC CPU PQ evaluators can continue in a separate non-CUDA service. No large writes to /mnt/datos. A failed or interrupted fold resumes only its completed PNG maps, without overwriting completed receipts.
+
+Primary gate: all three public source weight hashes verified, 540 new valid native maps and immutable receipts, plus F1's 180 prior maps = 720. No PQ scoring, no Kaggle submission and no assertion of final H9b CSV equivalence.
+
+Follow-up: optionally run the previously preregistered P78 CPU-only byte-parity verifier for F2-F4 against the private P63 equivalents, reporting descriptive differences rather than changing inference settings. The outstanding final reporting and verified Google Form submission remain higher priority for eligibility. This is a release reproducibility action, not a new scientific model hypothesis; no new JEV/Goldfish consultation is claimed.

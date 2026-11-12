@@ -73,3 +73,5 @@ requires an independently executed end-to-end reproduction. The official
 Google Form must be submitted and its receipt verified separately.
 
 **Full-domain public H3 source audit (12 Nov 2026):** [P77/P78 F1 180-image replay and byte-parity report](../docs/submission/P77_P78_FULL_F1_H3_REPRO_AUDIT_20261112.md). This is source-to-semantic-map reproducibility; final H9b CSV parity remains unverified.
+
+**Complete semantic-stage evidence (12 Nov 2026):** [P79/P80 all four U-Net models x 180 original images = 720 public-source probability maps and independent pixel-parity audit](../docs/submission/P79_P80_FOURFOLD_H3_REPRO_AUDIT_20261112.md). This stage-one reconstruction does not establish final H9b CSV equivalence.

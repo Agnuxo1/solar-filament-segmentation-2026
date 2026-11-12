@@ -40,7 +40,7 @@ EXPECTED_WEIGHTS = {
     "refiner_ALL.pt",
     "refiner_ALL_efficientnet_v2_s.pt",
 }
-MANIFEST_LINE = re.compile(r"^([a-f0-9]{64})  ([A-Za-z0-9_.-]+\\.pt)$")
+MANIFEST_LINE = re.compile(r"^([a-f0-9]{64})  ([A-Za-z0-9_.-]+\.pt)$")
 
 
 def sha256_file(path: Path) -> str:

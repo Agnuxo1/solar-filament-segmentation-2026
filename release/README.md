@@ -33,3 +33,15 @@ No new Kaggle submission was justified or made. A favorable paired within-family
 This directory holds the release workflow and documented measurements. A cache-dependent notebook, even if executable, is **not** sufficient for fully reproducible raw-image-to-CSV predictions. A final end-to-end implementation must run from competition-supplied pixels, own released inference weights, fixed preprocessing, fixed model and instance decisions, and a pinned environment. Every weight file has to be smaller than GitHub's 100 MB file limit or be handled as correctly reconstructable separate shards. Any fp16 conversion is numerically non-identical unless validated. Do not redistribute the competition's test images or annotations.
 
 Code is MIT licensed under [the repository LICENSE](../LICENSE). Pretrained components and the official dataset may carry separate license obligations. Completion of the [organizers' final Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfyrM4dhc8QzxR90PtF6fb018KPf0S0Cbf5hPqMuUognmzQsA/viewform?usp=dialog) must be verified separately from any Kaggle upload.
+
+## Independently verified public-weight integrity (12 November 2026)
+
+A fresh, sparse public Git checkout on IA-Server's HDD verified **all ten published model weights** against the repository's `release/model_metadata/WEIGHTS_SHA256SUMS.txt` with `sha256sum -c`. The released Python modules also passed compilation, and both five-code-cell audit notebooks passed Python syntax checks. The follow-up read-only, standard-library-only preflight returned `ASSETS_VERIFIED` (exit code 0).
+
+Reproduce the integrity check from a checkout containing `release/`, `notebooks/` and `scripts/`:
+
+```bash
+python scripts/verify_release_assets.py --json-out release-integrity-receipt.json
+```
+
+The preflight **does not execute model inference or either notebook**, and the notebooks themselves start from intermediate cached predictions. It therefore does **not** establish source-image-to-final-CSV reproducibility or byte identity with the Kaggle-accepted submission. A complete, independently executed raw-image replay remains an open final-delivery requirement.

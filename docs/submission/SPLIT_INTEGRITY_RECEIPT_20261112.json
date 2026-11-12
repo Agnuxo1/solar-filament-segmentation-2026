@@ -1,0 +1,110 @@
+{
+  "folds": [
+    {
+      "calibration": {
+        "all_files_hashed": true,
+        "annotation_records": 190,
+        "cache_bytes_hashed": 1017663,
+        "manifest_sha256": "4567079b1badc5b080f7a83805d83a9ba8863aab9b29b4379b76c652709109af",
+        "physical_images": 117
+      },
+      "fold": 1,
+      "pairwise_disjoint": true,
+      "split_sha256": "4f30e3b8f6d84e03bee1cfc6a65c03261116f725a0ff621ddfbd4de49e88cbda",
+      "test": {
+        "all_files_hashed": true,
+        "annotation_records": 223,
+        "cache_bytes_hashed": 1012106,
+        "manifest_sha256": "e85ba7211775d14a57ff2fe5af83aa16f4b08f5a63e3117ca009c786091c1929",
+        "physical_images": 139
+      },
+      "train_images": 446,
+      "train_pack": null
+    },
+    {
+      "calibration": {
+        "all_files_hashed": true,
+        "annotation_records": 168,
+        "cache_bytes_hashed": 677435,
+        "manifest_sha256": "6fa01e487672f18dc9dab0ad6f1a2adf4e6d2ea9026378a7873b6d921a311d68",
+        "physical_images": 109
+      },
+      "fold": 2,
+      "pairwise_disjoint": true,
+      "split_sha256": "654b31f3edf0b553d651e54ba4e7cc3fccc4ee22403777564b459dc7d95e1609",
+      "test": {
+        "all_files_hashed": true,
+        "annotation_records": 240,
+        "cache_bytes_hashed": 1312431,
+        "manifest_sha256": "5b2c0afd9f5373d947022b39ec83e652ef01cadf3557c702799a8418bbf806b7",
+        "physical_images": 146
+      },
+      "train_images": 449,
+      "train_pack": {
+        "declared_train_images": 449,
+        "manifest_sha256": "ec45a163502883ac486c5f2b5c8dd480480954cd0d3a8014b46a35bb160fd2e2",
+        "train_only_provenance_flag_present": true
+      }
+    },
+    {
+      "calibration": {
+        "all_files_hashed": true,
+        "annotation_records": 189,
+        "cache_bytes_hashed": 314619,
+        "manifest_sha256": "602531604d88ea1e76ac10b5a83b9481aa8484ffd53190368dfb19dce8cf9f13",
+        "physical_images": 113
+      },
+      "fold": 3,
+      "pairwise_disjoint": true,
+      "split_sha256": "82783558e625fbc72bbf5397e903deb57133bb29952610e81f7ff1321428b90d",
+      "test": {
+        "all_files_hashed": true,
+        "annotation_records": 214,
+        "cache_bytes_hashed": 793467,
+        "manifest_sha256": "dbf22b26e5dad524478f8c157e6d0896d173bb6a7ba796d284373305ba6af41b",
+        "physical_images": 139
+      },
+      "train_images": 449,
+      "train_pack": {
+        "declared_train_images": 449,
+        "manifest_sha256": "172bd0f895d580c9e3745cd9b0e55238c68471763266abf6161ea1c09e1c6db7",
+        "train_only_provenance_flag_present": true
+      }
+    },
+    {
+      "calibration": {
+        "all_files_hashed": true,
+        "annotation_records": 186,
+        "cache_bytes_hashed": 723122,
+        "manifest_sha256": "26d2377c614681a13f80487e75320d9d9546d14b311337e7198c022de4617536",
+        "physical_images": 108
+      },
+      "fold": 4,
+      "pairwise_disjoint": true,
+      "split_sha256": "c6c44d745b454848316d773b6125daddd0658e2b189f7ed539020908bbc98db6",
+      "test": {
+        "all_files_hashed": true,
+        "annotation_records": 233,
+        "cache_bytes_hashed": 429721,
+        "manifest_sha256": "0cd59f81eea7fa83187f71585f3b68fe65397df954898fe5e3f6c0aa19cb3a09",
+        "physical_images": 143
+      },
+      "train_images": 454,
+      "train_pack": {
+        "declared_train_images": 454,
+        "manifest_sha256": "6ed764fc002577ceb96a365f2f9abc6120c9628515d78d81170b0dcff13a1f48",
+        "train_only_provenance_flag_present": true
+      }
+    }
+  ],
+  "notes": [
+    "Only original TRAIN-derived calibration and held-out annotations were inspected.",
+    "No competition hidden TEST labels were accessed or available.",
+    "A train-only manifest flag is provenance, not a proof of all prior runtime I/O.",
+    "This audit does not calculate PQ, prove model quality or submit to Kaggle."
+  ],
+  "schema": "SOLAR_FOLD_SPLIT_AUDIT_V1",
+  "source_script_sha256": "9c51b728b8b59cbe75047149215d7e126637220fac5d3c38b5b24e02635b96a4",
+  "status": "FOUR_FOLD_SPLIT_AND_CACHE_INTEGRITY_VERIFIED",
+  "utc": "2026-11-12T16:08:06.933834+00:00"
+}

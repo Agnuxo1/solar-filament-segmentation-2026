@@ -29,3 +29,14 @@
 **System resource contract:** use only the assigned GPU0; preserve GPU1 for other work. Leave `/mnt/datos` (97% used during this audit) for small metadata only; use the HDD for large checkpoints. Never submit a candidate based solely on loss or calibration PQ.
 
 **Organizers' reference:** [Kaggle competition requirements](https://www.kaggle.com/competitions/filament-segmentation-2026/overview) · [Final Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfyrM4dhc8QzxR90PtF6fb018KPf0S0Cbf5hPqMuUognmzQsA/viewform).
+
+## Additional independent release verification — 15:20 UTC, 12 November 2026
+
+A fresh `git clone --depth 1 --filter=blob:none --no-checkout` of the public GitHub repository was created **on the research HDD**, then sparsely checked out with `release/`, `notebooks/`, `docs/submission/`, and `scripts/`. Commit `3924816` was independently checked with the new [read-only release integrity preflight](../../scripts/verify_release_assets.py). The run returned `ASSETS_VERIFIED` (process exit 0):
+
+- **10/10 weights** passed SHA-256 comparison against the public manifest, including four ResNet34 U-Nets, four Mask R-CNN detectors, and two crop-refinement models.
+- All released Python sources passed syntax checks; both published audit notebooks contained five syntactically valid code cells each.
+- The full receipt is preserved privately in the server HDD audit directory as `h9b_public_weights_preflight_20261112.json`. No competition test labels were accessed and no additional GPU process was launched.
+- This is a **binary-integrity and syntax audit only**. It does not fulfill the still-open end-to-end reproduction gate, the final Google Form, or a fresh official Kaggle score.
+
+At 15:20 UTC, `nvidia-smi` identified one GPU0 compute PID (`1280192`, 2,316 MiB), GPU0 75% utilization, GPU1 0% and no GPU1 compute PID. The systemd timer remained active, the service was still running, F3 seed `20261112` had completed all 7,200 steps, and F3 seed `20261113` had reached at least step 1,440. The F1 held-out PQ was still pending. The HDD had ~1,009 GiB free; `/mnt/datos` remained 97% occupied.

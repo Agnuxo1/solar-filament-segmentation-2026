@@ -1,6 +1,16 @@
-numpy==2.5.3
-pandas==3.0.6
-Pillow==12.3.0
+# Version-pinned competition pipeline dependencies (IA-Server, 2026-11-12).
+# segmentation-models-pytorch 0.6.0 CPU import/forward verified with the
+# installed Torch stack; GPU operation remains tied to the published code and weights.
+numpy==2.5.4
+Pillow==13.0.0
+opencv-python-headless==5.0.0.93
 pycocotools==2.0.11
-torch==2.14.0
-torchvision==0.29.0
+scipy==1.18.1
+scikit-learn==1.9.1
+scikit-image==0.26.0
+segmentation-models-pytorch==0.6.0
+timm==1.0.30
+torch==2.14.1
+torchvision==0.29.1
+tqdm==4.70.1
+pytest==9.1.1

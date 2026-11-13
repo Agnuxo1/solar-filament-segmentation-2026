@@ -1,0 +1,3301 @@
+{
+  "audit_type": "read-only geometric correspondence audit",
+  "comparisons": {
+    "p106_vs_accepted": {
+      "candidate_csv_sha256": "16f7dd60e8308d1cdccff1b6b16e80eff74bf08b5996d5a5d58c9ce295ebb9c3",
+      "per_image": [
+        {
+          "image_id": "20110120105534Ch",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110130110334Ch",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110214175414Mh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110329082654Uh",
+          "instances": 9,
+          "matched_changed": 1,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20110408083214Th",
+          "instances": 8,
+          "matched_changed": 1,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20110424064534Lh",
+          "instances": 6,
+          "matched_changed": 2,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20110429120534Ch",
+          "instances": 12,
+          "matched_changed": 1,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 11
+        },
+        {
+          "image_id": "20110529063154Uh",
+          "instances": 5,
+          "matched_changed": 1,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 11
+        },
+        {
+          "image_id": "20110531070514Th",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110603123034Ch",
+          "instances": 9,
+          "matched_changed": 1,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20110706164014Mh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110811121534Ch",
+          "instances": 11,
+          "matched_changed": 2,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20110819131834Ch",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110827141254Bh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110912142254Bh",
+          "instances": 7,
+          "matched_changed": 1,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20111015063134Lh",
+          "instances": 8,
+          "matched_changed": 1,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20111017113714Th",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111114063134Lh",
+          "instances": 13,
+          "matched_changed": 2,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 3
+        },
+        {
+          "image_id": "20111122063134Lh",
+          "instances": 12,
+          "matched_changed": 1,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20111124153054Bh",
+          "instances": 9,
+          "matched_changed": 1,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20111128175514Mh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111208173814Mh",
+          "instances": 12,
+          "matched_changed": 3,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 4
+        },
+        {
+          "image_id": "20111216103234Ch",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111216174914Mh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120107063134Lh",
+          "instances": 13,
+          "matched_changed": 2,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 4
+        },
+        {
+          "image_id": "20120111191454Bh",
+          "instances": 11,
+          "matched_changed": 1,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 3
+        },
+        {
+          "image_id": "20120115063134Lh",
+          "instances": 12,
+          "matched_changed": 2,
+          "matched_exact": 10,
+          "reordered_assignments": 2,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20120218152654Bh",
+          "instances": 8,
+          "matched_changed": 2,
+          "matched_exact": 6,
+          "reordered_assignments": 5,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20120402105814Th",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120402164214Mh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120405130014Th",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120512063234Lh",
+          "instances": 11,
+          "matched_changed": 1,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20120528063154Uh",
+          "instances": 7,
+          "matched_changed": 2,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 9
+        },
+        {
+          "image_id": "20120606063154Uh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120622063154Uh",
+          "instances": 6,
+          "matched_changed": 2,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 3
+        },
+        {
+          "image_id": "20120707070914Th",
+          "instances": 12,
+          "matched_changed": 1,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20120710063134Lh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120730072014Th",
+          "instances": 9,
+          "matched_changed": 1,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20120813063134Lh",
+          "instances": 7,
+          "matched_changed": 3,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 7
+        },
+        {
+          "image_id": "20120930063534Lh",
+          "instances": 8,
+          "matched_changed": 1,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20121024073354Uh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 2,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20121125063154Uh",
+          "instances": 8,
+          "matched_changed": 2,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20121203063334Lh",
+          "instances": 9,
+          "matched_changed": 2,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20121206063154Uh",
+          "instances": 11,
+          "matched_changed": 3,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 18
+        },
+        {
+          "image_id": "20121216154954Bh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20121220110614Th",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20121229085414Th",
+          "instances": 3,
+          "matched_changed": 1,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20130104104234Ch",
+          "instances": 10,
+          "matched_changed": 1,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20130110085614Th",
+          "instances": 11,
+          "matched_changed": 1,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 5
+        },
+        {
+          "image_id": "20130206063154Uh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130208063134Lh",
+          "instances": 11,
+          "matched_changed": 1,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 4
+        },
+        {
+          "image_id": "20130213063454Uh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130310063154Uh",
+          "instances": 7,
+          "matched_changed": 2,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 5
+        },
+        {
+          "image_id": "20130315063154Uh",
+          "instances": 8,
+          "matched_changed": 1,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20130328063154Uh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130521063134Lh",
+          "instances": 7,
+          "matched_changed": 1,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20130526063134Lh",
+          "instances": 10,
+          "matched_changed": 2,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20130530133654Bh",
+          "instances": 15,
+          "matched_changed": 1,
+          "matched_exact": 14,
+          "reordered_assignments": 0,
+          "same_position_exact": 14,
+          "symmetric_difference_pixels": 3
+        },
+        {
+          "image_id": "20130603063154Uh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130606133454Bh",
+          "instances": 9,
+          "matched_changed": 2,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20130609133454Bh",
+          "instances": 13,
+          "matched_changed": 4,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 6
+        },
+        {
+          "image_id": "20130627063134Lh",
+          "instances": 9,
+          "matched_changed": 1,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20130702070714Th",
+          "instances": 12,
+          "matched_changed": 0,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130811121434Ch",
+          "instances": 10,
+          "matched_changed": 2,
+          "matched_exact": 8,
+          "reordered_assignments": 2,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 6
+        },
+        {
+          "image_id": "20130825141154Bh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20131027185354Bh",
+          "instances": 14,
+          "matched_changed": 0,
+          "matched_exact": 14,
+          "reordered_assignments": 0,
+          "same_position_exact": 14,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20131027223034Lh",
+          "instances": 11,
+          "matched_changed": 1,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20131110185354Bh",
+          "instances": 11,
+          "matched_changed": 5,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 5
+        },
+        {
+          "image_id": "20131217192134Ch",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20131230192154Bh",
+          "instances": 12,
+          "matched_changed": 0,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140118180214Mh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140309170314Mh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140322200714Mh",
+          "instances": 11,
+          "matched_changed": 1,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20140403081714Th",
+          "instances": 10,
+          "matched_changed": 1,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20140410195814Mh",
+          "instances": 7,
+          "matched_changed": 1,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 22
+        },
+        {
+          "image_id": "20140420195854Bh",
+          "instances": 17,
+          "matched_changed": 3,
+          "matched_exact": 14,
+          "reordered_assignments": 0,
+          "same_position_exact": 14,
+          "symmetric_difference_pixels": 3
+        },
+        {
+          "image_id": "20140514195854Bh",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140516234034Lh",
+          "instances": 11,
+          "matched_changed": 3,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 4
+        },
+        {
+          "image_id": "20140519195834Ch",
+          "instances": 14,
+          "matched_changed": 0,
+          "matched_exact": 14,
+          "reordered_assignments": 0,
+          "same_position_exact": 14,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140520200054Bh",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140526195834Ch",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140629195814Mh",
+          "instances": 5,
+          "matched_changed": 1,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20140707023654Uh",
+          "instances": 15,
+          "matched_changed": 3,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 4
+        },
+        {
+          "image_id": "20140710020754Uh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140828080414Th",
+          "instances": 10,
+          "matched_changed": 1,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20140907195814Mh",
+          "instances": 6,
+          "matched_changed": 1,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20140925195834Ch",
+          "instances": 15,
+          "matched_changed": 2,
+          "matched_exact": 13,
+          "reordered_assignments": 0,
+          "same_position_exact": 13,
+          "symmetric_difference_pixels": 4
+        },
+        {
+          "image_id": "20141009195814Mh",
+          "instances": 11,
+          "matched_changed": 1,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20141104195854Bh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20141120195834Ch",
+          "instances": 12,
+          "matched_changed": 2,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20141220201934Ch",
+          "instances": 11,
+          "matched_changed": 3,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 3
+        },
+        {
+          "image_id": "20141222201814Mh",
+          "instances": 9,
+          "matched_changed": 1,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20150105104334Ch",
+          "instances": 12,
+          "matched_changed": 2,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20150124081954Uh",
+          "instances": 6,
+          "matched_changed": 2,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 9
+        },
+        {
+          "image_id": "20150430082014Th",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150601122834Ch",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150602122934Ch",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150619133554Bh",
+          "instances": 11,
+          "matched_changed": 1,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 6
+        },
+        {
+          "image_id": "20150620161314Mh",
+          "instances": 13,
+          "matched_changed": 1,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 5
+        },
+        {
+          "image_id": "20150623152934Ch",
+          "instances": 7,
+          "matched_changed": 1,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20150913082034Lh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151003081954Uh",
+          "instances": 3,
+          "matched_changed": 1,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 5
+        },
+        {
+          "image_id": "20151015170634Ch",
+          "instances": 9,
+          "matched_changed": 2,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20151026171014Mh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151117212434Ch",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151204133714Th",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151207173614Mh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151214171854Bh",
+          "instances": 14,
+          "matched_changed": 1,
+          "matched_exact": 13,
+          "reordered_assignments": 0,
+          "same_position_exact": 13,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20151227133734Ch",
+          "instances": 10,
+          "matched_changed": 2,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 6
+        },
+        {
+          "image_id": "20160116133734Ch",
+          "instances": 10,
+          "matched_changed": 2,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 5
+        },
+        {
+          "image_id": "20160226151654Bh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160311020654Uh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160312020554Uh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160327133714Th",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160327133734Ch",
+          "instances": 5,
+          "matched_changed": 1,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20160405014154Uh",
+          "instances": 7,
+          "matched_changed": 1,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20160505025554Uh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160513133714Th",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160602010754Uh",
+          "instances": 3,
+          "matched_changed": 1,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20160713133714Th",
+          "instances": 6,
+          "matched_changed": 1,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20160820233134Lh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160828133734Ch",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160930165914Mh",
+          "instances": 4,
+          "matched_changed": 1,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20161015144954Bh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161019133714Th",
+          "instances": 4,
+          "matched_changed": 1,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 10
+        },
+        {
+          "image_id": "20161020145454Bh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161104133714Th",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161111133734Ch",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161116222134Lh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161219133734Ch",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161231223534Lh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170129133714Th",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170313145450Bh",
+          "instances": 3,
+          "matched_changed": 1,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20170326133730Ch",
+          "instances": 6,
+          "matched_changed": 1,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20170328014950Uh",
+          "instances": 3,
+          "matched_changed": 1,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20170329014850Uh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170330133710Th",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170414151450Bh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170516134450Bh",
+          "instances": 3,
+          "matched_changed": 1,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20170626133730Ch",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170708164010Mh",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170902231930Lh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170926225530Lh",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171018223630Lh",
+          "instances": 2,
+          "matched_changed": 1,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20171021223430Lh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171027150050Bh",
+          "instances": 5,
+          "matched_changed": 2,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20171029171010Mh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171107222630Lh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171108222430Lh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171122022450Uh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20180507140210Th",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20180726232450Bh",
+          "instances": 2,
+          "matched_changed": 1,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20181012105930Ch",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20181030230030Lh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20190605025430Lh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20190607032610Mh",
+          "instances": 3,
+          "matched_changed": 1,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20200310113230Ch",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20200806072410Th",
+          "instances": 2,
+          "matched_changed": 1,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20201228202510Mh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210101202450Bh",
+          "instances": 3,
+          "matched_changed": 1,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20210127110130Ch",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210219230330Lh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210607142350Bh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210627163630Mh",
+          "instances": 4,
+          "matched_changed": 1,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20210701163730Mh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210708060030Lh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210726041650Uh",
+          "instances": 3,
+          "matched_changed": 2,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20210730044930Lh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210811072510Th",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20211119005210Mh",
+          "instances": 2,
+          "matched_changed": 1,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20211214174010Mh",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20211224120130Ch",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20211231180850Bh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220124155050Bh",
+          "instances": 1,
+          "matched_changed": 1,
+          "matched_exact": 0,
+          "reordered_assignments": 0,
+          "same_position_exact": 0,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20220328035030Lh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220523234912Lh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220621185332Bh",
+          "instances": 8,
+          "matched_changed": 1,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20220626185332Bh",
+          "instances": 9,
+          "matched_changed": 1,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20220714185352Th",
+          "instances": 13,
+          "matched_changed": 0,
+          "matched_exact": 13,
+          "reordered_assignments": 0,
+          "same_position_exact": 13,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220728185352Th",
+          "instances": 2,
+          "matched_changed": 1,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 1
+        }
+      ],
+      "reference_csv_sha256": "24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60",
+      "summary": {
+        "changed_pair_pixels": 270,
+        "images": 180,
+        "images_with_exact_mask_set": 91,
+        "images_with_exact_sequence": 90,
+        "instances": 1241,
+        "largest_pair_pixel_difference": 22,
+        "matched_changed": 133,
+        "matched_exact": 1108,
+        "median_changed_pair_iou": 0.9994145199063232,
+        "median_changed_pair_pixels": 1.0,
+        "min_changed_pair_iou": 0.9831675592960979,
+        "reordered_assignments": 11,
+        "reordered_exact": 9,
+        "same_position_changed": 142,
+        "same_position_exact": 1099
+      }
+    },
+    "p106_vs_p103": {
+      "candidate_csv_sha256": "16f7dd60e8308d1cdccff1b6b16e80eff74bf08b5996d5a5d58c9ce295ebb9c3",
+      "per_image": [
+        {
+          "image_id": "20110120105534Ch",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110130110334Ch",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110214175414Mh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110329082654Uh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110408083214Th",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110424064534Lh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110429120534Ch",
+          "instances": 12,
+          "matched_changed": 0,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110529063154Uh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110531070514Th",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110603123034Ch",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110706164014Mh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110811121534Ch",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110819131834Ch",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110827141254Bh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20110912142254Bh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111015063134Lh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111017113714Th",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111114063134Lh",
+          "instances": 13,
+          "matched_changed": 0,
+          "matched_exact": 13,
+          "reordered_assignments": 0,
+          "same_position_exact": 13,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111122063134Lh",
+          "instances": 12,
+          "matched_changed": 0,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111124153054Bh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111128175514Mh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111208173814Mh",
+          "instances": 12,
+          "matched_changed": 1,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20111216103234Ch",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20111216174914Mh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120107063134Lh",
+          "instances": 13,
+          "matched_changed": 0,
+          "matched_exact": 13,
+          "reordered_assignments": 0,
+          "same_position_exact": 13,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120111191454Bh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120115063134Lh",
+          "instances": 12,
+          "matched_changed": 0,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120218152654Bh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120402105814Th",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120402164214Mh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120405130014Th",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120512063234Lh",
+          "instances": 11,
+          "matched_changed": 1,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20120528063154Uh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120606063154Uh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120622063154Uh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120707070914Th",
+          "instances": 12,
+          "matched_changed": 0,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120710063134Lh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120730072014Th",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120813063134Lh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20120930063534Lh",
+          "instances": 8,
+          "matched_changed": 1,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20121024073354Uh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20121125063154Uh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20121203063334Lh",
+          "instances": 9,
+          "matched_changed": 1,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20121206063154Uh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20121216154954Bh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20121220110614Th",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20121229085414Th",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130104104234Ch",
+          "instances": 10,
+          "matched_changed": 2,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 2
+        },
+        {
+          "image_id": "20130110085614Th",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130206063154Uh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130208063134Lh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130213063454Uh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130310063154Uh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130315063154Uh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130328063154Uh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130521063134Lh",
+          "instances": 7,
+          "matched_changed": 1,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20130526063134Lh",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130530133654Bh",
+          "instances": 15,
+          "matched_changed": 0,
+          "matched_exact": 15,
+          "reordered_assignments": 0,
+          "same_position_exact": 15,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130603063154Uh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130606133454Bh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130609133454Bh",
+          "instances": 13,
+          "matched_changed": 0,
+          "matched_exact": 13,
+          "reordered_assignments": 0,
+          "same_position_exact": 13,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130627063134Lh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130702070714Th",
+          "instances": 12,
+          "matched_changed": 0,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130811121434Ch",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20130825141154Bh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20131027185354Bh",
+          "instances": 14,
+          "matched_changed": 0,
+          "matched_exact": 14,
+          "reordered_assignments": 0,
+          "same_position_exact": 14,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20131027223034Lh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20131110185354Bh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20131217192134Ch",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20131230192154Bh",
+          "instances": 12,
+          "matched_changed": 0,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140118180214Mh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140309170314Mh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140322200714Mh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140403081714Th",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140410195814Mh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140420195854Bh",
+          "instances": 17,
+          "matched_changed": 0,
+          "matched_exact": 17,
+          "reordered_assignments": 0,
+          "same_position_exact": 17,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140514195854Bh",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140516234034Lh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140519195834Ch",
+          "instances": 14,
+          "matched_changed": 0,
+          "matched_exact": 14,
+          "reordered_assignments": 0,
+          "same_position_exact": 14,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140520200054Bh",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140526195834Ch",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140629195814Mh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140707023654Uh",
+          "instances": 15,
+          "matched_changed": 0,
+          "matched_exact": 15,
+          "reordered_assignments": 0,
+          "same_position_exact": 15,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140710020754Uh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140828080414Th",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140907195814Mh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20140925195834Ch",
+          "instances": 15,
+          "matched_changed": 0,
+          "matched_exact": 15,
+          "reordered_assignments": 0,
+          "same_position_exact": 15,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20141009195814Mh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20141104195854Bh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20141120195834Ch",
+          "instances": 12,
+          "matched_changed": 1,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20141220201934Ch",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20141222201814Mh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150105104334Ch",
+          "instances": 12,
+          "matched_changed": 0,
+          "matched_exact": 12,
+          "reordered_assignments": 0,
+          "same_position_exact": 12,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150124081954Uh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150430082014Th",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150601122834Ch",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150602122934Ch",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150619133554Bh",
+          "instances": 11,
+          "matched_changed": 0,
+          "matched_exact": 11,
+          "reordered_assignments": 0,
+          "same_position_exact": 11,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150620161314Mh",
+          "instances": 13,
+          "matched_changed": 0,
+          "matched_exact": 13,
+          "reordered_assignments": 0,
+          "same_position_exact": 13,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150623152934Ch",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20150913082034Lh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151003081954Uh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151015170634Ch",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151026171014Mh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151117212434Ch",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151204133714Th",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151207173614Mh",
+          "instances": 4,
+          "matched_changed": 1,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20151214171854Bh",
+          "instances": 14,
+          "matched_changed": 0,
+          "matched_exact": 14,
+          "reordered_assignments": 0,
+          "same_position_exact": 14,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20151227133734Ch",
+          "instances": 10,
+          "matched_changed": 0,
+          "matched_exact": 10,
+          "reordered_assignments": 0,
+          "same_position_exact": 10,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160116133734Ch",
+          "instances": 10,
+          "matched_changed": 1,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20160226151654Bh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160311020654Uh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160312020554Uh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160327133714Th",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160327133734Ch",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160405014154Uh",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160505025554Uh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160513133714Th",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160602010754Uh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160713133714Th",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160820233134Lh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160828133734Ch",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20160930165914Mh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161015144954Bh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161019133714Th",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161020145454Bh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161104133714Th",
+          "instances": 7,
+          "matched_changed": 0,
+          "matched_exact": 7,
+          "reordered_assignments": 0,
+          "same_position_exact": 7,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161111133734Ch",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161116222134Lh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161219133734Ch",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20161231223534Lh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170129133714Th",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170313145450Bh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170326133730Ch",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170328014950Uh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170329014850Uh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170330133710Th",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170414151450Bh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170516134450Bh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170626133730Ch",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170708164010Mh",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170902231930Lh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20170926225530Lh",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171018223630Lh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171021223430Lh",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171027150050Bh",
+          "instances": 5,
+          "matched_changed": 1,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20171029171010Mh",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171107222630Lh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171108222430Lh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20171122022450Uh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20180507140210Th",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20180726232450Bh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20181012105930Ch",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20181030230030Lh",
+          "instances": 4,
+          "matched_changed": 1,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 1
+        },
+        {
+          "image_id": "20190605025430Lh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20190607032610Mh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20200310113230Ch",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20200806072410Th",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20201228202510Mh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210101202450Bh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210127110130Ch",
+          "instances": 5,
+          "matched_changed": 0,
+          "matched_exact": 5,
+          "reordered_assignments": 0,
+          "same_position_exact": 5,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210219230330Lh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210607142350Bh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210627163630Mh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210701163730Mh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210708060030Lh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210726041650Uh",
+          "instances": 3,
+          "matched_changed": 0,
+          "matched_exact": 3,
+          "reordered_assignments": 0,
+          "same_position_exact": 3,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210730044930Lh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20210811072510Th",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20211119005210Mh",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20211214174010Mh",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20211224120130Ch",
+          "instances": 6,
+          "matched_changed": 0,
+          "matched_exact": 6,
+          "reordered_assignments": 0,
+          "same_position_exact": 6,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20211231180850Bh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220124155050Bh",
+          "instances": 1,
+          "matched_changed": 0,
+          "matched_exact": 1,
+          "reordered_assignments": 0,
+          "same_position_exact": 1,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220328035030Lh",
+          "instances": 4,
+          "matched_changed": 0,
+          "matched_exact": 4,
+          "reordered_assignments": 0,
+          "same_position_exact": 4,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220523234912Lh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220621185332Bh",
+          "instances": 8,
+          "matched_changed": 0,
+          "matched_exact": 8,
+          "reordered_assignments": 0,
+          "same_position_exact": 8,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220626185332Bh",
+          "instances": 9,
+          "matched_changed": 0,
+          "matched_exact": 9,
+          "reordered_assignments": 0,
+          "same_position_exact": 9,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220714185352Th",
+          "instances": 13,
+          "matched_changed": 0,
+          "matched_exact": 13,
+          "reordered_assignments": 0,
+          "same_position_exact": 13,
+          "symmetric_difference_pixels": 0
+        },
+        {
+          "image_id": "20220728185352Th",
+          "instances": 2,
+          "matched_changed": 0,
+          "matched_exact": 2,
+          "reordered_assignments": 0,
+          "same_position_exact": 2,
+          "symmetric_difference_pixels": 0
+        }
+      ],
+      "reference_csv_sha256": "8ae3160af9bddd5ac3ef914bc807da71e3e9cbad0444cc055d2ff0056cdfe2ba",
+      "summary": {
+        "changed_pair_pixels": 12,
+        "images": 180,
+        "images_with_exact_mask_set": 169,
+        "images_with_exact_sequence": 169,
+        "instances": 1241,
+        "largest_pair_pixel_difference": 1,
+        "matched_changed": 12,
+        "matched_exact": 1229,
+        "median_changed_pair_iou": 0.9994292400469981,
+        "median_changed_pair_pixels": 1.0,
+        "min_changed_pair_iou": 0.9978165938864629,
+        "reordered_assignments": 0,
+        "reordered_exact": 0,
+        "same_position_changed": 12,
+        "same_position_exact": 1229
+      }
+    }
+  },
+  "created_utc": "2026-11-13T15:18:18.527461+00:00",
+  "experiment": "P107",
+  "gpu_used": false,
+  "labels_used": false,
+  "p106_commit": "6843362b964dd62a53f19c975e777664c8ea2245",
+  "p106_completed_utc": "2026-11-13T14:39:48.471999+00:00",
+  "p106_executed_code_cells": 8,
+  "p106_receipt_sha256": "a4bf132c3ba4ca0464bcdbc822f1b1448bb64080b0dcc004afaab4686fe78257",
+  "pq_evaluation": false,
+  "protocol_sha256": "297bfe147b023fbfee2f5d727bb0d350e22fddc9f7d2a9fdc4eea4fd38db6c71"
+}

@@ -1,0 +1,99 @@
+{
+  "accepted_comparison": {
+    "byte_identical_csv": false,
+    "candidate_images": 180,
+    "candidate_only_ids": 0,
+    "candidate_rows": 1241,
+    "candidate_sha256": "16f7dd60e8308d1cdccff1b6b16e80eff74bf08b5996d5a5d58c9ce295ebb9c3",
+    "different_common_id_rles": 142,
+    "exact_image_rle_sequences": 90,
+    "identical_common_id_rles": 1099,
+    "images_with_changed_instance_count": 0,
+    "reference_images": 180,
+    "reference_only_ids": 0,
+    "reference_rows": 1241,
+    "reference_sha256": "24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60",
+    "scope": "prediction reproducibility; no ground-truth or PQ evaluation"
+  },
+  "code_cells": [
+    {
+      "cell_index": 1,
+      "completed_utc": "2026-11-13T14:05:32.977630+00:00",
+      "elapsed_seconds": 0.221,
+      "source_sha256": "5eb8ad2238f2d0175409384312fbb274d8498c7fd271437f9a3fce6498aa1899"
+    },
+    {
+      "cell_index": 3,
+      "completed_utc": "2026-11-13T14:05:48.102584+00:00",
+      "elapsed_seconds": 14.97,
+      "source_sha256": "597d7e59bc17441118cd7a31d6b21b182fa39a0b118a34139121f9aac208ed83"
+    },
+    {
+      "cell_index": 5,
+      "completed_utc": "2026-11-13T14:11:57.656558+00:00",
+      "elapsed_seconds": 369.428,
+      "source_sha256": "41fb5b6adc2f79b71f9d1c5fab6a104c40fbd4e5ba2207e3ff9d25f05043f8e4"
+    },
+    {
+      "cell_index": 7,
+      "completed_utc": "2026-11-13T14:15:37.180480+00:00",
+      "elapsed_seconds": 219.445,
+      "source_sha256": "1c92e4a9d6e412a67c0abe59eeccdf2b9df945915577c0c891dc159a8ad33d88"
+    },
+    {
+      "cell_index": 9,
+      "completed_utc": "2026-11-13T14:24:11.524562+00:00",
+      "elapsed_seconds": 514.236,
+      "source_sha256": "e1603093e75aae913b6a94e345bb96a2fb494bcc3337b309d076daad15323e8c"
+    },
+    {
+      "cell_index": 11,
+      "completed_utc": "2026-11-13T14:37:11.327293+00:00",
+      "elapsed_seconds": 779.702,
+      "source_sha256": "5b71400f3d8207121de2695e7a01b6f5ee7b89c53eebbe63045f74c1f289c05b"
+    },
+    {
+      "cell_index": 13,
+      "completed_utc": "2026-11-13T14:39:15.732162+00:00",
+      "elapsed_seconds": 124.182,
+      "source_sha256": "32e912264a79f3d68f408d70a008e806543da31fbcf814192a15422cc63ea566"
+    },
+    {
+      "cell_index": 15,
+      "completed_utc": "2026-11-13T14:39:48.287221+00:00",
+      "elapsed_seconds": 32.304,
+      "source_sha256": "6c85a33d28adb571daaa7e8368f011b00b384b02f48e8e5a6603f6ec8891b4c1"
+    }
+  ],
+  "commit": "6843362b964dd62a53f19c975e777664c8ea2245",
+  "completed_utc": "2026-11-13T14:39:48.471999+00:00",
+  "csv": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p106_public_clean_6843362_20261113/inference_cuda/submission_public_rebuilt.csv",
+  "csv_sha256": "16f7dd60e8308d1cdccff1b6b16e80eff74bf08b5996d5a5d58c9ce295ebb9c3",
+  "device": "cuda for H3 and original FP32 detector; CPU FP32 for refiners",
+  "elapsed_seconds": 2055.805,
+  "geometry_receipt_sha256": "2b1da57e78c1691b9aff5cca5bf1f6c9868d1651b063e458dad4f57723b4d6c1",
+  "gpu_uuid": "GPU-b2046dc8-91f7-fd8a-b237-96bb9e293d14",
+  "kaggle_submission_made": false,
+  "new_official_pq": null,
+  "notebook_sha256": "317b1781101fd6652b21b3f86d297b27136bd5c61ef7addfc8a904a7776314ad",
+  "p103_comparison": {
+    "byte_identical_csv": false,
+    "candidate_images": 180,
+    "candidate_only_ids": 0,
+    "candidate_rows": 1241,
+    "candidate_sha256": "16f7dd60e8308d1cdccff1b6b16e80eff74bf08b5996d5a5d58c9ce295ebb9c3",
+    "different_common_id_rles": 12,
+    "exact_image_rle_sequences": 169,
+    "identical_common_id_rles": 1229,
+    "images_with_changed_instance_count": 0,
+    "reference_images": 180,
+    "reference_only_ids": 0,
+    "reference_rows": 1241,
+    "reference_sha256": "8ae3160af9bddd5ac3ef914bc807da71e3e9cbad0444cc055d2ff0056cdfe2ba",
+    "scope": "prediction reproducibility; no ground-truth or PQ evaluation"
+  },
+  "runner_sha256": "50ec7a19344d76a74ef90109cbc40793a28a35ff00887e2929cc72b9f017a334",
+  "started_utc": "2026-11-13T14:05:32.666833+00:00",
+  "status": "P106_ALL_EIGHT_NOTEBOOK_CELLS_COMPLETED",
+  "test_annotations_used": false
+}

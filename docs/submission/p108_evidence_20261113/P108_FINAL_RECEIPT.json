@@ -1,0 +1,65 @@
+{
+  "between_partition_overlap_counts": {
+    "calibration_test": 0,
+    "train_calibration": 0,
+    "train_test": 0
+  },
+  "completed_utc": "2026-11-13T17:06:48.691923+00:00",
+  "existing_p59_train_inference_npz_count": 446,
+  "frozen_cohort_counts": {
+    "calibration": 117,
+    "test": 139,
+    "train": 446
+  },
+  "gates": {
+    "F1_cohort_sizes_match_frozen_protocol": true,
+    "F1_physical_filename_partitions_disjoint": true,
+    "P106_eight_cell_receipt_integrity": true,
+    "frozen_OOF_baseline_and_1p15_context_inputs_proven": false,
+    "per_image_OOF_provenance_for_all_upstream_models": false,
+    "per_image_OOF_provenance_for_both_refiners": false,
+    "per_image_OOF_provenance_for_fitted_selector": false
+  },
+  "input_sha256": {
+    "P106_FINAL_RECEIPT.json": "a4bf132c3ba4ca0464bcdbc822f1b1448bb64080b0dcc004afaab4686fe78257",
+    "h9b_nosite_selector.json": "ec7688235cb8640ebb10cac3abdb44c8a1d0f3a8cd4f087b9b361c5a0adad59e",
+    "split_F1.json": "4f30e3b8f6d84e03bee1cfc6a65c03261116f725a0ff621ddfbd4de49e88cbda"
+  },
+  "kaggle_submission_made": false,
+  "limitations": [
+    "Scope is the frozen project and released model families, not every storage device.",
+    "An unverified or absent OOF manifest is not proof of label leakage.",
+    "F1 cohorts have been examined previously and cannot constitute an unseen blind test.",
+    "The accepted H9b submission is not modified by this audit."
+  ],
+  "local_PQ_new": null,
+  "model_role_image_exclusion_evidence": {
+    "EfficientNetV2-S crop refiner": false,
+    "H3 semantic predictors": false,
+    "Mask R-CNN proposal models": false,
+    "ResNet34 crop refiner": false,
+    "no-site selector": false
+  },
+  "non_ALL_refiner_checkpoints_found_in_scoped_folds_seeds_release": [],
+  "official_PQ_new": null,
+  "p59_npz_filename_matches_per_F1_cohort_not_OOF_proof": {
+    "calibration": 0,
+    "test": 0,
+    "train": 446
+  },
+  "protocol": "P108_PREREG_PROVENANCE_GATE",
+  "release_refiner_checkpoint_names": [
+    "refiner_ALL.pt",
+    "refiner_ALL_efficientnet_v2_s.pt"
+  ],
+  "run_1p15_context_ablation": false,
+  "scope": "read-only F1 TRAIN provenance assessment; NOT a PQ evaluation",
+  "selector_feature_rows_used_for_training": 11449,
+  "selector_metadata_oof_exclusion_fields_found": [],
+  "status": "BLOCKED_NO_VERIFIED_OOF_PROVENANCE",
+  "within_partition_duplicate_counts": {
+    "calibration": 0,
+    "test": 0,
+    "train": 0
+  }
+}

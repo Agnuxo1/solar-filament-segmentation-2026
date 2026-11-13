@@ -4,13 +4,15 @@ Author: Francisco Angulo de Lafuente ([ORCID 0009-0001-1634-7063](https://orcid.
 
 [Four-page technical report](../docs/submission/TECHNICAL_REPORT_4P_20261112.pdf) · [Official final submission form](https://docs.google.com/forms/d/e/1FAIpQLSfyrM4dhc8QzxR90PtF6fb018KPf0S0Cbf5hPqMuUognmzQsA/viewform?usp=dialog)
 
+**13 November 2026 — P94, exact replay of the genuine accepted upload (bounded claim):** [The P94 independent audit](../docs/submission/P94_TRUE_UPLOAD_EXACT_PARITY_RESULT_20261113.md) confirms that CPU FP32 inference with the original two refiner checkpoints and **frozen H9b no-site crop inputs** reproduced submission **58112557** byte for byte (CSV SHA-256 `24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60`), matching **1,241/1,241 RLE rows**. This does **not** prove end-to-end reconstruction from original JPEGs, because the detector/H6 selection and exact crop generation remain to be independently reproduced. It is not a new Kaggle submission or a new score. The mandatory final Google Form still has **no verified receipt**.
+
 **New audit (12 November 2026):** [SFPAIR: 7,200-step small-filament sampler continuation and independent seed replications](../docs/SFPAIR-EXT-REPL-20261112.md). This training is unvalidated for PQ and has not been promoted or submitted. Its research ID is distinct from the existing P59–P62 studies.
 
 ## What has been independently checked
 
 The submitted H9b no-site pipeline consists of four independently trained ResNet34 U-Nets, four Mask R-CNN proposal models, a calibrated instance selection rule, and two crop refiners. Inference uses only the supplied H-alpha test image, without temporal neighbours or externally annotated labels.
 
-The preserved **stage-two** replay (from previously generated own model outputs to H9b instance masks and CSV) covers 180 official test images, 1,241 disjoint RLE instances and 2048-by-2048 masks. The rebuilt CSV hash is `67f02e4d54b78424306133840ec144b426c8b308f6fc659f90a7f67131d5a79e`; the independently preserved original accepted file has hash `24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60`. **These files have different digests**, so do not claim byte-exact identity or a complete raw-image replay.
+The preserved **stage-two** replay (from previously generated own model outputs to H9b instance masks and CSV) covers 180 official test images, 1,241 disjoint RLE instances and 2048-by-2048 masks. The rebuilt CSV hash is `67f02e4d54b78424306133840ec144b426c8b308f6fc659f90a7f67131d5a79e`; the independently preserved original accepted file has hash `24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60`. **These two stage-two artifacts have different digests**. This earlier comparison must not be confused with the P94 exact replay of the *genuine* accepted Kaggle upload from frozen crops; neither test establishes complete raw-image replay.
 
 A separate 12 November 2026 raw-to-U-Net audit regenerated **720 maps** (four trained U-Nets × 180 images) from the original weights on one RTX 3090. Per-block pixel equality with our own historical probability maps was F1 **99.9960%**, F2 **99.9956%**, F3 **99.9930%**, F4 **99.9931%**. The maximum uint8 difference was 1, 1, 18 and 6 respectively. None of the 720 images were entirely bit-exact. These tiny differences can affect thresholding and must be disclosed; this is not a verification of an exactly identical final submission.
 
@@ -44,7 +46,7 @@ Reproduce the integrity check from a checkout containing `release/`, `notebooks/
 python scripts/verify_release_assets.py --json-out release-integrity-receipt.json
 ```
 
-The preflight **does not execute model inference or either notebook**, and the notebooks themselves start from intermediate cached predictions. It therefore does **not** establish source-image-to-final-CSV reproducibility or byte identity with the Kaggle-accepted submission. A complete, independently executed raw-image replay remains an open final-delivery requirement.
+The preflight **does not execute model inference or either notebook**, and the notebooks themselves start from intermediate cached predictions. It therefore does **not** establish source-image-to-final-CSV reproducibility. The later P94 CPU FP32 refiner replay does establish byte identity with the Kaggle-accepted submission **only from frozen crop-stage inputs**, as documented above. A complete, independently executed raw-image replay remains an open final-delivery requirement.
 
 
 ## Public source-to-H3 reproducibility test (12 November 2026)
@@ -72,6 +74,6 @@ The full detector, H6, crop-refinement and final accepted-CSV pipeline still
 requires an independently executed end-to-end reproduction. The official
 Google Form must be submitted and its receipt verified separately.
 
-**Full-domain public H3 source audit (12 Nov 2026):** [P77/P78 F1 180-image replay and byte-parity report](../docs/submission/P77_P78_FULL_F1_H3_REPRO_AUDIT_20261112.md). This is source-to-semantic-map reproducibility; final H9b CSV parity remains unverified.
+**Full-domain public H3 source audit (12 Nov 2026):** [P77/P78 F1 180-image replay and byte-parity report](../docs/submission/P77_P78_FULL_F1_H3_REPRO_AUDIT_20261112.md). This is source-to-semantic-map reproducibility. The later P94 audit establishes frozen-crops-to-accepted-CSV byte parity, but full original-JPEG-to-final-CSV reproducibility remains unverified.
 
 **Complete semantic-stage evidence (12 Nov 2026):** [P79/P80 all four U-Net models x 180 original images = 720 public-source probability maps and independent pixel-parity audit](../docs/submission/P79_P80_FOURFOLD_H3_REPRO_AUDIT_20261112.md). This stage-one reconstruction does not establish final H9b CSV equivalence.

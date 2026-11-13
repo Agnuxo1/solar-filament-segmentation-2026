@@ -1,0 +1,69 @@
+{
+  "counts": {
+    "fold_then_view": 0,
+    "view_then_fold": 0
+  },
+  "cpu_only": true,
+  "historical_detector_comparison": true,
+  "images": 4,
+  "input_public_P88": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p88_public_fp32_cpu_full_20261112/receipt.json",
+  "per_image": {
+    "20110120105534Ch.jpeg": {
+      "fold_then_view": {
+        "exact": false,
+        "length_candidate": 122,
+        "length_original": 4,
+        "same_length": false
+      },
+      "view_then_fold": {
+        "exact": false,
+        "length_candidate": 122,
+        "length_original": 4,
+        "same_length": false
+      }
+    },
+    "20110130110334Ch.jpeg": {
+      "fold_then_view": {
+        "exact": false,
+        "length_candidate": 77,
+        "length_original": 4,
+        "same_length": false
+      },
+      "view_then_fold": {
+        "exact": false,
+        "length_candidate": 77,
+        "length_original": 4,
+        "same_length": false
+      }
+    },
+    "20110214175414Mh.jpeg": {
+      "fold_then_view": {
+        "exact": false,
+        "length_candidate": 188,
+        "length_original": 11,
+        "same_length": false
+      },
+      "view_then_fold": {
+        "exact": false,
+        "length_candidate": 188,
+        "length_original": 11,
+        "same_length": false
+      }
+    },
+    "20110329082654Uh.jpeg": {
+      "fold_then_view": {
+        "exact": false,
+        "length_candidate": 395,
+        "length_original": 29,
+        "same_length": false
+      },
+      "view_then_fold": {
+        "exact": false,
+        "length_candidate": 395,
+        "length_original": 29,
+        "same_length": false
+      }
+    }
+  },
+  "test_annotations_used": false
+}

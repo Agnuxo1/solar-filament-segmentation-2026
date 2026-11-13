@@ -45,7 +45,7 @@ def compare(left: np.ndarray, right: np.ndarray) -> dict:
     delta = cv2.absdiff(left, right)
     changed = np.count_nonzero(delta)
     return {
-        "exact": changed == 0,
+        "exact": bool(changed == 0),
         "changed_pixels": int(changed),
         "total_pixels": int(delta.size),
         "max_absolute_byte_difference": int(delta.max()),

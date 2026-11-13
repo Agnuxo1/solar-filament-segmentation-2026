@@ -1,0 +1,536 @@
+{
+  "audit_script_sha256": "f6c52738904937f0787bf8ef636a0c51f41acd573f276da20c3a28a5b0301891",
+  "audited_image_model_pairs": 16,
+  "computed_new_PQ": false,
+  "experiment": "two independent original-source CUDA replays of F1-F4 on the same four original test JPEGs",
+  "folds": [
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ],
+  "full_raw_jpeg_to_csv_parity": false,
+  "images_per_fold": 4,
+  "official_submission_made": false,
+  "per_pair": [
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F1",
+      "image": "20110120105534Ch.jpeg",
+      "map_sha256": {
+        "earlier_public": "c5170fc810032541303f9fa1428aec7071fe5408d662b19aba49cb820081b0d8",
+        "repeat_a": "c5170fc810032541303f9fa1428aec7071fe5408d662b19aba49cb820081b0d8",
+        "repeat_b": "c5170fc810032541303f9fa1428aec7071fe5408d662b19aba49cb820081b0d8"
+      },
+      "original_image_sha256": "7190e95661c142b194c3d2afddfedfee3382c2b3ded2f2f1b023d13e3bd58baf"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F1",
+      "image": "20110130110334Ch.jpeg",
+      "map_sha256": {
+        "earlier_public": "59d1e2ee8f7cb2a7f16b622563f5663f017cc971326abe5f62db660ea5a0c4bf",
+        "repeat_a": "59d1e2ee8f7cb2a7f16b622563f5663f017cc971326abe5f62db660ea5a0c4bf",
+        "repeat_b": "59d1e2ee8f7cb2a7f16b622563f5663f017cc971326abe5f62db660ea5a0c4bf"
+      },
+      "original_image_sha256": "e4771f4bf1efddaeb474a8e7772e3cbe1973894dac12179966cd4452fed4d60e"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F1",
+      "image": "20110214175414Mh.jpeg",
+      "map_sha256": {
+        "earlier_public": "b27908fa8dce047b68ffb4c08d807e63c04d6a2ad783d39af428cd69adeb5b99",
+        "repeat_a": "b27908fa8dce047b68ffb4c08d807e63c04d6a2ad783d39af428cd69adeb5b99",
+        "repeat_b": "b27908fa8dce047b68ffb4c08d807e63c04d6a2ad783d39af428cd69adeb5b99"
+      },
+      "original_image_sha256": "5e9fb3883b52aa388d22a0990e0fb819d054417e18dda08f8046a783667cd956"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F1",
+      "image": "20110329082654Uh.jpeg",
+      "map_sha256": {
+        "earlier_public": "fd2f34af3f09ed2fbe11314b43b0d63676a67c9673e6586b944205c01368c073",
+        "repeat_a": "fd2f34af3f09ed2fbe11314b43b0d63676a67c9673e6586b944205c01368c073",
+        "repeat_b": "fd2f34af3f09ed2fbe11314b43b0d63676a67c9673e6586b944205c01368c073"
+      },
+      "original_image_sha256": "1992c5a7b87fd18282c33f4fd61414f6ee55ba552f6cbfd9cf99b2cc02c70adb"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F2",
+      "image": "20110120105534Ch.jpeg",
+      "map_sha256": {
+        "earlier_public": "a81e1dec01b48de59d40c21302d0104466517d27e1ca70a9758274affd0e63a2",
+        "repeat_a": "a81e1dec01b48de59d40c21302d0104466517d27e1ca70a9758274affd0e63a2",
+        "repeat_b": "a81e1dec01b48de59d40c21302d0104466517d27e1ca70a9758274affd0e63a2"
+      },
+      "original_image_sha256": "7190e95661c142b194c3d2afddfedfee3382c2b3ded2f2f1b023d13e3bd58baf"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F2",
+      "image": "20110130110334Ch.jpeg",
+      "map_sha256": {
+        "earlier_public": "c7ce15a47f158f01adba715807286a675ae43c79b66f53f643a6a9de7cb99c5a",
+        "repeat_a": "c7ce15a47f158f01adba715807286a675ae43c79b66f53f643a6a9de7cb99c5a",
+        "repeat_b": "c7ce15a47f158f01adba715807286a675ae43c79b66f53f643a6a9de7cb99c5a"
+      },
+      "original_image_sha256": "e4771f4bf1efddaeb474a8e7772e3cbe1973894dac12179966cd4452fed4d60e"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F2",
+      "image": "20110214175414Mh.jpeg",
+      "map_sha256": {
+        "earlier_public": "def5778a9e3074d1dbabafd6a0a4bd6defb5182b33e3eeb3b350e3f7e49a969a",
+        "repeat_a": "def5778a9e3074d1dbabafd6a0a4bd6defb5182b33e3eeb3b350e3f7e49a969a",
+        "repeat_b": "def5778a9e3074d1dbabafd6a0a4bd6defb5182b33e3eeb3b350e3f7e49a969a"
+      },
+      "original_image_sha256": "5e9fb3883b52aa388d22a0990e0fb819d054417e18dda08f8046a783667cd956"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F2",
+      "image": "20110329082654Uh.jpeg",
+      "map_sha256": {
+        "earlier_public": "c5f9e2568a11deaae9509a4f33237f2c94dcd98a5328b53b017344802545ff61",
+        "repeat_a": "c5f9e2568a11deaae9509a4f33237f2c94dcd98a5328b53b017344802545ff61",
+        "repeat_b": "c5f9e2568a11deaae9509a4f33237f2c94dcd98a5328b53b017344802545ff61"
+      },
+      "original_image_sha256": "1992c5a7b87fd18282c33f4fd61414f6ee55ba552f6cbfd9cf99b2cc02c70adb"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F3",
+      "image": "20110120105534Ch.jpeg",
+      "map_sha256": {
+        "earlier_public": "d057c836b5f4a6a082a519a7a9269f60b485adb0f4d4142554ec713ef136ce1d",
+        "repeat_a": "d057c836b5f4a6a082a519a7a9269f60b485adb0f4d4142554ec713ef136ce1d",
+        "repeat_b": "d057c836b5f4a6a082a519a7a9269f60b485adb0f4d4142554ec713ef136ce1d"
+      },
+      "original_image_sha256": "7190e95661c142b194c3d2afddfedfee3382c2b3ded2f2f1b023d13e3bd58baf"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F3",
+      "image": "20110130110334Ch.jpeg",
+      "map_sha256": {
+        "earlier_public": "913b4d6760fd0e81e0ab07cf683fa17718c1815077243a833cddfac7596e136a",
+        "repeat_a": "913b4d6760fd0e81e0ab07cf683fa17718c1815077243a833cddfac7596e136a",
+        "repeat_b": "913b4d6760fd0e81e0ab07cf683fa17718c1815077243a833cddfac7596e136a"
+      },
+      "original_image_sha256": "e4771f4bf1efddaeb474a8e7772e3cbe1973894dac12179966cd4452fed4d60e"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F3",
+      "image": "20110214175414Mh.jpeg",
+      "map_sha256": {
+        "earlier_public": "a3915cdc18aaac943a2193574b0ba6e9afa700e1d9e2e9c679aa492a16ec96f1",
+        "repeat_a": "a3915cdc18aaac943a2193574b0ba6e9afa700e1d9e2e9c679aa492a16ec96f1",
+        "repeat_b": "a3915cdc18aaac943a2193574b0ba6e9afa700e1d9e2e9c679aa492a16ec96f1"
+      },
+      "original_image_sha256": "5e9fb3883b52aa388d22a0990e0fb819d054417e18dda08f8046a783667cd956"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F3",
+      "image": "20110329082654Uh.jpeg",
+      "map_sha256": {
+        "earlier_public": "1b936be5fb7b5e2851914b271a13bc8cba06ec208f046e27f727d1167cb1100c",
+        "repeat_a": "1b936be5fb7b5e2851914b271a13bc8cba06ec208f046e27f727d1167cb1100c",
+        "repeat_b": "1b936be5fb7b5e2851914b271a13bc8cba06ec208f046e27f727d1167cb1100c"
+      },
+      "original_image_sha256": "1992c5a7b87fd18282c33f4fd61414f6ee55ba552f6cbfd9cf99b2cc02c70adb"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F4",
+      "image": "20110120105534Ch.jpeg",
+      "map_sha256": {
+        "earlier_public": "914dd8ad23a5a0f50686029289021eaa78acdfbbb320cdaa392f5a30b14f5a24",
+        "repeat_a": "914dd8ad23a5a0f50686029289021eaa78acdfbbb320cdaa392f5a30b14f5a24",
+        "repeat_b": "914dd8ad23a5a0f50686029289021eaa78acdfbbb320cdaa392f5a30b14f5a24"
+      },
+      "original_image_sha256": "7190e95661c142b194c3d2afddfedfee3382c2b3ded2f2f1b023d13e3bd58baf"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F4",
+      "image": "20110130110334Ch.jpeg",
+      "map_sha256": {
+        "earlier_public": "4ed4ab4caf1676659d6a29913da8c8273f24721fab90f0e5344bfd8a821ed210",
+        "repeat_a": "4ed4ab4caf1676659d6a29913da8c8273f24721fab90f0e5344bfd8a821ed210",
+        "repeat_b": "4ed4ab4caf1676659d6a29913da8c8273f24721fab90f0e5344bfd8a821ed210"
+      },
+      "original_image_sha256": "e4771f4bf1efddaeb474a8e7772e3cbe1973894dac12179966cd4452fed4d60e"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F4",
+      "image": "20110214175414Mh.jpeg",
+      "map_sha256": {
+        "earlier_public": "7c3d15a3785f00d373f339c72dfe1eedf1a29e51ee5d3109f00e68a705f8590e",
+        "repeat_a": "7c3d15a3785f00d373f339c72dfe1eedf1a29e51ee5d3109f00e68a705f8590e",
+        "repeat_b": "7c3d15a3785f00d373f339c72dfe1eedf1a29e51ee5d3109f00e68a705f8590e"
+      },
+      "original_image_sha256": "5e9fb3883b52aa388d22a0990e0fb819d054417e18dda08f8046a783667cd956"
+    },
+    {
+      "a_vs_b": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "a_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "b_vs_earlier_public": {
+        "changed_pixels": 0,
+        "exact": true,
+        "max_absolute_byte_difference": 0,
+        "sum_absolute_byte_difference": 0,
+        "total_pixels": 4194304
+      },
+      "fold": "F4",
+      "image": "20110329082654Uh.jpeg",
+      "map_sha256": {
+        "earlier_public": "427296b230969867a88b048b77ed1311d860b8bf9c0257977f8d72eb38ba70f0",
+        "repeat_a": "427296b230969867a88b048b77ed1311d860b8bf9c0257977f8d72eb38ba70f0",
+        "repeat_b": "427296b230969867a88b048b77ed1311d860b8bf9c0257977f8d72eb38ba70f0"
+      },
+      "original_image_sha256": "1992c5a7b87fd18282c33f4fd61414f6ee55ba552f6cbfd9cf99b2cc02c70adb"
+    }
+  ],
+  "protocol": "P100_H3_REPEATABILITY_PREREG_20261113.md",
+  "self_test": "passed",
+  "status": "COMPLETE",
+  "study": "P100",
+  "summary": {
+    "a_vs_b": {
+      "changed_pixels": 0,
+      "exact_pairs": 16,
+      "max_absolute_byte_difference": 0
+    },
+    "a_vs_earlier_public": {
+      "changed_pixels": 0,
+      "exact_pairs": 16,
+      "max_absolute_byte_difference": 0
+    },
+    "b_vs_earlier_public": {
+      "changed_pixels": 0,
+      "exact_pairs": 16,
+      "max_absolute_byte_difference": 0
+    }
+  },
+  "used_test_labels": false,
+  "utc": "2026-11-13T09:04:53.374234+00:00"
+}

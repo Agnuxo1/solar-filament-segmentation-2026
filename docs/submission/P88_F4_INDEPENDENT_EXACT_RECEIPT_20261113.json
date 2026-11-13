@@ -1,0 +1,15 @@
+{
+  "cpu_only": true,
+  "end_to_end_csv_reproduced": false,
+  "exact_instances": 12193,
+  "fold": "F4",
+  "images": 180,
+  "manifest_sha256": "337bd0a5d83f574ec9e175605410d6a9e5faa1ee9be9767c4e57bc06afa4e042",
+  "no_new_kaggle_submission": true,
+  "no_test_labels": true,
+  "reference_manifest_sha256": "73c87a81646374cc95a78f9a6f04dab4f426d818f22aa9d1c97b15678dc85229",
+  "source_sha256": "fb9e757f7c5ed36e7ec0ea93f2e7f07cd7ad65f7ddfd0ddf93f34e80c8078ca6",
+  "status": "P88_F4_INDEPENDENT_FULL_DOMAIN_PASS",
+  "utc": "2026-11-13T02:08:16.468823+00:00",
+  "views": 360
+}

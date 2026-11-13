@@ -1,0 +1,15 @@
+{
+  "cpu_only": true,
+  "end_to_end_csv_reproduced": false,
+  "exact_instances": 12323,
+  "fold": "F3",
+  "images": 180,
+  "manifest_sha256": "d8c2fee0305a1fa016928b02d87991f83308f3d3b7ca447cdf5221d2fbeffa0b",
+  "no_new_kaggle_submission": true,
+  "no_test_labels": true,
+  "reference_manifest_sha256": "861af4022631fac7fc20a57790266051dacea0998f1ec590c1fa46359a4b9827",
+  "source_sha256": "fb9e757f7c5ed36e7ec0ea93f2e7f07cd7ad65f7ddfd0ddf93f34e80c8078ca6",
+  "status": "P88_F3_INDEPENDENT_FULL_DOMAIN_PASS",
+  "utc": "2026-11-13T02:08:16.231351+00:00",
+  "views": 360
+}

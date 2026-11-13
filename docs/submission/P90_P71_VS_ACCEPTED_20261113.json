@@ -1,0 +1,209 @@
+{
+  "accepted_file": "/srv/almacen/nas-2tb-1/solar-filament-2026/final-release-staging-20261112/submission_58112557.csv",
+  "accepted_rows": 1241,
+  "accepted_sha256": "67f02e4d54b78424306133840ec144b426c8b308f6fc659f90a7f67131d5a79e",
+  "affected_images": 49,
+  "byte_identical": false,
+  "candidate_file": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p71_assembly/submission_h9b.csv",
+  "candidate_rows": 1241,
+  "candidate_sha256": "bb6bba8db2c4cc007154b380b02629137b62e2cbc3c859aebca128a36d713515",
+  "common_ids": 1241,
+  "competition_test_annotations_used": false,
+  "different_rle_rows": 58,
+  "exact_rle_rows": 1183,
+  "first_mismatched_rows": [
+    {
+      "accepted_rle_sha256": "059e326c71589c5d340b98c2ff8bdd228626ed2d285beee335cd05e79e2f4e3a",
+      "candidate_rle_sha256": "f4725b988e31fe80951fa96d323e22a2d42cef4be30ce47c9c26cb428f9c05af",
+      "filament_id": "20110329082654Uh_2"
+    },
+    {
+      "accepted_rle_sha256": "dd04cf88c545007c3c5a229cdc3d7d5f517b32539496727e6cd342470cbd384a",
+      "candidate_rle_sha256": "948b9a99a8095ede51c717fd973853d7850b8dc049ea8223288cef3f8f31aebc",
+      "filament_id": "20110408083214Th_1"
+    },
+    {
+      "accepted_rle_sha256": "e0d26896d3a8fdab18fa2d982a67643ced66423bd2053fae77bf450aacf34e7a",
+      "candidate_rle_sha256": "66708512909c1427fc9631012c442caf4cf0ab28d05be3630e4885747323cac5",
+      "filament_id": "20110408083214Th_5"
+    },
+    {
+      "accepted_rle_sha256": "d91376db421895b49b118bd50410fbc3c515c461f6efc6b0c85370246245e194",
+      "candidate_rle_sha256": "e0bb65a5d9edda7573b1a3bc0e35ab22e82b053324d6f4d897c4be14d7e17ac5",
+      "filament_id": "20110429120534Ch_10"
+    },
+    {
+      "accepted_rle_sha256": "1f4ef74c1aaf81130f361cac2dc06260efb4d0498e24f53c291efe4838622450",
+      "candidate_rle_sha256": "4d33c0b90a74350392e64eaea16249fe5fffe6bd937c1c4d0382d9ae984e4728",
+      "filament_id": "20110811121534Ch_7"
+    },
+    {
+      "accepted_rle_sha256": "c27317275d9402a99cf9242f8c6fabe49e4a19d5998257ecb66c15b0e9478928",
+      "candidate_rle_sha256": "79635e80d8e77c1b316b57d5f6361f0e444304f5bdf1abd39ea3174a64b1f9ac",
+      "filament_id": "20110912142254Bh_2"
+    },
+    {
+      "accepted_rle_sha256": "768f0c8c8d9c9b1b4314f827bfb028c4d5adb2d8f66cbd6ae59f8d9241fb2555",
+      "candidate_rle_sha256": "4e31f3aef1c2a607e7efeb4a5ea65b1789fe8470379458313f1bef869a454437",
+      "filament_id": "20111114063134Lh_3"
+    },
+    {
+      "accepted_rle_sha256": "05b6fa202305916e5475aa09a7dede671a72995cc1f6caeff55cacc0437e5e45",
+      "candidate_rle_sha256": "d9e214a4998ea2a0a74821e175094ee97e4456ddf5c89a167e3e5a7e6992f429",
+      "filament_id": "20111208173814Mh_1"
+    },
+    {
+      "accepted_rle_sha256": "7d496d569ff96a9f3238c36313f63e30d13e9cd13b32c21495c24f82cdb03f18",
+      "candidate_rle_sha256": "83294f0bc40fd35d76ac09aa2a84b960676c3566e55f1c7e6fc4eb956a9219c0",
+      "filament_id": "20111208173814Mh_3"
+    },
+    {
+      "accepted_rle_sha256": "47c6528ff9820567fd52b06fe1f727d90c9c1f63bccf591728cabba6c3d93218",
+      "candidate_rle_sha256": "a97b82a5503be6f088523de2f6204891072cb76fa41a3d8ac24180ac64d42cef",
+      "filament_id": "20111216174914Mh_3"
+    },
+    {
+      "accepted_rle_sha256": "e9d1dc0aa95fee502682beea2c9562976d0c5cef06e5ca6ab6b6b31b54bb8132",
+      "candidate_rle_sha256": "6c84dd2c6e47116587e9c56124e6ea6da93b4e85898a8af37468cf8a8001fe7d",
+      "filament_id": "20120111191454Bh_4"
+    },
+    {
+      "accepted_rle_sha256": "8e79069a14248148b3b769af00ea9af0a5732c3143db00cff38ba7094293ee88",
+      "candidate_rle_sha256": "c8ffdac549addfe228e9c574eac13b26ab156dda2c8563f639afe3d3f4de73b9",
+      "filament_id": "20120218152654Bh_8"
+    },
+    {
+      "accepted_rle_sha256": "1ba0e6f3318c5a6c8e6205c13c6e7896a1c1a273168c3641583c8bbef079f6f7",
+      "candidate_rle_sha256": "0519f3ac50841e88e3fdd729c8524a4c28a9dc6389bfa637005c57a9f6353a47",
+      "filament_id": "20120606063154Uh_1"
+    },
+    {
+      "accepted_rle_sha256": "d5965745c5de1f0a8bf17c4c4fa705caf2245629eddc5ea429e47caa08139779",
+      "candidate_rle_sha256": "db7b68cfdcfbf4fa9c99862ceb0edcec0362e8507491443ca50288d48eb55348",
+      "filament_id": "20120622063154Uh_5"
+    },
+    {
+      "accepted_rle_sha256": "91ed33190b2ee6b2daf7de33fd76e622c0f332009269b9397ab3095eb8ee60ec",
+      "candidate_rle_sha256": "a6462f48edbe84d144e31a72208d8417a18f1e58bb41c6484bb2f6f944b90e22",
+      "filament_id": "20120730072014Th_6"
+    },
+    {
+      "accepted_rle_sha256": "5c0ad165e047d4eac9b7d062abed890111f052d17bdcd00224655066985566b5",
+      "candidate_rle_sha256": "2611be190570125bef279b4de7f58d2973f2814edcb0688c1bb4202dc3efb03c",
+      "filament_id": "20120930063534Lh_6"
+    },
+    {
+      "accepted_rle_sha256": "7095a34d82427a28f10d2910d0abdb05c2d478c30897b33329c9b6d1ee5256fa",
+      "candidate_rle_sha256": "66b37f9d4489ab9b38b2fb28b2b607001de38329d10d0a4a093c15077dccac48",
+      "filament_id": "20121125063154Uh_8"
+    },
+    {
+      "accepted_rle_sha256": "486a5fdfad4393d77979ee60b7c9a1cd9702a89f7fa5df9351fc7afe93e0f7a1",
+      "candidate_rle_sha256": "d26c6dade18f5cd179f0f2a48828146a6e72a8b0bcc9aa572520eeb86cc9e0d6",
+      "filament_id": "20121206063154Uh_4"
+    },
+    {
+      "accepted_rle_sha256": "5a7054b3216beba4d687205d511734189c9b8de6ad3f1208880a787d3d5795eb",
+      "candidate_rle_sha256": "3286ca174466015f40f769defbc9a8c967c202915c8d7238b2d27fe006890d1d",
+      "filament_id": "20121216154954Bh_1"
+    },
+    {
+      "accepted_rle_sha256": "2973e38ba2c0397433fc36492bd55cbaa34c9dc414355e0adcb641fcbf5ebde6",
+      "candidate_rle_sha256": "92affe31318a1b11a0765f07444cfac2c47507a44845cbb2d692241b6fc5deb8",
+      "filament_id": "20121220110614Th_4"
+    }
+  ],
+  "first_missing_ids": [],
+  "first_unexpected_ids": [],
+  "input_labels_used": false,
+  "largest_image_mismatch_counts": [
+    {
+      "image_id": "20110408083214Th",
+      "mismatching_instances": 2
+    },
+    {
+      "image_id": "20111208173814Mh",
+      "mismatching_instances": 2
+    },
+    {
+      "image_id": "20130530133654Bh",
+      "mismatching_instances": 2
+    },
+    {
+      "image_id": "20140710020754Uh",
+      "mismatching_instances": 2
+    },
+    {
+      "image_id": "20141104195854Bh",
+      "mismatching_instances": 2
+    },
+    {
+      "image_id": "20150124081954Uh",
+      "mismatching_instances": 2
+    },
+    {
+      "image_id": "20150619133554Bh",
+      "mismatching_instances": 2
+    },
+    {
+      "image_id": "20150620161314Mh",
+      "mismatching_instances": 2
+    },
+    {
+      "image_id": "20220714185352Th",
+      "mismatching_instances": 2
+    },
+    {
+      "image_id": "20110329082654Uh",
+      "mismatching_instances": 1
+    },
+    {
+      "image_id": "20110429120534Ch",
+      "mismatching_instances": 1
+    },
+    {
+      "image_id": "20110811121534Ch",
+      "mismatching_instances": 1
+    },
+    {
+      "image_id": "20110912142254Bh",
+      "mismatching_instances": 1
+    },
+    {
+      "image_id": "20111114063134Lh",
+      "mismatching_instances": 1
+    },
+    {
+      "image_id": "20111216174914Mh",
+      "mismatching_instances": 1
+    },
+    {
+      "image_id": "20120111191454Bh",
+      "mismatching_instances": 1
+    },
+    {
+      "image_id": "20120218152654Bh",
+      "mismatching_instances": 1
+    },
+    {
+      "image_id": "20120606063154Uh",
+      "mismatching_instances": 1
+    },
+    {
+      "image_id": "20120622063154Uh",
+      "mismatching_instances": 1
+    },
+    {
+      "image_id": "20120730072014Th",
+      "mismatching_instances": 1
+    }
+  ],
+  "missing_ids_count": 0,
+  "new_cuda_processes": 0,
+  "new_kaggle_submissions": 0,
+  "protocol": "P90_SCIENTIFIC_REPLAY_GAP",
+  "same_row_order": true,
+  "scope": "CSV RLE fingerprint and row provenance only; no PQ inference",
+  "unexpected_ids_count": 0,
+  "utc": "2026-11-13T02:19:22.795587+00:00"
+}

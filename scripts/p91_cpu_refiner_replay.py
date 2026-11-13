@@ -103,11 +103,11 @@ def self_test() -> None:
                   for i in range(180)}
         np.savez_compressed(first, **images)
         np.savez_compressed(second, **images)
-        assert compare(first, second)["different_pixels"] == 0
+        assert compare(first, second)["differing_pixels"] == 0
         images["im002"][0, 0, 0] += 1
         np.savez_compressed(second, **images)
         r = compare(first, second)
-        assert r["different_pixels"] == 1
+        assert r["differing_pixels"] == 1
         assert r["exact_images"] == 179
         assert r["max_byte_delta"] == 1
     print("P91_SELF_TEST_PASS", flush=True)
@@ -189,7 +189,7 @@ def main() -> None:
         print("P91_MODEL", json.dumps({
             "encoder": encoder,
             "exact_fraction": result_data["against_original"]["exact_fraction"],
-            "different_pixels": result_data["against_original"]["differing_pixels"],
+            "differing_pixels": result_data["against_original"]["differing_pixels"],
         }), flush=True)
     assembled = OUT / "assembled"
     assembled.mkdir(exist_ok=True)

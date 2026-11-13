@@ -51,6 +51,8 @@ P105 validates code portability, interfaces and integrity contracts; it does not
 
 ### Scientific record
 
+**P109 CPU-only topology audit (13 November 2026):** [preregistration, independent code, full machine-readable receipt and scientific closure](docs/submission/p109_evidence_20261113/P109_SCIENTIFIC_CLOSURE.md) checked the 133 P106-versus-H9b changed matched masks (270 total pixels). Median difference: one pixel; 15 bounding boxes and one 8-connected-component count changed, falsifying a strict topology-invariance hypothesis. All P107 matching controls were reproduced. This is prediction reproducibility, **not** new PQ, model selection or a Kaggle submission.
+
 The [preregistered P108 out-of-fold provenance gate](docs/submission/p108_evidence_20261113/P108_SCIENTIFIC_CLOSURE.md) was completed on 13 November 2026. It verified the disjoint F1 physical-image groups and the P106 receipt but **did not certify out-of-sample model, selector and refiner provenance** for the proposed 1.15× extra-context TRAIN ablation. That ablation was therefore **not run**; no new PQ, model promotion or Kaggle upload is claimed.
 
 Local validation groups annotators of the same physical image and uses temporal exclusions. Calibration results, held-out results and public Kaggle scores are reported separately. Positive and negative ablations remain available, including the [small-instance study](docs/2026-11-12-paired-small-instance-sampling.md), [cross-fold P84 analysis](docs/submission/P84_CROSSFOLD_MATCHED_PQ_SUMMARY_20261112.md), and [submission provenance correction](docs/submission/P93_ACTUAL_UPLOAD_PROVENANCE_CORRECTION_20261113.md).

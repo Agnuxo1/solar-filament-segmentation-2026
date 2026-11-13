@@ -13,7 +13,9 @@ This repository contains the source, trained weights, evaluation evidence and fi
 | Current code validation | [P105 portability and resume-integrity audit](docs/submission/P105_PORTABLE_RELEASE_AUDIT_20261113.md): 23 CPU regression tests passed; eight notebook code cells compile. |
 | Exact accepted-artifact replay | [P94 receipt](docs/submission/P94_TRUE_UPLOAD_EXACT_PARITY_RECEIPT_20261113.json): 1,241/1,241 identical RLE rows from frozen no-site crops and the original refiners. |
 | Completed stage reconstruction | [P103 audit](docs/submission/P103_FINAL_AUDIT_20261113.json): 180/180 images, 1,241 rows, 1,101 identical RLE rows by position, and no historical fallback. Includes four reused pilot cases. |
-| Organizer form | **Submitted on 13 November 2026 at 14:00:23 UTC.** The confirmation page and the Google Forms email receipt were both verified. [Delivery record](docs/submission/FINAL_SUBMISSION_RECEIPT_20261113.md). |
+| Geometry correspondence | [Independent P103 diagnostic](docs/submission/p103_evidence_20261113/P103_SCIENTIFIC_CLOSURE_20261113.md): 1,110 identical masks after verified matching; the remaining 131 differ by a total of 268 pixels. This is reproduction evidence, not measured PQ. |
+| Full notebook execution | [P106 launch evidence](docs/submission/p106_launch_20261113/P106_LAUNCH_EVIDENCE_20261113.md): clean checkout, 13 pinned dependencies verified, new outputs, and measured RTX 3090 execution. Completion pending. |
+| Organizer form | **Submitted at 14:00:23 UTC and updated with report R2 at 14:11:57 UTC on 13 November 2026.** Confirmation pages and both Google Forms email receipts were verified. [Delivery record](docs/submission/FINAL_SUBMISSION_RECEIPT_20261113.md). |
 
 The accepted artifact is Kaggle submission **58112557**, filename `submission_h9b_nosite.csv`, submitted on 8 November 2026. On 13 November the authenticated Kaggle page confirmed **Complete**, **0.39**, and **one final selection out of one available**. Its SHA-256 is:
 

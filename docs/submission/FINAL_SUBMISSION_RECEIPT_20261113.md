@@ -8,7 +8,15 @@ Two independent delivery signals were verified: the browser displayed **“Your 
 
 ![Official form confirmation](FORM_CONFIRMATION_20261113.jpg)
 
-## Submitted materials
+## Latest report revision
+
+The same organizer response was updated at **14:11:57 UTC (15:11:57 Europe/Madrid)** on 13 November. The confirmation page and a second email receipt both verified **revision R2**, which includes the completed P103 stage audit. Its submitted filename is `SolarFilament_TECHNICAL_REPORT_4P_20261113_R2.pdf`; SHA-256 is `8f75a47996fa7e6e5f37f5d8e85a6cf5b64033701507782a54a81d786e5ed9f5`.
+
+The form does not allow previously submitted uploads to be edited or removed. R2 was therefore added as a clearly named revision within the existing response, alongside the original report. The accepted CSV and the participant details remained unchanged. The repository at this update was `0159f0ff8752997407e19061d2a79c16b6a61d29`.
+
+![Confirmation of the R2 response update](FORM_CONFIRMATION_R2_20261113.jpg)
+
+## Original submission materials
 
 | Material | Verified record |
 | --- | --- |

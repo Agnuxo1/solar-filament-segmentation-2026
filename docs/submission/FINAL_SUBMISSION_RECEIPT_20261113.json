@@ -33,6 +33,17 @@
       "page_count": 4,
       "size_bytes": 1490770,
       "local_sha256": "6a289170b22e1fa06f328c0ebfad3e55686963c6ef81c5af3881986cb954d8bb"
+    },
+    {
+      "kind": "technical_report_pdf_revision_2",
+      "uploaded_filename": "SolarFilament_TECHNICAL_REPORT_4P_20261113_R2.pdf",
+      "receipt_filename": "SolarFilament_TECHNICAL_REPORT_4P_20261113_R2 - francisco angulo.pdf",
+      "repository_path": "docs/submission/TECHNICAL_REPORT_4P_20261113_R2.pdf",
+      "page_count": 4,
+      "size_bytes": 1494181,
+      "local_sha256": "8f75a47996fa7e6e5f37f5d8e85a6cf5b64033701507782a54a81d786e5ed9f5",
+      "submitted_at_utc": "2026-11-13T14:11:57Z",
+      "email_receipt_verified": true
     }
   ],
   "organizer_copy_bytes_independently_hashed": false,
@@ -40,5 +51,15 @@
     "path": "docs/submission/FORM_CONFIRMATION_20261113.jpg",
     "sha256": "a0d8b155b4aefe1b068d1c1062263139b68c2eed138c6e50a9b5ba81dea5af34"
   },
-  "scope": "Delivery confirmation only; not a judging result or a new model score."
+  "scope": "Delivery confirmation only; not a judging result or a new model score.",
+  "latest_response_update_at_utc": "2026-11-13T14:11:57Z",
+  "latest_response_update_at_europe_madrid": "2026-11-13T15:11:57+01:00",
+  "latest_report_revision": "R2",
+  "same_organizer_response_updated": true,
+  "original_uploaded_report_retained_by_google_forms": true,
+  "r2_confirmation_screenshot": {
+    "path": "docs/submission/FORM_CONFIRMATION_R2_20261113.jpg",
+    "sha256": "2768b7823d8bfa6fb101e8f7c2849393e48f27c6b1487c110ca37a5ba224daa8"
+  },
+  "repository_commit_at_r2_submission": "0159f0ff8752997407e19061d2a79c16b6a61d29"
 }

@@ -1,0 +1,28 @@
+{
+  "experiment": "P106",
+  "created_utc": "2026-11-13T14:05:32.531768+00:00",
+  "commit": "6843362b964dd62a53f19c975e777664c8ea2245",
+  "checkout": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p106_checkout_6843362",
+  "notebook": "notebooks/h9b_clean_raw_jpeg_to_csv.ipynb",
+  "notebook_sha256": "317b1781101fd6652b21b3f86d297b27136bd5c61ef7addfc8a904a7776314ad",
+  "test_images": "/home/ai/pc/d/PROJECTS/196_NeuroPixel/kaggle/filament/data/MAGFiLO_1.0_Kaggle_2026/test/test_images",
+  "output": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p106_public_clean_6843362_20261113/inference_cuda",
+  "gpu_uuid": "GPU-b2046dc8-91f7-fd8a-b237-96bb9e293d14",
+  "accepted_reference": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p74_accepted_artifact_audit/accepted_h9b_nosite.csv",
+  "accepted_reference_sha256": "24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60",
+  "p103_reference": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p103_full_public_stage_coupling_20261113/p103_180_reconstructed.csv",
+  "p103_reference_sha256": "8ae3160af9bddd5ac3ef914bc807da71e3e9cbad0444cc055d2ff0056cdfe2ba",
+  "python": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p106_public_clean_6843362_20261113/.venv/bin/python",
+  "scientific_packages_read_only": "/home/ai/venvs/solarfil/lib/python3.13/site-packages",
+  "isolated_packages": [
+    "pytest==9.1.1",
+    "iniconfig==2.3.1",
+    "pluggy==1.7.0",
+    "pygments==2.21.0",
+    "segmentation-models-pytorch==0.6.0"
+  ],
+  "runtime_max_seconds": 28800,
+  "cpu_quota_percent": 200,
+  "memory_max_gib": 10,
+  "policy": "Execute published notebook without scientific changes; original JPEGs plus public weights only. No historical inference intermediates, labels, or Kaggle upload. References are read only after model inference for diagnostics."
+}

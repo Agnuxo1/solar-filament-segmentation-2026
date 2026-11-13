@@ -1,0 +1,67 @@
+{
+  "analysis": "Post-hoc arithmetic aggregation of immutable P102/P103 crop audit receipts; no new inference or quality metric.",
+  "source_sha256": {
+    "P103_FINAL_AUDIT.json": "d67fe349750d6da9fe1eb5bb31377a4c83357dcba8548db666552c9eff327701",
+    "P102_AUDIT.json": "829e591421c10b743b627215ea3734de8576c3c95a2145337cdcb88c283eb805"
+  },
+  "images": 180,
+  "selected_crop_components": 1244,
+  "field_counts": {
+    "X": {
+      "images_with_any_mismatch": 180,
+      "changed_elements": 300778,
+      "total_elements": 244580352,
+      "changed_fraction": 0.0012297717193570806,
+      "minimum_changed_per_image": 1,
+      "median_changed_per_image": 94.0,
+      "maximum_changed_per_image": 46528
+    },
+    "M": {
+      "images_with_any_mismatch": 9,
+      "changed_elements": 20,
+      "total_elements": 7464,
+      "changed_fraction": 0.0026795284030010718,
+      "minimum_changed_per_image": 0,
+      "median_changed_per_image": 0.0,
+      "maximum_changed_per_image": 6
+    },
+    "score": {
+      "images_with_any_mismatch": 11,
+      "changed_elements": 12,
+      "total_elements": 1244,
+      "changed_fraction": 0.00964630225080386,
+      "minimum_changed_per_image": 0,
+      "median_changed_per_image": 0.0,
+      "maximum_changed_per_image": 2
+    },
+    "comp": {
+      "images_with_any_mismatch": 0,
+      "changed_elements": 0,
+      "total_elements": 1244,
+      "changed_fraction": 0.0,
+      "minimum_changed_per_image": 0,
+      "median_changed_per_image": 0.0,
+      "maximum_changed_per_image": 0
+    }
+  },
+  "disjoint_image_groups": {
+    "X_only_changed": {
+      "images": 162,
+      "changed_RLE_rows_by_position": 105,
+      "identical_final_RLE_sequence_images": 88,
+      "X_changed_elements": 15967
+    },
+    "M_changed": {
+      "images": 9,
+      "changed_RLE_rows_by_position": 15,
+      "identical_final_RLE_sequence_images": 0,
+      "X_changed_elements": 283334
+    },
+    "score_changed_M_exact": {
+      "images": 9,
+      "changed_RLE_rows_by_position": 20,
+      "identical_final_RLE_sequence_images": 2,
+      "X_changed_elements": 1477
+    }
+  }
+}

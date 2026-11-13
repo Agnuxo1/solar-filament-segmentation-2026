@@ -1,0 +1,26 @@
+{
+  "audit": "PUBLIC_NOTEBOOK_STATIC_PREFLIGHT",
+  "checkpoints_fully_hashed": true,
+  "checkpoints_present": 10,
+  "code_cells_compiled": 8,
+  "cuda_jobs_launched": 0,
+  "interface_source_files_checked": 4,
+  "model_inference_executed": false,
+  "notebook": "notebooks/h9b_clean_raw_jpeg_to_csv.ipynb",
+  "notebook_sha256": "317b1781101fd6652b21b3f86d297b27136bd5c61ef7addfc8a904a7776314ad",
+  "official_submission_claimed": false,
+  "original_fp32_shards_fully_hashed": true,
+  "original_fp32_shards_present": 8,
+  "package_imports_available": [
+    "cv2",
+    "numpy",
+    "torch",
+    "torchvision",
+    "pycocotools",
+    "PIL",
+    "scipy",
+    "sklearn"
+  ],
+  "public_source_files_checked": 15,
+  "timestamp_utc": "2026-11-13T14:02:19.683175+00:00"
+}

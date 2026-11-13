@@ -1,0 +1,301 @@
+{
+  "Kaggle_submission_made": false,
+  "audit_sha256": "04d5f50c2389688690af89a66ae52cfd3d25b858ffdcc5a81722db01ec0dd52a",
+  "end_to_end_CSV_parity_verified": false,
+  "fold": "F1",
+  "images_per_variant": 4,
+  "new_PQ_computed": false,
+  "protocol": "P101_CUDNN_H3_PRECISION_PREREG_20261113.md",
+  "records": [
+    {
+      "baseline_vs_historical": {
+        "changed_pixels": 6,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 6,
+        "total_pixels": 4194304
+      },
+      "image_id": "20110120105534Ch",
+      "sha256": {
+        "historical_p63": "d84f3c9eec629be00c7595de6fa6a1858d11c04559c7cb37f9eb479556fa122a",
+        "intervention": "85ff143ff4977d97c990944a176155d473e12d0e18334c674553885f515e50e0",
+        "public_baseline": "c5170fc810032541303f9fa1428aec7071fe5408d662b19aba49cb820081b0d8"
+      },
+      "variant": "benchmark_off",
+      "vs_historical": {
+        "changed_pixels": 32,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 32,
+        "total_pixels": 4194304
+      },
+      "vs_public": {
+        "changed_pixels": 30,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 30,
+        "total_pixels": 4194304
+      }
+    },
+    {
+      "baseline_vs_historical": {
+        "changed_pixels": 11,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 11,
+        "total_pixels": 4194304
+      },
+      "image_id": "20110130110334Ch",
+      "sha256": {
+        "historical_p63": "c361a1abb923e5cfcddcb80fe83c024cb893e524d17befed906897a57ec9f87a",
+        "intervention": "9abdca13a193b21c8e3357deac6f54bc036e96b3987cab04147b2631e372c6b0",
+        "public_baseline": "59d1e2ee8f7cb2a7f16b622563f5663f017cc971326abe5f62db660ea5a0c4bf"
+      },
+      "variant": "benchmark_off",
+      "vs_historical": {
+        "changed_pixels": 133,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 133,
+        "total_pixels": 4194304
+      },
+      "vs_public": {
+        "changed_pixels": 136,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 136,
+        "total_pixels": 4194304
+      }
+    },
+    {
+      "baseline_vs_historical": {
+        "changed_pixels": 13,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 13,
+        "total_pixels": 4194304
+      },
+      "image_id": "20110214175414Mh",
+      "sha256": {
+        "historical_p63": "75c7d976c17e0deb1de5394ba56ba7124cd5e6d8ec56e2b776acdea285b57257",
+        "intervention": "426954731fae82c8f9276fe91e532cb46f15a5f3d6ba19dc1a9f3c7febb484c5",
+        "public_baseline": "b27908fa8dce047b68ffb4c08d807e63c04d6a2ad783d39af428cd69adeb5b99"
+      },
+      "variant": "benchmark_off",
+      "vs_historical": {
+        "changed_pixels": 196,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 196,
+        "total_pixels": 4194304
+      },
+      "vs_public": {
+        "changed_pixels": 197,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 197,
+        "total_pixels": 4194304
+      }
+    },
+    {
+      "baseline_vs_historical": {
+        "changed_pixels": 38,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 38,
+        "total_pixels": 4194304
+      },
+      "image_id": "20110329082654Uh",
+      "sha256": {
+        "historical_p63": "be4b9f4cc58bf3e719e3b260fc90d6b82a6d45a382f82abedb15c9e4e421159e",
+        "intervention": "633cec24d0df1a7c6bb859c45c7bd11654c98ee8424522f713fb2f5af44f4006",
+        "public_baseline": "fd2f34af3f09ed2fbe11314b43b0d63676a67c9673e6586b944205c01368c073"
+      },
+      "variant": "benchmark_off",
+      "vs_historical": {
+        "changed_pixels": 172,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 172,
+        "total_pixels": 4194304
+      },
+      "vs_public": {
+        "changed_pixels": 176,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 176,
+        "total_pixels": 4194304
+      }
+    },
+    {
+      "baseline_vs_historical": {
+        "changed_pixels": 6,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 6,
+        "total_pixels": 4194304
+      },
+      "image_id": "20110120105534Ch",
+      "sha256": {
+        "historical_p63": "d84f3c9eec629be00c7595de6fa6a1858d11c04559c7cb37f9eb479556fa122a",
+        "intervention": "85ff143ff4977d97c990944a176155d473e12d0e18334c674553885f515e50e0",
+        "public_baseline": "c5170fc810032541303f9fa1428aec7071fe5408d662b19aba49cb820081b0d8"
+      },
+      "variant": "deterministic",
+      "vs_historical": {
+        "changed_pixels": 32,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 32,
+        "total_pixels": 4194304
+      },
+      "vs_public": {
+        "changed_pixels": 30,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 30,
+        "total_pixels": 4194304
+      }
+    },
+    {
+      "baseline_vs_historical": {
+        "changed_pixels": 11,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 11,
+        "total_pixels": 4194304
+      },
+      "image_id": "20110130110334Ch",
+      "sha256": {
+        "historical_p63": "c361a1abb923e5cfcddcb80fe83c024cb893e524d17befed906897a57ec9f87a",
+        "intervention": "9abdca13a193b21c8e3357deac6f54bc036e96b3987cab04147b2631e372c6b0",
+        "public_baseline": "59d1e2ee8f7cb2a7f16b622563f5663f017cc971326abe5f62db660ea5a0c4bf"
+      },
+      "variant": "deterministic",
+      "vs_historical": {
+        "changed_pixels": 133,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 133,
+        "total_pixels": 4194304
+      },
+      "vs_public": {
+        "changed_pixels": 136,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 136,
+        "total_pixels": 4194304
+      }
+    },
+    {
+      "baseline_vs_historical": {
+        "changed_pixels": 13,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 13,
+        "total_pixels": 4194304
+      },
+      "image_id": "20110214175414Mh",
+      "sha256": {
+        "historical_p63": "75c7d976c17e0deb1de5394ba56ba7124cd5e6d8ec56e2b776acdea285b57257",
+        "intervention": "426954731fae82c8f9276fe91e532cb46f15a5f3d6ba19dc1a9f3c7febb484c5",
+        "public_baseline": "b27908fa8dce047b68ffb4c08d807e63c04d6a2ad783d39af428cd69adeb5b99"
+      },
+      "variant": "deterministic",
+      "vs_historical": {
+        "changed_pixels": 196,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 196,
+        "total_pixels": 4194304
+      },
+      "vs_public": {
+        "changed_pixels": 197,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 197,
+        "total_pixels": 4194304
+      }
+    },
+    {
+      "baseline_vs_historical": {
+        "changed_pixels": 38,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 38,
+        "total_pixels": 4194304
+      },
+      "image_id": "20110329082654Uh",
+      "sha256": {
+        "historical_p63": "be4b9f4cc58bf3e719e3b260fc90d6b82a6d45a382f82abedb15c9e4e421159e",
+        "intervention": "633cec24d0df1a7c6bb859c45c7bd11654c98ee8424522f713fb2f5af44f4006",
+        "public_baseline": "fd2f34af3f09ed2fbe11314b43b0d63676a67c9673e6586b944205c01368c073"
+      },
+      "variant": "deterministic",
+      "vs_historical": {
+        "changed_pixels": 172,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 172,
+        "total_pixels": 4194304
+      },
+      "vs_public": {
+        "changed_pixels": 176,
+        "exact": false,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 176,
+        "total_pixels": 4194304
+      }
+    }
+  ],
+  "self_test": "passed",
+  "status": "P101_COMPLETE",
+  "summary": {
+    "benchmark_off": {
+      "baseline_vs_historical": {
+        "changed_pixels": 68,
+        "exact_images": 0,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 68
+      },
+      "vs_historical": {
+        "changed_pixels": 533,
+        "exact_images": 0,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 533
+      },
+      "vs_public": {
+        "changed_pixels": 539,
+        "exact_images": 0,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 539
+      }
+    },
+    "deterministic": {
+      "baseline_vs_historical": {
+        "changed_pixels": 68,
+        "exact_images": 0,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 68
+      },
+      "vs_historical": {
+        "changed_pixels": 533,
+        "exact_images": 0,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 533
+      },
+      "vs_public": {
+        "changed_pixels": 539,
+        "exact_images": 0,
+        "max_absolute_byte_difference": 1,
+        "sum_absolute_byte_difference": 539
+      }
+    }
+  },
+  "test_labels_read": false,
+  "utc": "2026-11-13T09:09:52.053222+00:00",
+  "variants": [
+    "benchmark_off",
+    "deterministic"
+  ]
+}

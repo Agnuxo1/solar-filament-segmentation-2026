@@ -27,12 +27,17 @@ EXPECTED_FILES = (
     "release/source/h9_score.py",
     "scripts/verify_release_assets.py",
     "scripts/replay_h3_from_original_images.py",
-    "scripts/p82_full_public_detector_replay.py",
+    "scripts/replay_maskrcnn_from_original_images.py",
+    "scripts/replay_public_detector_p81.py",
+    "scripts/public_replay_runtime.py",
+    "scripts/reassemble_maskrcnn_fp32.py",
+    "release/models/fp32_shards/manifest.json",
     "scripts/p95_nosite_jpeg_crop_audit.py",
     "scripts/official_consensus.py",
 )
 PYTHON_MODULES = (
-    "cv2", "numpy", "torch", "pycocotools", "PIL",
+    "cv2", "numpy", "torch", "torchvision", "pycocotools", "PIL",
+    "scipy", "sklearn",
 )
 EXPECTED_SYMBOLS = {
     "scripts/p95_nosite_jpeg_crop_audit.py": {"rebuild_one"},
@@ -103,10 +108,24 @@ def audit(root: Path, full_hash: bool) -> dict:
         entries.append(filename)
     if len(entries) != 10 or len(set(entries)) != 10:
         raise AssertionError("Expected ten unique public checkpoints.")
+    sys.path.insert(0, str(root / "scripts"))
+    from reassemble_maskrcnn_fp32 import validate_manifest, verify_parts
+    shard_manifest = root / "release/models/fp32_shards/manifest.json"
+    originals = validate_manifest(shard_manifest)
+    shard_files = [
+        shard_manifest.parent / part["file"]
+        for model in originals.values() for part in model["parts"]
+    ]
+    missing_shards = [str(path.relative_to(root)) for path in shard_files if not path.is_file()]
+    if missing_shards:
+        raise FileNotFoundError(f"Original FP32 checkpoint shards are missing: {missing_shards}")
+    if full_hash:
+        verify_parts(originals, shard_manifest.parent, tuple(originals))
     source_text = notebook_path.read_text(encoding="utf-8")
     for phrase in (
-        "GPU-b2046dc8-91f7-fd8a-b237-96bb9e293d14",
+        "SOLARFIL_DEVICE", "SOLARFIL_GPU_UUID",
         "SOLARFIL_TEST_IMAGES", "SOLARFIL_REPLAY_OUT",
+        "replay_maskrcnn_from_original_images.py", "original_fp32_detector_sha256",
         "NOT_OFFICIAL_SUBMISSION",
         "exact_historical_upload_parity_asserted",
     ):
@@ -122,6 +141,8 @@ def audit(root: Path, full_hash: bool) -> dict:
         "interface_source_files_checked": len(EXPECTED_SYMBOLS),
         "checkpoints_present": len(entries),
         "checkpoints_fully_hashed": bool(full_hash),
+        "original_fp32_shards_present": len(shard_files),
+        "original_fp32_shards_fully_hashed": bool(full_hash),
         "package_imports_available": list(PYTHON_MODULES),
         "cuda_jobs_launched": 0,
         "model_inference_executed": False,

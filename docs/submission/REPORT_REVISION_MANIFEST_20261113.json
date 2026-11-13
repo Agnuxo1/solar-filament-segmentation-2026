@@ -1,0 +1,26 @@
+{
+  "evidence_date": "2026-11-13",
+  "public_repository_snapshot": "83835e101bc7fa75479e680fc3585be27b530fc5",
+  "page_count": 4,
+  "page_size_points": [
+    612,
+    792
+  ],
+  "document_class": "acmart 2.21",
+  "document_format": "sigconf, 9pt, two columns",
+  "official_overleaf_observed_class_version": "2.14",
+  "visual_inspection": "All four final pages rendered and inspected; no clipping or overlapping text.",
+  "overfull_boxes": 0,
+  "unresolved_references": 0,
+  "new_training_or_evaluation_performed": false,
+  "files": {
+    "TECHNICAL_REPORT_4P_20261113.pdf": {
+      "bytes": 1490770,
+      "sha256": "6a289170b22e1fa06f328c0ebfad3e55686963c6ef81c5af3881986cb954d8bb"
+    },
+    "TECHNICAL_REPORT_4P_20261113_SOURCE.zip": {
+      "bytes": 1168123,
+      "sha256": "69fb8abd0075378873d9d67b022be66ada85a679e6278a6ea5dd6caf8ccbd245"
+    }
+  }
+}

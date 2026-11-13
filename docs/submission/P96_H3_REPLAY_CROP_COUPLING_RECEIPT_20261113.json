@@ -1,0 +1,27 @@
+{
+  "cpu_only": true,
+  "different_crop_images": 180,
+  "exact_crop_images": 0,
+  "experiment": "P96_PUBLIC_H3_TO_H6_COUPLING",
+  "field_mismatched_images": {
+    "M": 9,
+    "X": 180,
+    "comp": 0,
+    "score": 11
+  },
+  "historical_detector_cache_used": true,
+  "images": 180,
+  "not_full_raw_to_csv": true,
+  "test_labels_used": false,
+  "upstream_receipts": {
+    "detector_receipt": "cd1b138ef2fa871d41609e58b31a7baf1fe2290061855868fea1500f07ccec2b",
+    "h3_receipts": {
+      "F1": "bf604bf96de73bbf30f7db374d3128165873e0ff592781d63e5b2c2950ba6952",
+      "F2": "e91c56bbf6c86f083889977a617333bbc4eb9ac79b43b9fba0dc7b7e42d67bc4",
+      "F3": "6d40efab5b4cdf3ad0952326828e5557286d8a11ddbd6c8f784fc99d1af7d84a",
+      "F4": "2ba38bc54d11f3c3f319b2b5b6c77a6ef5549b72a33517c54b153a0b389c12ea"
+    },
+    "selector": "5db6a9a9787a7cbdef6f35a115c9515364b0e2bc31e63fccf546ff0a7ca98a2c"
+  },
+  "utc": "2026-11-13T07:17:38.661562+00:00"
+}

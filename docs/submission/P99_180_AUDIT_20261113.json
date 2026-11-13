@@ -1,0 +1,2534 @@
+{
+  "cpu_only": true,
+  "exact_images": 180,
+  "experiment": "P99",
+  "images": 180,
+  "original_detector_cache_sha256": "930bd517b0b51906c210c01bd0de50e0f86cdd7d43cdb47caf6bcd6625e4bb32",
+  "original_source_sha256": "f7aa9be2c824e8011353436e0310b4343e4d985f86da307545b267123354ea1e",
+  "per_image": {
+    "20110120105534Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 4,
+        "new_count": 4,
+        "old_count": 4
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 4,
+        "new_count": 4,
+        "old_count": 4
+      }
+    },
+    "20110130110334Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 4,
+        "new_count": 4,
+        "old_count": 4
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 4,
+        "new_count": 4,
+        "old_count": 4
+      }
+    },
+    "20110214175414Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 11,
+        "new_count": 11,
+        "old_count": 11
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 11,
+        "new_count": 11,
+        "old_count": 11
+      }
+    },
+    "20110329082654Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      }
+    },
+    "20110408083214Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 20,
+        "new_count": 20,
+        "old_count": 20
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 20,
+        "new_count": 20,
+        "old_count": 20
+      }
+    },
+    "20110424064534Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      }
+    },
+    "20110429120534Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 36,
+        "new_count": 36,
+        "old_count": 36
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 36,
+        "new_count": 36,
+        "old_count": 36
+      }
+    },
+    "20110529063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 21,
+        "new_count": 21,
+        "old_count": 21
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 21,
+        "new_count": 21,
+        "old_count": 21
+      }
+    },
+    "20110531070514Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      }
+    },
+    "20110603123034Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 27,
+        "new_count": 27,
+        "old_count": 27
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 27,
+        "new_count": 27,
+        "old_count": 27
+      }
+    },
+    "20110706164014Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      }
+    },
+    "20110811121534Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 35,
+        "new_count": 35,
+        "old_count": 35
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 35,
+        "new_count": 35,
+        "old_count": 35
+      }
+    },
+    "20110819131834Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      }
+    },
+    "20110827141254Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      }
+    },
+    "20110912142254Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 23,
+        "new_count": 23,
+        "old_count": 23
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 23,
+        "new_count": 23,
+        "old_count": 23
+      }
+    },
+    "20111015063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      }
+    },
+    "20111017113714Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      }
+    },
+    "20111114063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 47,
+        "new_count": 47,
+        "old_count": 47
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 47,
+        "new_count": 47,
+        "old_count": 47
+      }
+    },
+    "20111122063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      }
+    },
+    "20111124153054Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 16,
+        "new_count": 16,
+        "old_count": 16
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 16,
+        "new_count": 16,
+        "old_count": 16
+      }
+    },
+    "20111128175514Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      }
+    },
+    "20111208173814Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 30,
+        "new_count": 30,
+        "old_count": 30
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 30,
+        "new_count": 30,
+        "old_count": 30
+      }
+    },
+    "20111216103234Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      }
+    },
+    "20111216174914Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      }
+    },
+    "20120107063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      }
+    },
+    "20120111191454Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 34,
+        "new_count": 34,
+        "old_count": 34
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 34,
+        "new_count": 34,
+        "old_count": 34
+      }
+    },
+    "20120115063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 36,
+        "new_count": 36,
+        "old_count": 36
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 36,
+        "new_count": 36,
+        "old_count": 36
+      }
+    },
+    "20120218152654Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 16,
+        "new_count": 16,
+        "old_count": 16
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 16,
+        "new_count": 16,
+        "old_count": 16
+      }
+    },
+    "20120402105814Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 23,
+        "new_count": 23,
+        "old_count": 23
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 23,
+        "new_count": 23,
+        "old_count": 23
+      }
+    },
+    "20120402164214Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 21,
+        "new_count": 21,
+        "old_count": 21
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 21,
+        "new_count": 21,
+        "old_count": 21
+      }
+    },
+    "20120405130014Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      }
+    },
+    "20120512063234Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 33,
+        "new_count": 33,
+        "old_count": 33
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 33,
+        "new_count": 33,
+        "old_count": 33
+      }
+    },
+    "20120528063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      }
+    },
+    "20120606063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 20,
+        "new_count": 20,
+        "old_count": 20
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 20,
+        "new_count": 20,
+        "old_count": 20
+      }
+    },
+    "20120622063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 17,
+        "new_count": 17,
+        "old_count": 17
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 17,
+        "new_count": 17,
+        "old_count": 17
+      }
+    },
+    "20120707070914Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      }
+    },
+    "20120710063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 30,
+        "new_count": 30,
+        "old_count": 30
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 30,
+        "new_count": 30,
+        "old_count": 30
+      }
+    },
+    "20120730072014Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      }
+    },
+    "20120813063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      }
+    },
+    "20120930063534Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 23,
+        "new_count": 23,
+        "old_count": 23
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 23,
+        "new_count": 23,
+        "old_count": 23
+      }
+    },
+    "20121024073354Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      }
+    },
+    "20121125063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 28,
+        "new_count": 28,
+        "old_count": 28
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 28,
+        "new_count": 28,
+        "old_count": 28
+      }
+    },
+    "20121203063334Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 31,
+        "new_count": 31,
+        "old_count": 31
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 31,
+        "new_count": 31,
+        "old_count": 31
+      }
+    },
+    "20121206063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      }
+    },
+    "20121216154954Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 16,
+        "new_count": 16,
+        "old_count": 16
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 16,
+        "new_count": 16,
+        "old_count": 16
+      }
+    },
+    "20121220110614Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      }
+    },
+    "20121229085414Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 20,
+        "new_count": 20,
+        "old_count": 20
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 20,
+        "new_count": 20,
+        "old_count": 20
+      }
+    },
+    "20130104104234Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 42,
+        "new_count": 42,
+        "old_count": 42
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 42,
+        "new_count": 42,
+        "old_count": 42
+      }
+    },
+    "20130110085614Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      }
+    },
+    "20130206063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      }
+    },
+    "20130208063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 28,
+        "new_count": 28,
+        "old_count": 28
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 28,
+        "new_count": 28,
+        "old_count": 28
+      }
+    },
+    "20130213063454Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 3,
+        "new_count": 3,
+        "old_count": 3
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 3,
+        "new_count": 3,
+        "old_count": 3
+      }
+    },
+    "20130310063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      }
+    },
+    "20130315063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      }
+    },
+    "20130328063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 8,
+        "new_count": 8,
+        "old_count": 8
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 8,
+        "new_count": 8,
+        "old_count": 8
+      }
+    },
+    "20130521063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 20,
+        "new_count": 20,
+        "old_count": 20
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 20,
+        "new_count": 20,
+        "old_count": 20
+      }
+    },
+    "20130526063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 31,
+        "new_count": 31,
+        "old_count": 31
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 31,
+        "new_count": 31,
+        "old_count": 31
+      }
+    },
+    "20130530133654Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 37,
+        "new_count": 37,
+        "old_count": 37
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 37,
+        "new_count": 37,
+        "old_count": 37
+      }
+    },
+    "20130603063154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      }
+    },
+    "20130606133454Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      }
+    },
+    "20130609133454Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 24,
+        "new_count": 24,
+        "old_count": 24
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 24,
+        "new_count": 24,
+        "old_count": 24
+      }
+    },
+    "20130627063134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      }
+    },
+    "20130702070714Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 17,
+        "new_count": 17,
+        "old_count": 17
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 17,
+        "new_count": 17,
+        "old_count": 17
+      }
+    },
+    "20130811121434Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 22,
+        "new_count": 22,
+        "old_count": 22
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 22,
+        "new_count": 22,
+        "old_count": 22
+      }
+    },
+    "20130825141154Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      }
+    },
+    "20131027185354Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 43,
+        "new_count": 43,
+        "old_count": 43
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 43,
+        "new_count": 43,
+        "old_count": 43
+      }
+    },
+    "20131027223034Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 33,
+        "new_count": 33,
+        "old_count": 33
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 33,
+        "new_count": 33,
+        "old_count": 33
+      }
+    },
+    "20131110185354Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      }
+    },
+    "20131217192134Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 35,
+        "new_count": 35,
+        "old_count": 35
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 35,
+        "new_count": 35,
+        "old_count": 35
+      }
+    },
+    "20131230192154Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 34,
+        "new_count": 34,
+        "old_count": 34
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 34,
+        "new_count": 34,
+        "old_count": 34
+      }
+    },
+    "20140118180214Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 23,
+        "new_count": 23,
+        "old_count": 23
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 23,
+        "new_count": 23,
+        "old_count": 23
+      }
+    },
+    "20140309170314Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      }
+    },
+    "20140322200714Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 28,
+        "new_count": 28,
+        "old_count": 28
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 28,
+        "new_count": 28,
+        "old_count": 28
+      }
+    },
+    "20140403081714Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 35,
+        "new_count": 35,
+        "old_count": 35
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 35,
+        "new_count": 35,
+        "old_count": 35
+      }
+    },
+    "20140410195814Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 22,
+        "new_count": 22,
+        "old_count": 22
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 22,
+        "new_count": 22,
+        "old_count": 22
+      }
+    },
+    "20140420195854Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 62,
+        "new_count": 62,
+        "old_count": 62
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 62,
+        "new_count": 62,
+        "old_count": 62
+      }
+    },
+    "20140514195854Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 38,
+        "new_count": 38,
+        "old_count": 38
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 38,
+        "new_count": 38,
+        "old_count": 38
+      }
+    },
+    "20140516234034Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 29,
+        "new_count": 29,
+        "old_count": 29
+      }
+    },
+    "20140519195834Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      }
+    },
+    "20140520200054Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 27,
+        "new_count": 27,
+        "old_count": 27
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 27,
+        "new_count": 27,
+        "old_count": 27
+      }
+    },
+    "20140526195834Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 37,
+        "new_count": 37,
+        "old_count": 37
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 37,
+        "new_count": 37,
+        "old_count": 37
+      }
+    },
+    "20140629195814Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 12,
+        "new_count": 12,
+        "old_count": 12
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 12,
+        "new_count": 12,
+        "old_count": 12
+      }
+    },
+    "20140707023654Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 31,
+        "new_count": 31,
+        "old_count": 31
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 31,
+        "new_count": 31,
+        "old_count": 31
+      }
+    },
+    "20140710020754Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      }
+    },
+    "20140828080414Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 38,
+        "new_count": 38,
+        "old_count": 38
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 38,
+        "new_count": 38,
+        "old_count": 38
+      }
+    },
+    "20140907195814Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 24,
+        "new_count": 24,
+        "old_count": 24
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 24,
+        "new_count": 24,
+        "old_count": 24
+      }
+    },
+    "20140925195834Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 31,
+        "new_count": 31,
+        "old_count": 31
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 31,
+        "new_count": 31,
+        "old_count": 31
+      }
+    },
+    "20141009195814Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      }
+    },
+    "20141104195854Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 32,
+        "new_count": 32,
+        "old_count": 32
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 32,
+        "new_count": 32,
+        "old_count": 32
+      }
+    },
+    "20141120195834Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 24,
+        "new_count": 24,
+        "old_count": 24
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 24,
+        "new_count": 24,
+        "old_count": 24
+      }
+    },
+    "20141220201934Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 44,
+        "new_count": 44,
+        "old_count": 44
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 44,
+        "new_count": 44,
+        "old_count": 44
+      }
+    },
+    "20141222201814Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 34,
+        "new_count": 34,
+        "old_count": 34
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 34,
+        "new_count": 34,
+        "old_count": 34
+      }
+    },
+    "20150105104334Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 30,
+        "new_count": 30,
+        "old_count": 30
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 30,
+        "new_count": 30,
+        "old_count": 30
+      }
+    },
+    "20150124081954Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      }
+    },
+    "20150430082014Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 20,
+        "new_count": 20,
+        "old_count": 20
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 20,
+        "new_count": 20,
+        "old_count": 20
+      }
+    },
+    "20150601122834Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      }
+    },
+    "20150602122934Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      }
+    },
+    "20150619133554Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 25,
+        "new_count": 25,
+        "old_count": 25
+      }
+    },
+    "20150620161314Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 28,
+        "new_count": 28,
+        "old_count": 28
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 28,
+        "new_count": 28,
+        "old_count": 28
+      }
+    },
+    "20150623152934Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 21,
+        "new_count": 21,
+        "old_count": 21
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 21,
+        "new_count": 21,
+        "old_count": 21
+      }
+    },
+    "20150913082034Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      }
+    },
+    "20151003081954Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      }
+    },
+    "20151015170634Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 27,
+        "new_count": 27,
+        "old_count": 27
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 27,
+        "new_count": 27,
+        "old_count": 27
+      }
+    },
+    "20151026171014Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      }
+    },
+    "20151117212434Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      }
+    },
+    "20151204133714Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 4,
+        "new_count": 4,
+        "old_count": 4
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 4,
+        "new_count": 4,
+        "old_count": 4
+      }
+    },
+    "20151207173614Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 11,
+        "new_count": 11,
+        "old_count": 11
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 11,
+        "new_count": 11,
+        "old_count": 11
+      }
+    },
+    "20151214171854Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 30,
+        "new_count": 30,
+        "old_count": 30
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 30,
+        "new_count": 30,
+        "old_count": 30
+      }
+    },
+    "20151227133734Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 37,
+        "new_count": 37,
+        "old_count": 37
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 37,
+        "new_count": 37,
+        "old_count": 37
+      }
+    },
+    "20160116133734Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 24,
+        "new_count": 24,
+        "old_count": 24
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 24,
+        "new_count": 24,
+        "old_count": 24
+      }
+    },
+    "20160226151654Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 9,
+        "new_count": 9,
+        "old_count": 9
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 9,
+        "new_count": 9,
+        "old_count": 9
+      }
+    },
+    "20160311020654Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      }
+    },
+    "20160312020554Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      }
+    },
+    "20160327133714Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      }
+    },
+    "20160327133734Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      }
+    },
+    "20160405014154Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      }
+    },
+    "20160505025554Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      }
+    },
+    "20160513133714Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 16,
+        "new_count": 16,
+        "old_count": 16
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 16,
+        "new_count": 16,
+        "old_count": 16
+      }
+    },
+    "20160602010754Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      }
+    },
+    "20160713133714Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      }
+    },
+    "20160820233134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      }
+    },
+    "20160828133734Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 16,
+        "new_count": 16,
+        "old_count": 16
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 16,
+        "new_count": 16,
+        "old_count": 16
+      }
+    },
+    "20160930165914Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 12,
+        "new_count": 12,
+        "old_count": 12
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 12,
+        "new_count": 12,
+        "old_count": 12
+      }
+    },
+    "20161015144954Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      }
+    },
+    "20161019133714Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 8,
+        "new_count": 8,
+        "old_count": 8
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 8,
+        "new_count": 8,
+        "old_count": 8
+      }
+    },
+    "20161020145454Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      }
+    },
+    "20161104133714Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      }
+    },
+    "20161111133734Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      }
+    },
+    "20161116222134Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 11,
+        "new_count": 11,
+        "old_count": 11
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 11,
+        "new_count": 11,
+        "old_count": 11
+      }
+    },
+    "20161219133734Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      }
+    },
+    "20161231223534Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      }
+    },
+    "20170129133714Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 8,
+        "new_count": 8,
+        "old_count": 8
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 8,
+        "new_count": 8,
+        "old_count": 8
+      }
+    },
+    "20170313145450Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      }
+    },
+    "20170326133730Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      }
+    },
+    "20170328014950Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 6,
+        "new_count": 6,
+        "old_count": 6
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 6,
+        "new_count": 6,
+        "old_count": 6
+      }
+    },
+    "20170329014850Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 11,
+        "new_count": 11,
+        "old_count": 11
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 11,
+        "new_count": 11,
+        "old_count": 11
+      }
+    },
+    "20170330133710Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      }
+    },
+    "20170414151450Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 5,
+        "new_count": 5,
+        "old_count": 5
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 5,
+        "new_count": 5,
+        "old_count": 5
+      }
+    },
+    "20170516134450Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 5,
+        "new_count": 5,
+        "old_count": 5
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 5,
+        "new_count": 5,
+        "old_count": 5
+      }
+    },
+    "20170626133730Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 1,
+        "new_count": 1,
+        "old_count": 1
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 1,
+        "new_count": 1,
+        "old_count": 1
+      }
+    },
+    "20170708164010Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 6,
+        "new_count": 6,
+        "old_count": 6
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 6,
+        "new_count": 6,
+        "old_count": 6
+      }
+    },
+    "20170902231930Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      }
+    },
+    "20170926225530Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      }
+    },
+    "20171018223630Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 9,
+        "new_count": 9,
+        "old_count": 9
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 9,
+        "new_count": 9,
+        "old_count": 9
+      }
+    },
+    "20171021223430Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      }
+    },
+    "20171027150050Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 13,
+        "new_count": 13,
+        "old_count": 13
+      }
+    },
+    "20171029171010Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 22,
+        "new_count": 22,
+        "old_count": 22
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 22,
+        "new_count": 22,
+        "old_count": 22
+      }
+    },
+    "20171107222630Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 8,
+        "new_count": 8,
+        "old_count": 8
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 8,
+        "new_count": 8,
+        "old_count": 8
+      }
+    },
+    "20171108222430Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      }
+    },
+    "20171122022450Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 10,
+        "new_count": 10,
+        "old_count": 10
+      }
+    },
+    "20180507140210Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 1,
+        "new_count": 1,
+        "old_count": 1
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 1,
+        "new_count": 1,
+        "old_count": 1
+      }
+    },
+    "20180726232450Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 14,
+        "new_count": 14,
+        "old_count": 14
+      }
+    },
+    "20181012105930Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      }
+    },
+    "20181030230030Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      }
+    },
+    "20190605025430Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 9,
+        "new_count": 9,
+        "old_count": 9
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 9,
+        "new_count": 9,
+        "old_count": 9
+      }
+    },
+    "20190607032610Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 11,
+        "new_count": 11,
+        "old_count": 11
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 11,
+        "new_count": 11,
+        "old_count": 11
+      }
+    },
+    "20200310113230Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 1,
+        "new_count": 1,
+        "old_count": 1
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 1,
+        "new_count": 1,
+        "old_count": 1
+      }
+    },
+    "20200806072410Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 5,
+        "new_count": 5,
+        "old_count": 5
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 5,
+        "new_count": 5,
+        "old_count": 5
+      }
+    },
+    "20201228202510Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 5,
+        "new_count": 5,
+        "old_count": 5
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 5,
+        "new_count": 5,
+        "old_count": 5
+      }
+    },
+    "20210101202450Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 9,
+        "new_count": 9,
+        "old_count": 9
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 9,
+        "new_count": 9,
+        "old_count": 9
+      }
+    },
+    "20210127110130Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 9,
+        "new_count": 9,
+        "old_count": 9
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 9,
+        "new_count": 9,
+        "old_count": 9
+      }
+    },
+    "20210219230330Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      }
+    },
+    "20210607142350Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 4,
+        "new_count": 4,
+        "old_count": 4
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 4,
+        "new_count": 4,
+        "old_count": 4
+      }
+    },
+    "20210627163630Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 22,
+        "new_count": 22,
+        "old_count": 22
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 22,
+        "new_count": 22,
+        "old_count": 22
+      }
+    },
+    "20210701163730Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 26,
+        "new_count": 26,
+        "old_count": 26
+      }
+    },
+    "20210708060030Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      }
+    },
+    "20210726041650Uh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      }
+    },
+    "20210730044930Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 23,
+        "new_count": 23,
+        "old_count": 23
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 23,
+        "new_count": 23,
+        "old_count": 23
+      }
+    },
+    "20210811072510Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 6,
+        "new_count": 6,
+        "old_count": 6
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 6,
+        "new_count": 6,
+        "old_count": 6
+      }
+    },
+    "20211119005210Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 2,
+        "new_count": 2,
+        "old_count": 2
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 2,
+        "new_count": 2,
+        "old_count": 2
+      }
+    },
+    "20211214174010Mh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 2,
+        "new_count": 2,
+        "old_count": 2
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 2,
+        "new_count": 2,
+        "old_count": 2
+      }
+    },
+    "20211224120130Ch.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 21,
+        "new_count": 21,
+        "old_count": 21
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 21,
+        "new_count": 21,
+        "old_count": 21
+      }
+    },
+    "20211231180850Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 4,
+        "new_count": 4,
+        "old_count": 4
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 4,
+        "new_count": 4,
+        "old_count": 4
+      }
+    },
+    "20220124155050Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 7,
+        "new_count": 7,
+        "old_count": 7
+      }
+    },
+    "20220328035030Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 12,
+        "new_count": 12,
+        "old_count": 12
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 12,
+        "new_count": 12,
+        "old_count": 12
+      }
+    },
+    "20220523234912Lh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 17,
+        "new_count": 17,
+        "old_count": 17
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 17,
+        "new_count": 17,
+        "old_count": 17
+      }
+    },
+    "20220621185332Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 19,
+        "new_count": 19,
+        "old_count": 19
+      }
+    },
+    "20220626185332Bh.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 18,
+        "new_count": 18,
+        "old_count": 18
+      }
+    },
+    "20220714185352Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 41,
+        "new_count": 41,
+        "old_count": 41
+      }
+    },
+    "20220728185352Th.jpeg": {
+      "public_vs_archived": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      },
+      "public_vs_historical": {
+        "exact": true,
+        "matching_prefix": 15,
+        "new_count": 15,
+        "old_count": 15
+      }
+    }
+  },
+  "prereg_sha256": "12bde6523f7c5e07f77fe67232cfa781e69f9d0b7f34b2e74533d37f0558ee8d",
+  "public_port_sha256": "c2d783cb260b39b510e80561815ce3107928dc7d6dd0b258c4e832508e3226d2",
+  "reference_p88_receipt_sha256": "cd1b138ef2fa871d41609e58b31a7baf1fe2290061855868fea1500f07ccec2b",
+  "test_ground_truth_used": false
+}

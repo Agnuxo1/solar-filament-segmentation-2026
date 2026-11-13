@@ -1,0 +1,46 @@
+{
+  "archives": {
+    "p103_efficientnet_v2_s": {
+      "above_one": 6054220,
+      "below_zero": 0,
+      "elements": 60407808,
+      "keys": 176,
+      "maximum": 255.0,
+      "minimum": 0.0,
+      "nan_or_inf": 0,
+      "sha256": "d62f1a9efa76c12e753ecb2662b9b4453580d34c031f35f2a0553e7240f7eeb7"
+    },
+    "p103_resnet34": {
+      "above_one": 5237672,
+      "below_zero": 0,
+      "elements": 60407808,
+      "keys": 176,
+      "maximum": 255.0,
+      "minimum": 0.0,
+      "nan_or_inf": 0,
+      "sha256": "38e8d7ef88260648865b488efe71bfd41109a5278ea2479a7930fe1939816856"
+    },
+    "p106_efficientnet_v2_s": {
+      "above_one": 6101878,
+      "below_zero": 0,
+      "elements": 61145088,
+      "keys": 180,
+      "maximum": 255.0,
+      "minimum": 0.0,
+      "nan_or_inf": 0,
+      "sha256": "bafe96bdeedbff494f1bd8b33e500bf7d8d4a2bdd526ea242d82eb4c48d9e6ae"
+    },
+    "p106_resnet34": {
+      "above_one": 5282799,
+      "below_zero": 0,
+      "elements": 61145088,
+      "keys": 180,
+      "maximum": 255.0,
+      "minimum": 0.0,
+      "nan_or_inf": 0,
+      "sha256": "bc7f1f2a98aba7f297fbaa1b5b4189a33df0fe893c26d069d07742c629c52ae5"
+    }
+  },
+  "completed_utc": "2026-11-13T20:06:30.426785+00:00",
+  "scope": "Numeric domain verification only; no ground-truth or PQ"
+}

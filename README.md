@@ -61,6 +61,8 @@ Local validation groups annotators of the same physical image and uses temporal 
 
 **P111 CPU-only stage-localization audit (13 November 2026):** [frozen protocol, independent code, full per-image receipt and scientific closure](docs/submission/p111_evidence_20261113/P111_SCIENTIFIC_CLOSURE.md) compared the 180-image P103/P106 outputs. The 12 one-pixel mask differences in 11 images all co-occur with upstream crop X changes (1,577 different values out of 244,580,352 total crop elements). Crop metadata M/comp/score were identical in all 180 images. The two refiner archives stored quantized uint8 outputs, not calibrated probabilities; a supplementary domain audit prevents misinterpreting raw 0.5 crossings. This is **not** an evaluation against ground truth or new PQ. The 1.15x TRAIN ablation remains blocked by the P108 provenance gate. H9b submission 58112557 (public PQ 0.39) and its one final selection are unchanged.
 
+**P112 CPU-only uint8 drift audit (13 November 2026):** [preregistered experiment, code, full receipt and closure](docs/submission/p112_evidence_20261113/P112_SCIENTIFIC_CLOSURE.md) independently cross-checked all 244,580,352 crop X positions across 180 images. Of 1,577 changed values, **1,573 differ by exactly one uint8 level and four are exact 0↔255 endpoint swaps**; there are no other magnitudes. The large P111 maximum is thus an endpoint phenomenon in the stored uint8 representation, **not evidence of a 255-level continuous probability error**. This does not identify a causal operator, compute PQ, justify a Kaggle upload, or supersede H9b (58112557, public PQ 0.39).
+
 ### Attribution and license
 
 **Francisco Angulo de Lafuente** · [ORCID 0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063) · [CITATION.cff](CITATION.cff).

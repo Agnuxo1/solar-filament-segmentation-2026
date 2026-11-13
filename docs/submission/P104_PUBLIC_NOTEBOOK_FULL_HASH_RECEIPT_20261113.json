@@ -1,0 +1,21 @@
+{
+  "audit": "PUBLIC_NOTEBOOK_STATIC_PREFLIGHT",
+  "checkpoints_fully_hashed": true,
+  "checkpoints_present": 10,
+  "code_cells_compiled": 8,
+  "cuda_jobs_launched": 0,
+  "interface_source_files_checked": 4,
+  "model_inference_executed": false,
+  "notebook": "notebooks/h9b_clean_raw_jpeg_to_csv.ipynb",
+  "notebook_sha256": "01a05524f2ca00e028d5e699ae38418eeba01f331db14246527bb4f87aba654c",
+  "official_submission_claimed": false,
+  "package_imports_available": [
+    "cv2",
+    "numpy",
+    "torch",
+    "pycocotools",
+    "PIL"
+  ],
+  "public_source_files_checked": 11,
+  "timestamp_utc": "2026-11-13T10:40:49.175833+00:00"
+}

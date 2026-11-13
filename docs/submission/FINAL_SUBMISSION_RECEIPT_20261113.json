@@ -1,0 +1,44 @@
+{
+  "competition": "filament-segmentation-2026",
+  "author": "Francisco Angulo de Lafuente",
+  "orcid": "0009-0001-1634-7063",
+  "status": "submitted_and_receipt_verified",
+  "submitted_at_utc": "2026-11-13T14:00:23Z",
+  "submitted_at_europe_madrid": "2026-11-13T15:00:23+01:00",
+  "timestamp_source": "Google Forms email receipt Date header",
+  "confirmation_text": "Your response has been recorded",
+  "browser_confirmation_verified": true,
+  "email_receipt_verified": true,
+  "form_title": "Submission Form for Filament Segmentation Competition 2026",
+  "public_repository": "https://github.com/Agnuxo1/solar-filament-segmentation-2026",
+  "repository_commit_at_submission": "6843362b964dd62a53f19c975e777664c8ea2245",
+  "kaggle_submission_id": 58112557,
+  "accepted_public_pq": 0.39,
+  "final_selection_verified": true,
+  "final_selection_count": 1,
+  "final_selection_limit_observed": 1,
+  "uploads": [
+    {
+      "kind": "accepted_kaggle_csv",
+      "uploaded_filename": "SolarFilament_58112557_submission_h9b_nosite.csv",
+      "receipt_filename": "SolarFilament_58112557_submission_h9b_nosite - francisco angulo.csv",
+      "size_bytes": 336975,
+      "local_sha256": "24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60"
+    },
+    {
+      "kind": "technical_report_pdf",
+      "uploaded_filename": "SolarFilament_TECHNICAL_REPORT_4P_20261113.pdf",
+      "receipt_filename": "SolarFilament_TECHNICAL_REPORT_4P_20261113 - francisco angulo.pdf",
+      "repository_path": "docs/submission/TECHNICAL_REPORT_4P_20261113.pdf",
+      "page_count": 4,
+      "size_bytes": 1490770,
+      "local_sha256": "6a289170b22e1fa06f328c0ebfad3e55686963c6ef81c5af3881986cb954d8bb"
+    }
+  ],
+  "organizer_copy_bytes_independently_hashed": false,
+  "confirmation_screenshot": {
+    "path": "docs/submission/FORM_CONFIRMATION_20261113.jpg",
+    "sha256": "a0d8b155b4aefe1b068d1c1062263139b68c2eed138c6e50a9b5ba81dea5af34"
+  },
+  "scope": "Delivery confirmation only; not a judging result or a new model score."
+}

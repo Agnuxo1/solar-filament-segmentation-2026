@@ -7,12 +7,13 @@ This repository contains the source, trained weights, evaluation evidence and fi
 
 | Material | Link and verified scope |
 | --- | --- |
-| Technical report | [Four-page PDF in the official ACM sigconf format](docs/submission/TECHNICAL_REPORT_4P_20261113.pdf) and [complete editable source](docs/submission/TECHNICAL_REPORT_4P_20261113_SOURCE.zip). |
+| Technical report | [Four-page PDF, revision 2, in the official ACM sigconf format](docs/submission/TECHNICAL_REPORT_4P_20261113_R2.pdf) and [complete editable source](docs/submission/TECHNICAL_REPORT_4P_20261113_R2_SOURCE.zip). Includes the completed P103 audit. |
 | Public inference notebook | [Original JPEGs to COCO-RLE CSV](notebooks/h9b_clean_raw_jpeg_to_csv.ipynb), with CPU as the portable default and optional explicitly selected CUDA. |
 | Original detector weights | [FP32 shard manifest](release/models/fp32_shards/manifest.json), reconstructed and checked before inference. Other released weights have [SHA-256 signatures](release/model_metadata/WEIGHTS_SHA256SUMS.txt). |
 | Current code validation | [P105 portability and resume-integrity audit](docs/submission/P105_PORTABLE_RELEASE_AUDIT_20261113.md): 23 CPU regression tests passed; eight notebook code cells compile. |
 | Exact accepted-artifact replay | [P94 receipt](docs/submission/P94_TRUE_UPLOAD_EXACT_PARITY_RECEIPT_20261113.json): 1,241/1,241 identical RLE rows from frozen no-site crops and the original refiners. |
-| Organizer form | Materials prepared; submission and receipt are tracked separately from the Kaggle result. |
+| Completed stage reconstruction | [P103 audit](docs/submission/P103_FINAL_AUDIT_20261113.json): 180/180 images, 1,241 rows, 1,101 identical RLE rows by position, and no historical fallback. Includes four reused pilot cases. |
+| Organizer form | **Submitted on 13 November 2026 at 14:00:23 UTC.** The confirmation page and the Google Forms email receipt were both verified. [Delivery record](docs/submission/FINAL_SUBMISSION_RECEIPT_20261113.md). |
 
 The accepted artifact is Kaggle submission **58112557**, filename `submission_h9b_nosite.csv`, submitted on 8 November 2026. On 13 November the authenticated Kaggle page confirmed **Complete**, **0.39**, and **one final selection out of one available**. Its SHA-256 is:
 
@@ -42,9 +43,9 @@ python scripts/preflight_h9b_clean_notebook.py --root . --full-hash
 
 ### Evidence and remaining numerical scope
 
-**The accepted 0.39 and the current public rebuild are distinct artifacts.** P94 proves exact replay from historical frozen crops. The upstream JPEG reconstruction and P102 pilot show numerical differences, and the public notebook defines a model-only fallback that differs from the historical control branch. Whether that branch was used in the genuine accepted file has not been established here.
+**The accepted 0.39 and the current public rebuild are distinct artifacts.** P94 proves exact replay from historical frozen crops. P103 completed the stage-coupling audit on all 180 images: 176 newly inferred cases plus four reused pilot cases. It produced 1,241 rows, of which 1,101 are identical by position; complete predictions match for 90 images, and instance counts match for all 180. All reconstructed predictions came from the public pipeline, with no historical fallback. The public notebook's model-only fallback differs from the historical control branch; whether that historical branch was used in the genuine accepted file has not been established here.
 
-P105 validates code portability, interfaces and integrity contracts; it does not execute the full 180-image model inference. The rebuilt CSV must not inherit the accepted artifact's score or an exact-equivalence claim without its own completed evaluation. This boundary is explained in the report and notebook.
+P105 validates code portability, interfaces and integrity contracts; it does not execute the full 180-image model inference. P106 is executing all eight notebook cells from a clean checkout of `6843362`, original JPEGs and public weights, with fresh output directories and explicitly selected CUDA. Its completion and numerical result are pending. The rebuilt CSV must not inherit the accepted artifact's score or an exact-equivalence claim without its own completed evaluation. This boundary is explained in the report and notebook.
 
 ### Scientific record
 

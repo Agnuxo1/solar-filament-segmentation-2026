@@ -1,0 +1,28 @@
+{
+  "revision": "R2",
+  "evidence_date": "2026-11-13",
+  "page_count": 4,
+  "document_format": "acmart 2.21, sigconf, 9pt, two columns",
+  "visual_inspection": "All four pages inspected for the R2 build; affected pages 1 and 4 re-rendered and inspected after the final editorial changes. No clipping or overlapping text.",
+  "overfull_boxes": 0,
+  "unresolved_references": 0,
+  "previous_submitted_version_unchanged": true,
+  "p103_audit_json_sha256": "d67fe349750d6da9fe1eb5bb31377a4c83357dcba8548db666552c9eff327701",
+  "p103_csv_sha256": "8ae3160af9bddd5ac3ef914bc807da71e3e9cbad0444cc055d2ff0056cdfe2ba",
+  "p103_scope": "176 newly inferred images plus 4 reused pilot cases; 180 images,1241 rows,1101 position-wise exact rows,140 position-wise differing rows,90 exact image sequences,180 identical instance counts,zero historical fallbacks,1661.308 CPU seconds.",
+  "clean_notebook_commit": "6843362",
+  "p106_status": "Preparation on CUDA GPU 0 with public weights; no result claimed.",
+  "files": {
+    "TECHNICAL_REPORT_4P_20261113_R2.pdf": {
+      "bytes": 1494181,
+      "sha256": "8f75a47996fa7e6e5f37f5d8e85a6cf5b64033701507782a54a81d786e5ed9f5"
+    },
+    "TECHNICAL_REPORT_4P_20261113_R2_SOURCE.zip": {
+      "bytes": 1181219,
+      "sha256": "6bee5b287bf6920ae8ef3bab82b7518a6366140da92de19b98e6b972b128955b"
+    }
+  },
+  "organizer_form_acknowledged": "2026-11-13T14:00:23Z (15:00:23 Europe/Madrid)",
+  "publication_or_submission_performed_by_document_editing_task": false,
+  "editorial_update": "Stable organizer-form acknowledgment wording; receipt and revision provenance referenced to public repository [9]; exact RLE comparisons explicitly position-wise."
+}

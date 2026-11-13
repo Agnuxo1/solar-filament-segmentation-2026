@@ -1,3 +1,5 @@
+> **CORRECTION — 13 NOVEMBER 2026 (P93):** This historical P90 report incorrectly calls the stage-two CSV with SHA-256 `67f02e4d...` the "Kaggle-accepted" or "uploaded" file. The **actual uploaded submission 58112557** has SHA-256 `24b3ea1c8e151c30...`, as preserved and verified in P74. The stage-two intermediate differs from the uploaded CSV in **326 RLE rows**; the P71 rerun differs from the uploaded CSV in **325 RLE rows**. The **58 differences** below compare P71 to the *stage-two intermediate only*. Read the [P93 correction](P93_ACTUAL_UPLOAD_PROVENANCE_CORRECTION_20261113.md) before interpreting the historical results. The original P90 observations are retained to preserve audit history.
+
 # P90 — Independent RLE reproducibility-gap audit (13 November 2026)
 
 ## Scope and frozen evidence

@@ -46,7 +46,7 @@ MANIFEST = REPO / "release/model_metadata/h9b_nosite_selector.json"
 SELECTOR = REPO / "release/model_metadata/h9b_nosite_selector.pkl"
 WEIGHT_MANIFEST = REPO / "release/model_metadata/WEIGHTS_SHA256SUMS.txt"
 REFERENCES = STAGING / "h9/official/crops"
-ACTUAL = STAGING / "submission_58112557.csv"
+ACTUAL = WORK / "p74_accepted_artifact_audit/accepted_h9b_nosite.csv"
 CONTROL = STAGING / "submission.csv"
 sys.path.insert(0, str(REPO / "scripts"))
 sys.path.insert(0, str(REPO / "release/source"))

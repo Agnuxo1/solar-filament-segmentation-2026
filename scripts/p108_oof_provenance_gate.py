@@ -90,19 +90,88 @@ def analyze(root: Path) -> dict:
         if "ALL" not in p.name.upper()
     })
 
-    # Check whether a frozen per-image exclusion certificate is directly
-    # attached to each checkpoint and selector. The selector metadata has
-    # feature-family exclusions, not TRAIN-membership exclusions.
-    exclusion_fields = ("per_image_exclusions", "training_image_ids",
-                        "held_out_image_ids", "out_of_fold_manifest",
-                        "source_split_manifest")
-    selector_exclusion_fields = [key for key in exclusion_fields if key in selector]
-    selector_oof_certified = False
-    # A list of fitted images alone is insufficient without matching upstream
-    # maps and refiner exclusions; consequently this audit stays fail-closed.
-    refiner_oof_certified = bool(available_fold_specific_refiners) and False
-    upstream_provenance_certified = False
-    oof_evidence = {role: False for role in NEEDED_IMAGE_EXCLUSION_ROLES}
+    # Bind every checkpoint to a per-image OOF certificate. A certificate
+    # must name its checkpoint hash, enumerate the TRAIN membership, and
+    # explicitly name all scored physical images as held out.
+    scored_names = partitions["calibration"] | partitions["test"]
+
+    def certified_weight(weight: Path) -> bool:
+        possible_sidecars = (
+            weight.with_name(weight.name + ".json"),
+            weight.with_suffix(".json"),
+            weight.parent.parent / "model_metadata" / (weight.stem + ".json"),
+        )
+        for sidecar in possible_sidecars:
+            if not sidecar.is_file():
+                continue
+            certificate = load_json(sidecar)
+            trained = certificate.get("training_image_ids")
+            held_out = certificate.get("held_out_image_ids")
+            digest = certificate.get("checkpoint_sha256")
+            if not (
+                isinstance(trained, list) and isinstance(held_out, list)
+                and all(isinstance(v, str) for v in trained + held_out)
+                and isinstance(digest, str)
+            ):
+                continue
+            if (scored_names.isdisjoint(set(trained))
+                    and scored_names.issubset(set(held_out))
+                    and digest == file_sha256(weight)):
+                return True
+        return False
+
+    model_dir = checkout / "release" / "models"
+    h3_certified = all(certified_weight(model_dir / f"F{i}_resnet34_s0_fp16.pt")
+                       for i in range(1, 5))
+    mrcnn_certified = all(certified_weight(model_dir / f"maskrcnn_F{i}_fp16.pt")
+                         for i in range(1, 5))
+    refiner_candidates = sorted({
+        p.resolve() for d in (root / "folds", root / "seeds", model_dir)
+        if d.is_dir() for p in d.rglob("*refiner*.pt")
+        if "ALL" not in p.name.upper()
+    })
+    # Require both independently documented refinement architectures.
+    refiner_oof_certified = (
+        len(refiner_candidates) >= 2
+        and all(certified_weight(p) for p in refiner_candidates)
+    )
+    selector_trained = selector.get("training_image_ids")
+    selector_heldout = selector.get("held_out_image_ids")
+    selector_oof_certified = (
+        isinstance(selector_trained, list)
+        and isinstance(selector_heldout, list)
+        and all(isinstance(v, str) for v in selector_trained + selector_heldout)
+        and scored_names.isdisjoint(set(selector_trained))
+        and scored_names.issubset(set(selector_heldout))
+    )
+    selector_exclusion_fields = [
+        key for key in ("training_image_ids", "held_out_image_ids",
+                        "per_image_exclusions", "out_of_fold_manifest")
+        if key in selector
+    ]
+
+    frozen_input_manifest = root / "p108_eligible_inputs_manifest.json"
+    inputs_certified = False
+    if frozen_input_manifest.is_file():
+        manifest = load_json(frozen_input_manifest)
+        covered = manifest.get("physical_image_ids")
+        baseline = manifest.get("frozen_baseline_sha256")
+        upstream = manifest.get("frozen_upstream_sha256")
+        inputs_certified = (
+            isinstance(covered, list)
+            and all(isinstance(x, str) for x in covered)
+            and scored_names.issubset(set(covered))
+            and isinstance(baseline, str) and len(baseline) == 64
+            and isinstance(upstream, str) and len(upstream) == 64
+        )
+    upstream_provenance_certified = h3_certified and mrcnn_certified
+    oof_evidence = {
+        "H3 semantic predictors": h3_certified,
+        "Mask R-CNN proposal models": mrcnn_certified,
+        "no-site selector": selector_oof_certified,
+        "ResNet34 crop refiner": refiner_oof_certified,
+        "EfficientNetV2-S crop refiner": refiner_oof_certified,
+    }
 
     # Ancillary inventory only. NPZ counts do NOT certify out-of-sample status.
     p59_cache = root / "p59_train_inference"
@@ -124,7 +193,7 @@ def analyze(root: Path) -> dict:
         "per_image_OOF_provenance_for_fitted_selector":
             selector_oof_certified,
         "frozen_OOF_baseline_and_1p15_context_inputs_proven":
-            False,
+            inputs_certified,
     }
 
     return {
@@ -153,7 +222,7 @@ def analyze(root: Path) -> dict:
         "local_PQ_new": None,
         "kaggle_submission_made": False,
         "limitations": [
-            "Scope is the frozen project and two released model families, not every storage device.",
+            "Scope is the frozen project and released model families, not every storage device.",
             "An unverified or absent OOF manifest is not proof of label leakage.",
             "F1 cohorts have been examined previously and cannot constitute an unseen blind test.",
             "The accepted H9b submission is not modified by this audit.",

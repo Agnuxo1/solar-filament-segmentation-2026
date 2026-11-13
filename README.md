@@ -1,5 +1,5 @@
 # Solar Filament Segmentation Challenge 2026
-**Public reproducibility update (12 November 2026):** [P79/P80 complete fourfold H3 replay and 720-map parity audit](docs/submission/P79_P80_FOURFOLD_H3_REPRO_AUDIT_20261112.md) regenerates all U-Net probability maps from unlabelled source images and checks their quantized pixel agreement. Final H9b CSV byte-parity remains unresolved; no new Kaggle score is claimed.
+**Reproducibility milestone (13 November 2026):** [P94 independently verifies exact byte-for-byte equality](docs/submission/P94_TRUE_UPLOAD_EXACT_PARITY_RESULT_20261113.md) between the **genuine Kaggle-uploaded CSV** (submission 58112557; SHA-256 `24b3ea1c…`) and a new CPU FP32 replay from frozen H9b no-site crops and both refiner checkpoints: **1,241/1,241 identical RLE rows**. This corrects P91's comparison to a misleadingly named intermediate. [P79/P80 fourfold H3 replay](docs/submission/P79_P80_FOURFOLD_H3_REPRO_AUDIT_20261112.md) separately verifies earlier detector stages. **End-to-end reconstruction from the original JPEG images remains an open reproducibility task**, and the organizer's mandatory final Google Form has no verified submission receipt. No new Kaggle submission or score is claimed.
 
 
 ![Solar filament segmentation research cover.](docs/figures/cover.gif)

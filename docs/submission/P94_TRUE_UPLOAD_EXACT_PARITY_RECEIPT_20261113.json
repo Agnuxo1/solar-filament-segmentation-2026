@@ -1,0 +1,32 @@
+{
+  "area_difference_abs_sum": 0,
+  "area_difference_sum": 0,
+  "candidate_sha256": "24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60",
+  "comparison_scope": "prediction provenance only; not ground-truth PQ",
+  "cuda_used": false,
+  "different_encoding_same_binary_mask": 0,
+  "different_images": 0,
+  "different_rle_rows": 0,
+  "exact_rle_rows": 1241,
+  "experiment": "P94_TRUE_UPLOAD_MASK_PARITY",
+  "ground_truth_used": false,
+  "kaggle_submissions": 0,
+  "largest_image_row_difference_count": 0,
+  "max_area_difference": 0,
+  "mismatched_mask_iou_below_050": 0,
+  "mismatched_mask_iou_below_090": 0,
+  "mismatched_mask_iou_below_099": 0,
+  "mismatched_mask_iou_below_0999": 0,
+  "mismatched_mask_iou_percentiles": {
+    "0": null,
+    "100": null,
+    "25": null,
+    "5": null,
+    "50": null,
+    "75": null,
+    "95": null
+  },
+  "reference_sha256": "24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60",
+  "rows": 1241,
+  "timestamp_utc": "2026-11-13T04:04:46.710810+00:00"
+}

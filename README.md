@@ -57,6 +57,8 @@ The [preregistered P108 out-of-fold provenance gate](docs/submission/p108_eviden
 
 Local validation groups annotators of the same physical image and uses temporal exclusions. Calibration results, held-out results and public Kaggle scores are reported separately. Positive and negative ablations remain available, including the [small-instance study](docs/2026-11-12-paired-small-instance-sampling.md), [cross-fold P84 analysis](docs/submission/P84_CROSSFOLD_MATCHED_PQ_SUMMARY_20261112.md), and [submission provenance correction](docs/submission/P93_ACTUAL_UPLOAD_PROVENANCE_CORRECTION_20261113.md).
 
+**P110 CPU-only assignment-identifiability audit (13 November 2026):** [preregistered method, code, full per-image receipt and scientific closure](docs/submission/p110_evidence_20261113/P110_SCIENTIFIC_CLOSURE.md) showed that all 171 multi-instance images had unique maximum-sum COCO-IoU pairings between P106 and genuine H9b; nine single-instance images were structurally unique. No ties or near ties were found (minimum alternative assignment margin 1.98317). The 1,108 exact and 133 different masks therefore do not arise from arbitrary tie-breaking. This is a reproducibility test **without ground-truth PQ, training, CUDA, or a new submission**. H9b remains the selected 0.39 public-PQ entry.
+
 ### Attribution and license
 
 **Francisco Angulo de Lafuente** · [ORCID 0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063) · [CITATION.cff](CITATION.cff).

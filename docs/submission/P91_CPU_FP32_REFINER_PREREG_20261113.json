@@ -1,0 +1,34 @@
+{
+  "experiment": "P91_CPU_FP32_REFINER_SOURCE_DIVERGENCE",
+  "registered_utc": "2026-11-13T03:00:00Z",
+  "objective": "Determine whether independent CPU FP32 replay of two frozen H9b crop refiners reduces numerical disagreement with the archived original probability maps and the 58 P71 RLE divergences.",
+  "hypothesis": "CUDA FP16 and GPU arithmetic may explain some or all P70 uint8 differences; CPU FP32 may change direction or magnitude, without any promise of exact parity.",
+  "protocol": "Use unchanged h9_infer.py, unchanged checkpoints and 180 immutable crop NPZ packs, --device cpu, CUDA_VISIBLE_DEVICES empty; perform inference for resnet34 then efficientnet_v2_s. Compare uint8 probabilities to frozen references and P70, then run unchanged H9b paste and compare to accepted 58112557 using independent P90 auditor. Report negative results.",
+  "preexisting_evidence": {
+    "accepted_sha256": "67f02e4d54b78424306133840ec144b426c8b308f6fc659f90a7f67131d5a79e",
+    "rle_disagreements_P71": 58,
+    "images_affected_P71": 49,
+    "refiner_checkpoint_sha256": {
+      "resnet34": "46ff938b3a2228ce2a1114eb8aa8d9191572e41385e2a3745269be329725db04",
+      "efficientnet_v2_s": "bf559d15b4111d5d4cabddd8e828b64806eaba553ca2ed8a78629e50485a632c"
+    }
+  },
+  "gates": [
+    "SHA256 of checkpoints must equal preregistered hashes",
+    "180 crop files, 180 frozen probability entries per refiner",
+    "No labels or GT or leaderboard read",
+    "No CUDA process created by this study",
+    "Output only to NAS HDD; no large SSD writes",
+    "Do not overwrite accepted CSV or completed artifacts"
+  ],
+  "budget": {
+    "cpu_wall_seconds": 10800,
+    "memory_max_gib": 6,
+    "output_max_gib": 2,
+    "cpu_quota_percent": 150
+  },
+  "decision": "No model/threshold tuning and no Kaggle upload. Numerical diagnostic only; publish reproducibility status and remaining blockers.",
+  "controls": "Compare all 180 observations, and report exact vs divergent per image; no selection by score.",
+  "path": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p91_cpu_fp32_refiner_20261113",
+  "validity": "Analysis of unlabelled official competition images and already-approved model outputs only; no test labels or score promotion."
+}

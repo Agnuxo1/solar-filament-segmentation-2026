@@ -68,7 +68,7 @@ def audit(root,ref,images,fold):
             n_instances+=len(x)
     if meta.get("bit_exact_images")!=180 or meta.get("bit_exact_views")!=360 or meta.get("exact_instances")!=n_instances:
         raise ValueError("Manifest summary mismatch")
-    return dict(status="P88_F1_INDEPENDENT_FULL_DOMAIN_PASS",fold=fold,images=180,views=360,
+    return dict(status=f"P88_{fold}_INDEPENDENT_FULL_DOMAIN_PASS",fold=fold,images=180,views=360,
                 exact_instances=n_instances,manifest_sha256=sha(m),reference_manifest_sha256=sha(r),
                 source_sha256=sha(pathlib.Path(__file__)),
                 utc=dt.datetime.now(dt.timezone.utc).isoformat(),

@@ -1,0 +1,63 @@
+{
+  "audit_type": "Independent compressed COCO-RLE geometry and area validation",
+  "completed_utc": "2026-11-14T07:03:15.301075+00:00",
+  "cross_csv": {
+    "different_areas_at_same_id": 136,
+    "different_rles_at_same_id": 142,
+    "identical_rles_at_same_id": 1099,
+    "same_filament_ids": true,
+    "same_instance_count_per_image": true,
+    "scope": "Pure format/area validation of predictions. Same-ID statistics can include instance reordering and do not measure geometry matching, official PQ, or accuracy.",
+    "sum_absolute_area_differences_at_same_id": 18764
+  },
+  "elapsed_seconds": 0.256,
+  "experiment": "P113",
+  "final_h9b_selection_unchanged": true,
+  "gpu_used": false,
+  "inputs": {
+    "accepted_h9b": {
+      "all_area_checks_agree": true,
+      "empty_masks": 0,
+      "image_instance_count_max": 17,
+      "image_instance_count_min": 1,
+      "images_covered": 180,
+      "largest_instance_area": 20758,
+      "largest_run": 3695505,
+      "path": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p74_accepted_artifact_audit/accepted_h9b_nosite.csv",
+      "rows_validated": 1241,
+      "sha256": "24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60",
+      "smallest_instance_area": 223,
+      "total_decoded_integer_runs": 254917,
+      "total_foreground_pixel_instances": 2481790
+    },
+    "p106_public_rebuild": {
+      "all_area_checks_agree": true,
+      "empty_masks": 0,
+      "image_instance_count_max": 17,
+      "image_instance_count_min": 1,
+      "images_covered": 180,
+      "largest_instance_area": 20762,
+      "largest_run": 3695505,
+      "path": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p106_public_clean_6843362_20261113/inference_cuda/submission_public_rebuilt.csv",
+      "rows_validated": 1241,
+      "sha256": "16f7dd60e8308d1cdccff1b6b16e80eff74bf08b5996d5a5d58c9ce295ebb9c3",
+      "smallest_instance_area": 223,
+      "total_decoded_integer_runs": 254913,
+      "total_foreground_pixel_instances": 2481766
+    }
+  },
+  "jpeg_dimensions": [
+    [
+      2048,
+      2048
+    ]
+  ],
+  "kaggle_submission_made": false,
+  "original_jpeg_count": 180,
+  "pq_measured": false,
+  "preregistration_sha256": "482ac4c97dbe5e051f66f502ddae87ba6698f48e3486f8ebbe344fa4a60ba280",
+  "source_script_sha256": "1f34e5cca47a68cd2cd5500db3ae7707ded5ed973b01a2792e96dbbaaef7cf88",
+  "status": "PASS_ALL_ROWS_BOTH_INDEPENDENT_AREA_DECODERS",
+  "test_labels_used": false,
+  "training_performed": false
+}

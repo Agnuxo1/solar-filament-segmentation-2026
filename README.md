@@ -63,6 +63,8 @@ Local validation groups annotators of the same physical image and uses temporal 
 
 **P112 CPU-only uint8 drift audit (13 November 2026):** [preregistered experiment, code, full receipt and closure](docs/submission/p112_evidence_20261113/P112_SCIENTIFIC_CLOSURE.md) independently cross-checked all 244,580,352 crop X positions across 180 images. Of 1,577 changed values, **1,573 differ by exactly one uint8 level and four are exact 0↔255 endpoint swaps**; there are no other magnitudes. The large P111 maximum is thus an endpoint phenomenon in the stored uint8 representation, **not evidence of a 255-level continuous probability error**. This does not identify a causal operator, compute PQ, justify a Kaggle upload, or supersede H9b (58112557, public PQ 0.39).
 
+**P113 independent RLE integrity check (14 November 2026):** [preregistered protocol, standalone decoder, complete receipt and closure](docs/submission/p113_evidence_20261114/P113_SCIENTIFIC_CLOSURE.md) validated every compressed COCO RLE in both H9b and P106 (1,241 masks each, 180 original JPEG headers, 2048 x 2048). An independent Python decoder and pycocotools agreed on all 2,482 mask areas. The summed per-instance foreground area differs by only 24 pixels overall; same-ID differences can include row reordering, so P107 matching remains the source for geometric differences. No labels, PQ, training, CUDA, Kaggle upload, or final-selection change occurred.
+
 ### Attribution and license
 
 **Francisco Angulo de Lafuente** · [ORCID 0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063) · [CITATION.cff](CITATION.cff).

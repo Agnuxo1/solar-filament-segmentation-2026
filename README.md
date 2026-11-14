@@ -65,6 +65,10 @@ Local validation groups annotators of the same physical image and uses temporal 
 
 **P113 independent RLE integrity check (14 November 2026):** [preregistered protocol, standalone decoder, complete receipt and closure](docs/submission/p113_evidence_20261114/P113_SCIENTIFIC_CLOSURE.md) validated every compressed COCO RLE in both H9b and P106 (1,241 masks each, 180 original JPEG headers, 2048 x 2048). An independent Python decoder and pycocotools agreed on all 2,482 mask areas. The summed per-instance foreground area differs by only 24 pixels overall; same-ID differences can include row reordering, so P107 matching remains the source for geometric differences. No labels, PQ, training, CUDA, Kaggle upload, or final-selection change occurred.
 
+P113 CPU-only RLE cross-decoder audit (14 November 2026): [preregistration, independent Python decoder, full receipt and closure](docs/submission/p113_evidence_20261114/P113_SCIENTIFIC_CLOSURE.md) validated 2,482 masks across the genuine H9b and P106 CSVs, with exact agreement against pycocotools on every instance area. This proves encoding/area integrity, not PQ or accuracy.
+
+P114 CPU-only foreground-union exclusivity audit (14 November 2026): [frozen protocol, executable code, 180-image record, receipt and closure](docs/submission/p114_evidence_20261114/P114_SCIENTIFIC_CLOSURE.md) verified both CSVs have zero overlapping instance pixels in all 180 images, by independent flattened-interval unions checked against pycocotools.mask.merge. The H9b and P106 foreground unions differ in 270 pixels across 89 images; the net foreground area difference is -24 pixels. These are predicted-mask consistency measurements without test labels, not a new Kaggle score. The P108 out-of-fold provenance gate remains blocking; H9b submission 58112557 with last officially confirmed public PQ 0.39 remains selected.
+
 ### Attribution and license
 
 **Francisco Angulo de Lafuente** · [ORCID 0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063) · [CITATION.cff](CITATION.cff).

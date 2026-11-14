@@ -71,6 +71,10 @@ P114 CPU-only foreground-union exclusivity audit (14 November 2026): [frozen pro
 
 **P117 full public checkpoint digest audit (14 November 2026):** [preregistered protocol, complete Python source, full public download hashes, per-fold assembled-stream receipt and scientific closure](docs/submission/p117_evidence_20261114/P117_SCIENTIFIC_CLOSURE.md) streamed all eight publicly served original FP32 detector shards (735,580,660 bytes) from an immutable release commit, verifying every full SHA-256 and all four reconstructed model SHA-256 digests (12/12), with no GPU or local large-file write. This closes P116's remote sampled-range limitation; it does not measure accuracy, ground-truth PQ, or independently reproduce inference. H9b remains the selected 0.39 public-PQ submission, with no new upload or organizer-form change.
 
+**P118 public-release parity audit (14 November 2026):** [independent preregistered CPU checks and final receipt](docs/submission/p118_evidence_20261114/P118_SCIENTIFIC_CLOSURE.md) passed 16/16 checks, covering H9b/P103/P106 artifact hashes, executable-cell identity for all eight P106 notebook cells, public report R2 and source ZIP integrity. This does not re-run model inference, re-evaluate ground-truth labels or establish a new PQ.
+
+**P119 separate public-checkout CPU contract audit (14 November 2026):** [protocol, test logs and scientific closure](docs/submission/p119_release_review_20261114/P119_SCIENTIFIC_CLOSURE.md) passed 23/23 deterministic unit tests, compiled eight notebook code cells and verified 15 source files, ten checkpoints and eight FP32 shards against recorded digests. It reused verified scientific Python dependencies and **did not execute a second 180-image inference**. A Claude-to-Codex handoff and new official PQ are **not** established by this audit; H9b remains the selected 0.39 public-PQ submission.
+
 ### Attribution and license
 
 **Francisco Angulo de Lafuente** · [ORCID 0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063) · [CITATION.cff](CITATION.cff).

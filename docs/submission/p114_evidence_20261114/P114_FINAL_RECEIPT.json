@@ -1,0 +1,50 @@
+{
+  "completed_utc": "2026-11-14T08:10:12.557871+00:00",
+  "cross_csv": {
+    "images_with_different_foreground_union": 89,
+    "max_image_union_symmetric_difference": 22,
+    "net_union_area_change_p106_minus_h9b": -24,
+    "union_symmetric_difference_pixels": 270
+  },
+  "elapsed_seconds": 0.55,
+  "experiment": "P114",
+  "final_h9b_selection_unchanged": true,
+  "gpu_used": false,
+  "images": 180,
+  "kaggle_submission_made": false,
+  "per_image_csv_sha256": "6e60a86ae12854411814037831be69aa7490bf2848d16367b0592861fda509ec",
+  "preregistration_sha256": "7270fea87aef85d3d453d592d3491c37e98ade3c72f7ba35da0e97d4d4adf328",
+  "scope": "Predicted per-image pixel-union integrity only; no labels, PQ, or accuracy.",
+  "seed": "not applicable: deterministic",
+  "source_csv_sha256": {
+    "h9b": "24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60",
+    "p106": "16f7dd60e8308d1cdccff1b6b16e80eff74bf08b5996d5a5d58c9ce295ebb9c3"
+  },
+  "source_script_sha256": "4b22a2ffef30a132c7cabcb0cbb235a40054cf1162bcd1b827c1c6ecf6d85565",
+  "status": "PASS_ALL_CROSSCHECKS",
+  "summaries": {
+    "h9b": {
+      "all_180_union_areas_agree_with_pycocotools": true,
+      "images": 180,
+      "images_with_overlaps": 0,
+      "instance_area_sum": 2481790,
+      "max_image_overlap_excess": 0,
+      "overlap_excess_sum": 0,
+      "rows": 1241,
+      "union_area_sum": 2481790
+    },
+    "p106": {
+      "all_180_union_areas_agree_with_pycocotools": true,
+      "images": 180,
+      "images_with_overlaps": 0,
+      "instance_area_sum": 2481766,
+      "max_image_overlap_excess": 0,
+      "overlap_excess_sum": 0,
+      "rows": 1241,
+      "union_area_sum": 2481766
+    }
+  },
+  "test_annotations_used": false,
+  "title": "Independent mask-union and pixel exclusivity audit",
+  "training_performed": false
+}

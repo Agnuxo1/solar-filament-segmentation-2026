@@ -1,1 +1,36 @@
-r66–VçF–f–26Æ÷7W&RÒgVÆÂV&Æ–26†V6·ö–çB4„Ó#SbfW&–f–6F–öà ¢¢¤W†V7WFVC¢¢¢Bæ÷fVÖ&W"##bÂ£3£#BFò£3£C2UD2à¢¢¤÷WF6öÖS¢¢¢55ôeTÄÅõT$Ä”5ó…õ%E5óEôÔôDTÅ2Â‚ãƒcb6V6öæG2à¢¢¥66÷S¢¢¢VæWF†VçF–6FVBV&Æ–2…EE2Â5RÖöæÇ’7G&VÖ–ær4„Ó#Sc²&W&öGV6–&–Æ—G’öbV&Æ—6†VBÖöFVÂ'—FW2à ¢22v‡’F†RW‡W&–ÖVçBv2æVVFV@¥b&÷fVB4„Ó#SböbÆÂÆö6Â÷&–v–æÂÖ6²"Ô4äâ6†V6·ö–çB6†&G2Â6†V6¶VBF†Rf÷W"Æö6Â&V76VÖ&ÆVB6†V6·ö–çB7G&V×2ÂæB6ö×&VBöæÇ’F†Rf—'7BæBÆ7BB¶”"öbF†RÆ&vRV&Æ–6Ç’6W'fVB6†&G2âF†B6×ÆVBFW7B6÷VÆBæ÷BW7F&Æ—6‚v†öÆRÖf–ÆR–FVçF—G’âr&W&Vv—7FW&VBgVÆÂV&Æ–2f–ÆR†6†–ær&Vf÷&RæWGv÷&²&VG2ÂW6–ærF†R–Ö×WF&ÆRv—D‡V"6öÖÖ—BCCƒ†Cf#cCs–cCFf63F#s3F3“6&6–ƒ#2à ¢22&W&Vv—7FW&VBFW7G2æBö'6W'fVB&W7VÇG0 §Âg&÷¦VâvFRÂö'6W'fF–öâÂ&W7VÇBÀ§ÂÒÒÒÂÒÒÒÂÒÒÒÀ§ÂgVÆÂV&Æ–24„Ó#SböbÆÂV–v‡BÖ6²"Ô4äâe3"6†&G2Â‚ó‚6ö×ÆWFR7G&V×2ÖF6‚F†Rg&÷¦VâÖæ–fW7BÂ52À§Â6öæ6FVæFVBV&Æ–26†V6·ö–çB†6†W2f÷"f÷W"föÆG2ÂBóB÷&–v–æÂÖöFVÂ4„Ó#SbF–vW7G2æB6—¦W2ÖF6‚Â52À§ÂF÷FÂ'—FW2fW&–f–VB÷fW"…EE2Âs3RÃSƒÃcc'—FW2Â52À§ÂW†V7WF–öâ6öçG&öÇ2ÂGvò6öæ7W'&VçBv÷&¶W'2ÂÖ”"ÖVÖ÷'’6‡Væ·2ÂæòÆ&vRf–ÆR66†VBÂ52À§ÂW'&÷"ÆörÂV×G’Â52À ¤V6‚öbF†Rf÷W"ÖöFVÇ26öçF–ç2ƒ2Ãƒ“RÃcR'—FW2âÆÂGvVÇfRW‡V7FVB6öçFVçBF–vW7G2†V–v‡B6†&G2æBf÷W"gVÆÂ6†V6·ö–çB7G&V×2’ÖF6‚F†R–Ö×WF&ÆRÖæ–fW7BÂv†÷6R4„Ó#Sb—2ƒVSScSc#CF&“C6fScC3s6#6#sc–#3†3Sƒf&cS†S3c3SƒFSvS6BâF†—26Æ÷6W2F†R¢§V&Æ–2gVÆÂÖ'—FRÖ–çFVw&—G’v¢¢W‡Æ–6—FÇ’ÆVgB÷Vâ'’bâ—BFöW2æ÷BFVÖöç7G&FR6V6öæB–æFWVæFVçB–æfW&Væ6R'VâöâF–ffW&VçB†&Gv&Rà ¢22&W&öGV6–&ÆRWf–FVæ6P ¢Òg&÷¦Vâ&W&Vv—7G&F–öã¢uõ$U$TræÖBÂ4„Ó#SbF#“3†FCv&#sFcƒƒCV6f6cf6CssSCCƒ3CsƒS#F#S6ƒVcFCVcsF6à¢Ò6ö×ÆWFR—F†öâ&öw&Ó¢u÷V&Æ–5ögVÆÅö†6‚ç’Â4„Ó#Sb#c–“cs“Ss–vVc–C#SsCCS#“–ccVCcffC&cc#sc–fS†##ƒ6&6VFRà¢Ò6ö×ÆWFRÖ6†–æR×&VF&ÆRö'6W'fF–öâ&V6V—C¢uôd”äÅõ$T4T•Bæ§6öâÂ4„Ó#Sb63fcf3#c#SV&CƒcS–Cc#““ƒ##f3F#cvV#&Cs–6Vc6S#VFF&3#ƒ#vBà¢ÒW†V7WF–öâÆös¢uõ%TâæÆörÂ4„Ó#Sb6CF#ƒVSVSsSv6v3CF3c“Cƒ###&C3ƒ#ƒfCs3†&s33ƒ–C#fSƒ“CSS†Vbà¢ÒF†R6ÆVâbÆö6Â&VfW&Væ6R6÷W&6R&VÖ–æVB–ææVBFòcƒC33c&#“cFFCc&S6c–3“sVSsssccF3†V##CRÂæBv2æ÷B6†ævVBà ¢2266–VçF–f–2–çFW'&WFF–öâæB6fVwV&G0 ¥rW7F&Æ—6†W2F†BF†RVçF—&Rf÷W"ÖÖöFVÂe3"FWFV7F÷"&VÆV6R—2F÷væÆöF&ÆR–âW†7FÇ’F†R'—FW26öÖÖ—GFVB'’F†RV&Æ–2Öæ–fW7Bâ—BFöW2¢¦æ÷B¢¢W6Rw&÷VæB×G'WF‚Æ&VÇ2ÂÖV7W&RW&f÷&Öæ6RöâE$”â÷"DU5BÂ–æfW"æWrÖ6·2Â&÷fRÖöFVÂ67W&7’ÂW7F&Æ—6‚æ÷F–2VÆ—G’Â÷"Ww&FRF†Röff–6–Â66÷&Röbbâ—BFöW2æ÷B&VÖ÷fRF†R‚÷WBÖöbÖföÆB&÷fVææ6R&Æö6²öâF†R&÷÷6VBãW‚E$”â&ÆF–öâà ¥F†RvVçV–æRƒ–"66WFVB¶vvÆR7V&Ö—76–öâ¢£Sƒ#SSr¢¢Â÷&–v–æÆÇ’6öæf—&ÖVBV&Æ–2¢£ã3’¢¢Â&VÖ–ç26VÆV7FVC²vVçV–æR55b4„Ó#Sb¢£#F#6V3†SS33S63c–Sc&36C–&CssfSƒ&3“Vcv3–6SCvVfF3c¢¢âæòæWr¶vvÆR7V&Ö—76–öâÂvöövÆRf÷&Ò&W7öç6RÂDb6†ævRÂæ÷FV&öö²6†ævRÂuRG&–æ–ærÂ5TD¦ö"Â&÷FV7FVB'&÷w6W"7F–öâ÷"66÷VçB7v—F6‚v2W&f÷&ÖVBâ¤UbôvöÆFf—6‚vW&Ræ÷B6öç7VÇFVBf÷"F†—2FWFW&Ö–æ—7F–2†6‚W†W&6—6RâF†RöæÇ’w&—FW2GW&–ærW†V7WF–öâvW&RF†R6ÖÆÂ&W&Vv—7G&F–öâÂ6öFRÂ&V6V—BÂæBÆöröâF†R&ö¦V7B„DBà ¢¢¥&VÆV6RFV6—6–öã¢¢¢¶VWF†Röff–6–Âƒ–"7V&Ö—76–öâÂF†Rf÷W"×vR#"&W÷'BÂæ÷FV&öö²æB&Wf–÷W6Ç’6¶æ÷vÆVFvVB÷&væ—¦W"&W7öç6RVæ6†ævVC²r—27WÆVÖVçF'’V&Æ–2×&VÆV6RWf–FVæ6Rà
+# P117 scientific closure - full public checkpoint SHA-256 verification
+
+**Executed:** 14 November 2026, 11:03:24 to 11:03:43 UTC.
+**Outcome:** PASS_FULL_PUBLIC_8_PARTS_4_MODELS, 18.866 seconds.
+**Scope:** unauthenticated public HTTPS, CPU-only streaming SHA-256; reproducibility of published model bytes.
+
+## Why the experiment was needed
+P116 proved SHA-256 of all local original Mask R-CNN checkpoint shards, checked the four local reassembled checkpoint streams, and compared only the first and last 4 KiB of the large publicly served shards. That sampled test could not establish whole-file identity. P117 preregistered full public file hashing before network reads, using the immutable GitHub commit d1d88d6b16479af40dfcc4b734c193bcaa9a8203.
+
+## Preregistered tests and observed results
+
+| Frozen gate | Observation | Result |
+| --- | --- | --- |
+| Full public SHA-256 of all eight Mask R-CNN FP32 shards | 8/8 complete streams match the frozen manifest | PASS |
+| Concatenated public checkpoint hashes for four folds | 4/4 original model SHA-256 digests and sizes match | PASS |
+| Total bytes verified over HTTPS | 735,580,660 bytes | PASS |
+| Execution controls | Two concurrent workers, 1 MiB memory chunks, no large file cached | PASS |
+| Error log | Empty | PASS |
+
+Each of the four models contains 183,895,165 bytes. All twelve expected content digests (eight shards and four full checkpoint streams) match the immutable manifest, whose SHA-256 is 085e1011e6562404ba1943fe64373a23b769b38c01e806bf518e3063584e7e3d. This closes the **public full-byte-integrity gap** explicitly left open by P116. It does not demonstrate a second independent inference run on different hardware.
+
+## Reproducible evidence
+
+- Frozen preregistration: P117_PREREG.md, SHA-256 db938dd17bb101704f8845cfcf6cd775448030d7811524b0050ca85f4d5f74ca.
+- Complete Python program: p117_public_full_hash.py, SHA-256 b0f9a96795179a7aef9d25740d5299f65d66fd2f602769a6e8b1211a83bca5de.
+- Complete machine-readable observation receipt: P117_FINAL_RECEIPT.json, SHA-256 cac6f6c26255bd80659d0629981b10b16ac4b67eb2ad79cef3e25ddba302827d.
+- Execution log: P117_RUN.log, SHA-256 3d4b85e5e7157ca7ac44c0169482222d38286d738ba73389ad0126e8194558ef.
+- The clean P106 local reference source remained pinned to 6843362b964dd62a53f19c975e777664c8ea2245, and was not changed.
+
+## Scientific interpretation and safeguards
+
+P117 establishes that the entire four-model FP32 detector release is downloadable in exactly the bytes committed by the public manifest. It does **not** use ground-truth labels, measure performance on TRAIN or TEST, infer new masks, prove model accuracy, establish Panoptic Quality, or upgrade the official score of P106. It does not remove the P108 out-of-fold provenance block on the proposed 1.15x TRAIN ablation.
+
+The genuine H9b accepted Kaggle submission **58112557**, originally confirmed public PQ **0.39**, remains selected; genuine CSV SHA-256 **24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60**. No new Kaggle submission, Google Form response, PDF change, notebook change, GPU training, CUDA job, protected browser action or account switch was performed. JEV/Goldfish were not consulted for this deterministic hash exercise. The only writes during execution were the small preregistration, code, receipt, and log on the project HDD.
+
+**Release decision:** Keep the official H9b submission, the four-page R2 report, notebook and previously acknowledged organizer response unchanged; P117 is supplementary public-release evidence.

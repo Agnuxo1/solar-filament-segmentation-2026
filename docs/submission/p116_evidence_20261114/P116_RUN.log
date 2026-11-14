@@ -1,0 +1,29 @@
+range: maskrcnn_F1_fp32.pt.part01: PASS
+range: maskrcnn_F1_fp32.pt.part01: PASS
+range: maskrcnn_F1_fp32.pt.part00: PASS
+range: maskrcnn_F1_fp32.pt.part00: PASS
+range: maskrcnn_F2_fp32.pt.part01: PASS
+range: maskrcnn_F2_fp32.pt.part00: PASS
+range: maskrcnn_F2_fp32.pt.part00: PASS
+range: maskrcnn_F2_fp32.pt.part01: PASS
+range: maskrcnn_F3_fp32.pt.part00: PASS
+range: maskrcnn_F3_fp32.pt.part00: PASS
+range: maskrcnn_F3_fp32.pt.part01: PASS
+range: maskrcnn_F3_fp32.pt.part01: PASS
+range: maskrcnn_F4_fp32.pt.part00: PASS
+full: requirements.txt: PASS
+full: notebooks/h9b_clean_raw_jpeg_to_csv.ipynb: PASS
+range: maskrcnn_F4_fp32.pt.part01: PASS
+full: release/models/fp32_shards/manifest.json: PASS
+full: docs/submission/TECHNICAL_REPORT_4P_20261113_R2.pdf: PASS
+range: maskrcnn_F4_fp32.pt.part00: PASS
+range: maskrcnn_F4_fp32.pt.part01: PASS
+{
+  "receipt": "/srv/almacen/nas-2tb-1/solar-filament-2026/paired-small-20261112/p116_public_byte_integrity_20261114/P116_FINAL_RECEIPT.json",
+  "status": "PASS_PUBLIC_SAMPLED_BYTES_AND_LOCAL_FULL_HASHES",
+  "local_checks": 12,
+  "public_range_checks": 16,
+  "full_public_file_checks": 4,
+  "errors": [],
+  "elapsed_seconds": 20.935
+}

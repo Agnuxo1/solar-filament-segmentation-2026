@@ -1,0 +1,28 @@
+test_cpu_child_env_does_not_mutate_parent (test_public_replay_runtime.DeviceSelectionTests.test_cpu_child_env_does_not_mutate_parent) ... ok
+test_cpu_never_queries_nvidia (test_public_replay_runtime.DeviceSelectionTests.test_cpu_never_queries_nvidia) ... ok
+test_disabled_visibility_does_not_enable_gpu (test_public_replay_runtime.DeviceSelectionTests.test_disabled_visibility_does_not_enable_gpu) ... ok
+test_existing_compute_job_is_preserved (test_public_replay_runtime.DeviceSelectionTests.test_existing_compute_job_is_preserved) ... ok
+test_existing_single_visible_index_is_respected (test_public_replay_runtime.DeviceSelectionTests.test_existing_single_visible_index_is_respected) ... ok
+test_explicit_gpu_cannot_escape_visibility (test_public_replay_runtime.DeviceSelectionTests.test_explicit_gpu_cannot_escape_visibility) ... ok
+test_malformed_device_requests_are_rejected (test_public_replay_runtime.DeviceSelectionTests.test_malformed_device_requests_are_rejected) ... ok
+test_multiple_gpu_selection_requires_explicit_choice (test_public_replay_runtime.DeviceSelectionTests.test_multiple_gpu_selection_requires_explicit_choice) ... ok
+test_single_independent_gpu_is_accepted (test_public_replay_runtime.DeviceSelectionTests.test_single_independent_gpu_is_accepted) ... ok
+test_all_cells_compile_without_machine_uuid (test_public_replay_runtime.PublicNotebookStageTests.test_all_cells_compile_without_machine_uuid) ... ok
+test_cli_defaults_to_cpu_and_rejects_inconsistent_gpu_option (test_public_replay_runtime.PublicNotebookStageTests.test_cli_defaults_to_cpu_and_rejects_inconsistent_gpu_option) ... ok
+test_cli_help_needs_no_machine_learning_dependencies (test_public_replay_runtime.PublicNotebookStageTests.test_cli_help_needs_no_machine_learning_dependencies) ... ok
+test_detector_stage_uses_original_fp32_cli (test_public_replay_runtime.PublicNotebookStageTests.test_detector_stage_uses_original_fp32_cli) ... ok
+test_h3_stage_cpu_does_not_require_gpu_or_uuid (test_public_replay_runtime.PublicNotebookStageTests.test_h3_stage_cpu_does_not_require_gpu_or_uuid) ... ok
+test_selector_metadata_change_invalidates_actual_notebook_contract (test_public_replay_runtime.PublicNotebookStageTests.test_selector_metadata_change_invalidates_actual_notebook_contract) ... ok
+test_different_backend_contract_cannot_reuse_prediction (test_public_replay_runtime.ResumeIntegrityTests.test_different_backend_contract_cannot_reuse_prediction) ... ok
+test_executable_edit_changes_source_fingerprint (test_public_replay_runtime.ResumeIntegrityTests.test_executable_edit_changes_source_fingerprint) ... ok
+test_h3_reuse_validates_map_and_input_content (test_public_replay_runtime.ResumeIntegrityTests.test_h3_reuse_validates_map_and_input_content) ... ok
+test_immutable_receipt_cannot_be_overwritten (test_public_replay_runtime.ResumeIntegrityTests.test_immutable_receipt_cannot_be_overwritten) ... ok
+test_jupyter_autosave_does_not_change_source_fingerprint (test_public_replay_runtime.ResumeIntegrityTests.test_jupyter_autosave_does_not_change_source_fingerprint) ... ok
+test_map_copy_without_symlink_privileges (test_public_replay_runtime.ResumeIntegrityTests.test_map_copy_without_symlink_privileges) ... ok
+test_modified_detector_output_is_rejected_before_pickle_load (test_public_replay_runtime.ResumeIntegrityTests.test_modified_detector_output_is_rejected_before_pickle_load) ... ok
+test_root_discovery_from_notebook_directory (test_public_replay_runtime.ResumeIntegrityTests.test_root_discovery_from_notebook_directory) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.314s
+
+OK

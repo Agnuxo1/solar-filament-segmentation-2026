@@ -1,0 +1,37 @@
+{
+  "P106_8_cells_previously_completed": true,
+  "P106_csv_sha256": "16f7dd60e8308d1cdccff1b6b16e80eff74bf08b5996d5a5d58c9ce295ebb9c3",
+  "accepted_H9b_csv_sha256": "24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60",
+  "agent_handoff": "BLOCKED_NOT_VERIFIED",
+  "completed_utc": "2026-11-14T16:11:37.280471+00:00",
+  "existing_submission_status": "SUBMITTED_WITH_RECEIPT",
+  "limitations": [
+    "This is a new public-checkout CPU contract audit, not a new 180-image inference.",
+    "The P106 eight-cell 180-image replay remains the existing independent notebook evidence.",
+    "Scientific Python packages reused from verified P106 environment, not a fresh installation.",
+    "Chrome session not available, so final Kaggle selection not independently checked here.",
+    "No new PQ, and P108 out-of-fold provenance gate still blocks 1.15x ablation.",
+    "Claude to Codex handoff cannot be asserted from these tests."
+  ],
+  "log_sha256": {
+    "P119_PREFLIGHT.log": "1c86122d5b22b36e30b7132d4439e4a3a25def0850770dfde6ff5a1e6440a335",
+    "P119_UNIT_TESTS.log": "f9fe17ae0e336655c123b79d59e845fda2725d233b1b1adf2c4ea9b9943ec6b3"
+  },
+  "new_inference": false,
+  "new_local_PQ": null,
+  "new_official_PQ": null,
+  "new_submission": false,
+  "new_training": false,
+  "notebook_code_cells_compiled": 8,
+  "notebook_executable_sha256": "317b1781101fd6652b21b3f86d297b27136bd5c61ef7addfc8a904a7776314ad",
+  "preregistration_sha256": "aef10b83567ffb58e6e7b296a1d2b8fb78b632196d64c7c230da8f5cb5a1bba1",
+  "protocol": "P119_INDEPENDENT_RELEASE_CPU_GATE",
+  "public_source_files_checked": 15,
+  "released_checkpoints_fully_hashed": 10,
+  "released_fp32_shards_fully_hashed": 8,
+  "reviewed_commit": "973f17da9ddd1a227a46047443d74995102956fa",
+  "scientific_dependencies_reused_readonly": true,
+  "status": "VERIFIED_CPU_GATE_ONLY",
+  "unit_tests_failed": 0,
+  "unit_tests_passed": 23
+}

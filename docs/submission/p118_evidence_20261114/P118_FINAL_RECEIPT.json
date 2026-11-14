@@ -1,0 +1,163 @@
+{
+  "checks": {
+    "local_h9b": {
+      "detail": {
+        "bytes": 336975,
+        "sha256": "24b3ea1c8e151c3053c69e61bc3d0a0a09bd7171fe82c95f7c109ce407efdc60"
+      },
+      "pass": true
+    },
+    "local_notebook": {
+      "detail": {
+        "bytes": 26607,
+        "sha256": "317b1781101fd6652b21b3f86d297b27136bd5c61ef7addfc8a904a7776314ad"
+      },
+      "pass": true
+    },
+    "local_p103": {
+      "detail": {
+        "bytes": 336986,
+        "sha256": "8ae3160af9bddd5ac3ef914bc807da71e3e9cbad0444cc055d2ff0056cdfe2ba"
+      },
+      "pass": true
+    },
+    "local_p106": {
+      "detail": {
+        "bytes": 336985,
+        "sha256": "16f7dd60e8308d1cdccff1b6b16e80eff74bf08b5996d5a5d58c9ce295ebb9c3"
+      },
+      "pass": true
+    },
+    "local_p117_receipt": {
+      "detail": {
+        "bytes": 3120,
+        "sha256": "cac6f6c26255bd80659d0629981b10b16ac4b67eb2ad79cef3e25ddba302827d"
+      },
+      "pass": true
+    },
+    "local_r2_pdf": {
+      "detail": {
+        "bytes": 1494181,
+        "sha256": "8f75a47996fa7e6e5f37f5d8e85a6cf5b64033701507782a54a81d786e5ed9f5"
+      },
+      "pass": true
+    },
+    "local_r2_zip": {
+      "detail": {
+        "bytes": 1181219,
+        "sha256": "6bee5b287bf6920ae8ef3bab82b7518a6366140da92de19b98e6b972b128955b"
+      },
+      "pass": true
+    },
+    "organizer_public_receipt_consistency": {
+      "detail": {
+        "acknowledgment_documented": true,
+        "h9b_hash_documented": true,
+        "r2_hash_documented": true
+      },
+      "pass": true
+    },
+    "p106_cell_source_parity": {
+      "detail": [
+        {
+          "index": 1,
+          "matches": true
+        },
+        {
+          "index": 3,
+          "matches": true
+        },
+        {
+          "index": 5,
+          "matches": true
+        },
+        {
+          "index": 7,
+          "matches": true
+        },
+        {
+          "index": 9,
+          "matches": true
+        },
+        {
+          "index": 11,
+          "matches": true
+        },
+        {
+          "index": 13,
+          "matches": true
+        },
+        {
+          "index": 15,
+          "matches": true
+        }
+      ],
+      "pass": true
+    },
+    "p106_receipt_metadata": {
+      "detail": {
+        "completed_code_cells": 8,
+        "new_official_pq": null,
+        "p106_completed_utc": "2026-11-13T14:39:48.471999+00:00"
+      },
+      "pass": true
+    },
+    "public_notebook": {
+      "detail": {
+        "bytes": 26607,
+        "commit": "97f1b08703c90196fcd6f89e9e9988ba7aeb979f",
+        "sha256": "317b1781101fd6652b21b3f86d297b27136bd5c61ef7addfc8a904a7776314ad"
+      },
+      "pass": true
+    },
+    "public_p117_receipt": {
+      "detail": {
+        "bytes": 3120,
+        "commit": "97f1b08703c90196fcd6f89e9e9988ba7aeb979f",
+        "sha256": "cac6f6c26255bd80659d0629981b10b16ac4b67eb2ad79cef3e25ddba302827d"
+      },
+      "pass": true
+    },
+    "public_r2_pdf": {
+      "detail": {
+        "bytes": 1494181,
+        "commit": "97f1b08703c90196fcd6f89e9e9988ba7aeb979f",
+        "sha256": "8f75a47996fa7e6e5f37f5d8e85a6cf5b64033701507782a54a81d786e5ed9f5"
+      },
+      "pass": true
+    },
+    "public_r2_zip": {
+      "detail": {
+        "bytes": 1181219,
+        "commit": "97f1b08703c90196fcd6f89e9e9988ba7aeb979f",
+        "sha256": "6bee5b287bf6920ae8ef3bab82b7518a6366140da92de19b98e6b972b128955b"
+      },
+      "pass": true
+    },
+    "r2_manifest_consistency": {
+      "detail": {
+        "page_count_reported": 4,
+        "revision": "R2"
+      },
+      "pass": true
+    },
+    "source_zip_crc": {
+      "detail": {
+        "corrupted_entry": null,
+        "entries": 10
+      },
+      "pass": true
+    }
+  },
+  "checks_passed": 16,
+  "checks_total": 16,
+  "elapsed_seconds": 2.274,
+  "errors": [],
+  "experiment": "P118",
+  "final_selection_unchanged": "H9b Kaggle submission 58112557; no authenticated Kaggle read in P118",
+  "no_gpu_no_training_no_submissions": true,
+  "scope": "CPU-only public release parity and provenance; no GT or PQ",
+  "source_commit": "97f1b08703c90196fcd6f89e9e9988ba7aeb979f",
+  "status": "PASS",
+  "timestamp_utc": "2026-11-14T12:10:15.121029+00:00"
+}
